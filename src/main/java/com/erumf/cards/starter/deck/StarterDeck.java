@@ -7,17 +7,28 @@ import com.erumf.Basic;
 import com.erumf.Player;
 import com.erumf.cards.starter.deck.StarterAllies.Gollum;
 import com.erumf.cards.starter.deck.StarterAllies.Quickbeam;
+import com.erumf.cards.starter.deck.StarterCharacters.Annalena;
 import com.erumf.cards.starter.deck.StarterCharacters.AragornII;
+import com.erumf.cards.starter.deck.StarterCharacters.BardBowman;
 import com.erumf.cards.starter.deck.StarterCharacters.Beregond;
 import com.erumf.cards.starter.deck.StarterCharacters.BoromirII;
+import com.erumf.cards.starter.deck.StarterCharacters.Celeborn;
+import com.erumf.cards.starter.deck.StarterCharacters.Elladan;
+import com.erumf.cards.starter.deck.StarterCharacters.Elrohir;
 import com.erumf.cards.starter.deck.StarterCharacters.Eomer;
 import com.erumf.cards.starter.deck.StarterCharacters.Erkenbrand;
 import com.erumf.cards.starter.deck.StarterCharacters.Faramir;
 import com.erumf.cards.starter.deck.StarterCharacters.Gandalf;
+import com.erumf.cards.starter.deck.StarterCharacters.Gimli;
 import com.erumf.cards.starter.deck.StarterCharacters.Kili;
+import com.erumf.cards.starter.deck.StarterCharacters.Legolas;
 import com.erumf.cards.starter.deck.StarterCharacters.Merry;
+import com.erumf.cards.starter.deck.StarterCharacters.Pippin;
+import com.erumf.cards.starter.deck.StarterCharacters.Saruman;
+import com.erumf.cards.starter.deck.StarterEventResources.Block;
 import com.erumf.cards.starter.deck.StarterEventResources.Bridge;
 import com.erumf.cards.starter.deck.StarterEventResources.Concealment;
+import com.erumf.cards.starter.deck.StarterEventResources.DarkQuarrels;
 import com.erumf.cards.starter.deck.StarterEventResources.Dodge;
 import com.erumf.cards.starter.deck.StarterEventResources.Escape;
 import com.erumf.cards.starter.deck.StarterEventResources.Ford;
@@ -25,6 +36,7 @@ import com.erumf.cards.starter.deck.StarterEventResources.HalflingStealth;
 import com.erumf.cards.starter.deck.StarterEventResources.HalflingStrength;
 import com.erumf.cards.starter.deck.StarterEventResources.LuckyStrike;
 import com.erumf.cards.starter.deck.StarterEventResources.Muster;
+import com.erumf.cards.starter.deck.StarterEventResources.RiskyBlow;
 import com.erumf.cards.starter.deck.StarterEventResources.TemperingFriendship;
 import com.erumf.cards.starter.deck.StarterFactions.Dunlendings;
 import com.erumf.cards.starter.deck.StarterFactions.EntsOfFangorn;
@@ -33,20 +45,32 @@ import com.erumf.cards.starter.deck.StarterFactions.RidersOfRohan;
 import com.erumf.cards.starter.deck.StarterFactions.TowerGuardOfMinasTirith;
 import com.erumf.cards.starter.deck.StarterFactions.WoodElves;
 import com.erumf.cards.starter.deck.StarterHazards.ArouseMinions;
+import com.erumf.cards.starter.deck.StarterHazards.BarrowWights;
 import com.erumf.cards.starter.deck.StarterHazards.BertBurat;
 import com.erumf.cards.starter.deck.StarterHazards.Brigands;
+import com.erumf.cards.starter.deck.StarterHazards.Ghosts;
+import com.erumf.cards.starter.deck.StarterHazards.Ghouls;
+import com.erumf.cards.starter.deck.StarterHazards.Huorn;
+import com.erumf.cards.starter.deck.StarterHazards.LesserSpiders;
 import com.erumf.cards.starter.deck.StarterHazards.MinionsStir;
 import com.erumf.cards.starter.deck.StarterHazards.OrcGuard;
 import com.erumf.cards.starter.deck.StarterHazards.OrcRaiders;
 import com.erumf.cards.starter.deck.StarterHazards.OrcWarriors;
 import com.erumf.cards.starter.deck.StarterHazards.OrcWatch;
 import com.erumf.cards.starter.deck.StarterHazards.River;
+import com.erumf.cards.starter.deck.StarterHazards.WakeOfWar;
+import com.erumf.cards.starter.deck.StarterHazards.Wargs;
 import com.erumf.cards.starter.deck.StarterHazards.WilliamWuluag;
+import com.erumf.cards.starter.deck.StarterHazards.Wolves;
+import com.erumf.cards.starter.deck.StarterItems.DaggerOfWesternesse;
 import com.erumf.cards.starter.deck.StarterItems.ElvenCloak;
 import com.erumf.cards.starter.deck.StarterItems.Glamdring;
 import com.erumf.cards.starter.deck.StarterItems.GreatShieldOfRohan;
+import com.erumf.cards.starter.deck.StarterItems.HauberkOfBrightMail;
+import com.erumf.cards.starter.deck.StarterItems.Orcrist;
 import com.erumf.cards.starter.deck.StarterItems.ScrollOfIsildur;
 import com.erumf.cards.starter.deck.StarterItems.ShieldOfIronBoundAsh;
+import com.erumf.cards.starter.deck.StarterItems.SwordOfGondolin;
 
 public class StarterDeck {
 
@@ -122,20 +146,65 @@ public class StarterDeck {
         List<Basic> deck = new ArrayList<>();
         
         // Adding characters
-
-        // Adding objects
-
-        // Adding resources
-
-        // Adding hazards
-
-        // Adding allies
-        deck.add(new Gollum(player2)); // S33
-
-        // Adding factions
+        deck.add(new Gimli(player2)); // S01
+        deck.add(new Legolas(player2)); // S02
+        deck.add(new DaggerOfWesternesse(player2)); // S03
+        deck.add(new Elladan(player2)); // S04
+        deck.add(new Pippin(player2)); // S05
+        deck.add(new ElvenCloak(player2)); // S06
+        deck.add(new HauberkOfBrightMail(player2)); // S07
+        deck.add(new Block(player2)); // S08
+        deck.add(new RiskyBlow(player2)); // S09
+        deck.add(new Wargs(player2)); // S10
+        deck.add(new Wolves(player2)); // S11
+        deck.add(new Wargs(player2)); // S12
+        deck.add(new Ghosts(player2)); // S13
+        deck.add(new ArouseMinions(player2)); // S14
         deck.add(new Dunlendings(player2)); // S15
+        deck.add(new Escape(player2)); // S16
+        deck.add(new Block(player2)); // S17
+        deck.add(new DarkQuarrels(player2)); // S18
+        deck.add(new Saruman(player2)); // S19
+        deck.add(new LesserSpiders(player2)); // S20
+        deck.add(new Orcrist(player2)); // S20
+        deck.add(new Ghouls(player2)); // S21
+        deck.add(new HalflingStealth(player2)); // S22
+        deck.add(new Annalena(player2)); // S23
+        deck.add(new Huorn(player2)); // S24
+        deck.add(new RiskyBlow(player2)); // S25
+        deck.add(new Wolves(player2)); // S26
         deck.add(new WoodElves(player2)); // S27
+        deck.add(new Wolves(player2)); // S28
+        deck.add(new WakeOfWar(player2)); // S29
+        deck.add(new Wargs(player2)); // S30
+        deck.add(new LesserSpiders(player2)); // S31
+        deck.add(new Saruman(player2)); // S32
+        deck.add(new Gollum(player2)); // S33
+        deck.add(new BarrowWights(player2)); // S34
+        deck.add(new HalflingStrength(player2)); // S35
+        deck.add(new BardBowman(player2)); // S36
+        deck.add(new ArouseMinions(player2)); // S37
+        deck.add(new Huorn(player2)); // S38
+        deck.add(new RiskyBlow(player2)); // S39
+        deck.add(new Wolves(player2)); // S40 TODO: This is NOT the real S40 card, no information on the web
+        deck.add(new Celeborn(player2)); // S42
+        deck.add(new Block(player2)); // S43
+        deck.add(new SwordOfGondolin(player2)); // S44
+        deck.add(new TemperingFriendship(player2)); // S45
+        deck.add(new LesserSpiders(player2)); // S46
+        deck.add(new HalflingStrength(player2)); // S47
+        deck.add(new Concealment(player2)); // S49
+        deck.add(new Ghosts(player2)); // S50
+        deck.add(new Elrohir(player2)); // S51
+        deck.add(new BarrowWights(player2)); // S52
         deck.add(new EntsOfFangorn(player2)); // S53
+        deck.add(new WakeOfWar(player2)); // S54
+        deck.add(new Concealment(player2)); // S55
+        deck.add(new Bridge(player2)); // S56
+        deck.add(new Ghouls(player2)); // S57
+        deck.add(new Muster(player2)); // S58
+        deck.add(new ArouseMinions(player2)); // S59
+        deck.add(new Ford(player2)); // S60
 
         return deck;
     }
