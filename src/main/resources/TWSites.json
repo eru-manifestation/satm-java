@@ -1,0 +1,2565 @@
+[
+    {
+        "image": "DimrillDale.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cNorthward the dale ran up into a glen of shadows between two great arms of the mountains, above which three white peaks were shining\u2026\u201d \u2014<\/i><b><i>LotRII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cHacia el norte el valle corría por una Garganta oscura entre dos grandes brazos de montañas, y en la cima brillaban tres Picos blancos\u2026\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Eric David Anderson",
+        "name": {
+            "de": "Tal von Dimril",
+            "fi": "Hämypuron Laakso",
+            "ja": "おぼろ谷",
+            "en": "Dimrill Dale",
+            "it": "Valle dei Rivi Tenebrosi",
+            "fr": "Vallée des Rigoles Sombres",
+            "es": "Valle del Arroyo Sombrío",
+            "nl": "Dimrill Dale"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}",
+            "haven": "Lórien",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Redhorn Gate",
+            "autoAttack": "Orcs - 1 strike with 6 prowess",
+            "siteType": "{R}",
+            "playable": "Information"
+        },
+        "id": "TW-385",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Information<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Orcs \u2014 1 strike with 6 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Información<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Orcos \u2014 1 golpe de poder 6<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "DolAmroth.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cBut beyond, in the great fief of Belfalas, dwelt Prince Imrahil in his castle of Dol Amroth by the sea, and he was of high blood, and his folk also, tall men and proud with sea-grey eyes.\u201d \u2014<\/i><b><i>LotRV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cPero más allá, en el gran feudo de Belfalas, residía el príncipe Imrahil de Dol Amroth a orillas del mar, y era de antiguo linaje, al igual que todos los suyos, hombres altos y arrogantes, de ojos grises como el mar.\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "Mark Poole",
+        "name": {
+            "de": "Dol Amroth",
+            "fi": "Dol Amroth",
+            "ja": "ドル・アムロス",
+            "en": "Dol Amroth",
+            "it": "Dol Amroth",
+            "fr": "Dol Amroth",
+            "es": "Dol Amroth",
+            "nl": "Dol Amroth"
+        },
+        "attributes": {
+            "sitePath": "{w}{f}",
+            "haven": "Edhellond",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Belfalas",
+            "siteType": "{F}"
+        },
+        "id": "TW-386",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Edhellond<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Edhellond<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "DancingSpire.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 for those mountains were rich and little explored.\u201d \u2014<\/i><b><i>LotR<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 pues aquellas montañas eran ricas y no estaban muy exploradas.\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "Pat Morrissey",
+        "name": {
+            "de": "Felsnadel",
+            "fi": "Tanssiva Huippu",
+            "ja": "踊る峰",
+            "en": "Dancing Spire",
+            "it": "Vetta Danzante",
+            "fr": "Pic Dansant",
+            "es": "Cima Danzarina",
+            "nl": "Dancing Spire"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{s}{w}",
+            "haven": "Lórien",
+            "drawOpponent": "3",
+            "unique": true,
+            "draw": "3",
+            "region": "Withered Heath",
+            "autoAttack": "Dragon - 2 strikes with 11 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, major, greater, gold ring)"
+        },
+        "id": "TW-383",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, greater, gold ring)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Dragon \u2014 2 strikes with 11 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, grandes, anillos de oro)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Dragón \u2014 2 golpes de poder 11<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "DeadMarshes.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 opening into wide stagnant meres, \u2026 difficult to find the firmer places\u2026\u201d \u2014<\/i><b><i>LotRIV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 abriéndose en bastas lagunas\u2026 era difícil encontrar dónde poner el pie sin hundirse en el lodo burbujeante.\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Pat Morrissey",
+        "name": {
+            "de": "Totensümpfe",
+            "fi": "Kalmansuot",
+            "ja": "死者の沼地",
+            "en": "Dead Marshes",
+            "it": "Paludi Morte",
+            "fr": "Marais des Morts",
+            "es": "Ciénagas de los Muertos",
+            "nl": "Dead Marshes"
+        },
+        "attributes": {
+            "special": "Each character wounded must make a corruption check.",
+            "sitePath": "{w}{s}{s}",
+            "haven": "Lórien",
+            "drawOpponent": "3",
+            "unique": true,
+            "draw": "2",
+            "region": "Dagorlad",
+            "autoAttack": "Undead - 2 strikes with 8 prowess",
+            "siteType": "{S}",
+            "playable": "Items (minor, major, greater)"
+        },
+        "id": "TW-384",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, greater)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Undead \u2014 2 strikes with 8 prowess; <br>each character wounded must make a <br>corruption check<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, grandes)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Muertos Vivientes \u2014 2 golpes de poder 8; <br>cada personaje herido debe hacer un chequeo de corrupción<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "CavesofUlund.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThat\u2026 is the dangerous part about caves: you don\u2019t know how far they go back\u2026 or what is waiting for you inside.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cNaturalmente, esto es lo peligroso de las cuevas: a veces uno no sabe lo profundas que son, o lo que te espera dentro.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Randy Asplund-Faith",
+        "name": {
+            "de": "Höhlen von Ûlund",
+            "fi": "Ûlundin Luolat",
+            "ja": "ウールンドの洞穴群",
+            "en": "Caves of Ûlund",
+            "it": "Caverne di Ûlund",
+            "fr": "Grottes d'Ulûnd",
+            "es": "Cavernas de Ûlund",
+            "nl": "Caves of Ûlund"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{s}{w}",
+            "haven": "Lórien",
+            "drawOpponent": "3",
+            "unique": true,
+            "draw": "3",
+            "region": "Withered Heath",
+            "autoAttack": "Dragon - 1 strike with 13 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, major, greater, gold ring)"
+        },
+        "id": "TW-381",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, greater, gold ring)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Dragon \u2014 1 strike with 13 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, grandes, anillos de oro)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Dragón \u2014 1 golpe de poder 13<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "CirithUngol.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 three great tiers\u2026 jutted out in pointed bastions, one above the other, diminishing as they rose, with sheer sides of cunning masonry\u2026\u201d \u2014<\/i><b><i>LotRVI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 tres grandes niveles\u2026 emergían bastiones puntiagudos y superpuestos, más pequeños a medida que la torre ganaba altura, y los flancos casi verticales de buena albañilería\u2026\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "Mark Poole",
+        "name": {
+            "de": "Cirith Ungol",
+            "fi": "Cirith Ungol",
+            "ja": "キリス・ウンゴル",
+            "en": "Cirith Ungol",
+            "it": "Cirith Ungol",
+            "fr": "Cirith Ungol",
+            "es": "Cirith Ungol",
+            "nl": "Cirith Ungol"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{f}{w}{s}",
+            "haven": "Lórien",
+            "drawOpponent": "4",
+            "unique": true,
+            "draw": "3",
+            "region": "Imlad Morgul",
+            "autoAttack": "Orcs - 4 strikes with 7 prowess",
+            "siteType": "{D}",
+            "playable": "Items (minor, major, greater)"
+        },
+        "id": "TW-382",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, greater)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Orcs \u2014 4 strikes with 7 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, grandes)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Orcos \u2014 4 golpes de poder 7<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "CarnDum.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 they were foes of the Dark Lord, but they were overcome by the evil king of Carn Dûm in the Land of Angmar.\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 eran enemigos del Señor Oscuro, pero habían sido vencidos por el malvado Rey de Carn Dûm en la tierra de Angmar\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "J. Wallace Jones",
+        "name": {
+            "de": "Carn Dûm",
+            "fi": "Carn Dûm",
+            "ja": "カルン・ドゥーム",
+            "en": "Carn Dûm",
+            "it": "Carn Dûm",
+            "fr": "Carn Dûm",
+            "es": "Carn Dûm",
+            "nl": "Carn Dûm"
+        },
+        "attributes": {
+            "sitePath": "{w}{s}",
+            "haven": "Rivendell",
+            "drawOpponent": "3",
+            "unique": true,
+            "draw": "2",
+            "region": "Angmar",
+            "autoAttack": "Orcs - 4 strikes with 7 prowess",
+            "siteType": "{D}",
+            "playable": "Items (minor, major, greater)"
+        },
+        "id": "TW-380",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, greater)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Orcs \u2014 4 strikes with 7 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, grandes)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Orcos \u2014 4 golpes de poder 7<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "Dunharrow.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018The Paths of the Dead!\u2026 If there be in truth such paths,\u2019 said Théoden, \u2018their gate is in Dunharrow; but no living man may pass it.\u2019\u201d \u2014<\/i><b><i>LotRV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018¡Los Senderos de los Muertos! Si existen en realidad esos senderosʼ dijo Théoden, ʻsu entrada se encuentra en el Sagrario, y ningún hombre vivo puede cruzarla.\u2019\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "N. Taylor Blanchard",
+        "name": {
+            "de": "Dunharg",
+            "fi": "Dunharg",
+            "ja": "馬鍬砦",
+            "en": "Dunharrow",
+            "it": "Dunclivo",
+            "fr": "Dunharrow",
+            "es": "El Sagrario",
+            "nl": "Dunharrow"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}",
+            "haven": "Lórien",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Rohan",
+            "siteType": "{B}"
+        },
+        "id": "TW-389",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "DolGuldur.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018\u2026 In the midst upon a stony height stands Dol Guldur, where long the Enemy had his dwelling\u2026\u2019\u201d \u2014<\/i><b><i>LotRII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018\u2026 en medio, sobre una altura rocosa, se alza Dol Guldur, donde en otro tiempo se ocultaba el Enemigo\u2026\u2019\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Christina Wald",
+        "name": {
+            "de": "Dol Guldur",
+            "fi": "Dol Guldur",
+            "ja": "ドル・グルドゥア",
+            "en": "Dol Guldur",
+            "it": "Dol Guldur",
+            "fr": "Dol Guldur",
+            "es": "Dol Guldur",
+            "nl": "Dol Guldur"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{d}",
+            "haven": "Lórien",
+            "drawOpponent": "4",
+            "unique": true,
+            "draw": "2",
+            "region": "Southern Mirkwood",
+            "autoAttack": "Orcs - 3 strikes with 7 prowess; Trolls - 2 strikes with 8 prowess",
+            "siteType": "{D}",
+            "playable": "Items (minor, major, greater)"
+        },
+        "id": "TW-387",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, greater)<\/p><p><b><i>Automatic-attacks (2): <\/i><\/b><br>(1st) Orcs \u2014 3 strikes with 7 prowess<br>(2nd) Trolls \u2014 2 strikes with 8 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, grandes)<\/p><p><b><i>Ataques Automáticos (2): <\/i><\/b><br>(1º) Orcos \u2014 3 golpes de poder 7<br>(2º) Trolls \u2014 2 golpes de poder 8<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "DruadanForest.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThe host was bivouacked in the pine-woods that clustered about Eilenach Beacon, a tall hill standing up from the long ridges of the Drúadan Forest that lay beside the great road in East Anórien.\u201d \u2014<\/i><b><i>LotRV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cEl ejército acampaba esa noche en los frondosos pinares de las laderas de Eilenach, que se erguía por encima de las largas lomas del Bosque Drúadan al borde del gran camino en el Anórien oriental.\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "Edward Beard, Jr.",
+        "name": {
+            "de": "Drûadan-Wald",
+            "fi": "Drúadanin Metsä",
+            "ja": "ドルアダン森",
+            "en": "Drúadan Forest",
+            "it": "Foresta Druadana",
+            "fr": "Forêt du Drúadan",
+            "es": "Bosque Drúadan",
+            "nl": "Drúadan Forest"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{f}",
+            "haven": "Lórien",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Anórien",
+            "siteType": "{B}"
+        },
+        "id": "TW-388",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "Baraddur.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Kevin Ward",
+        "name": {
+            "de": "Barad-Dûr",
+            "fi": "Barad-dûr",
+            "ja": "バラド＝ドゥア",
+            "en": "Barad-dûr",
+            "it": "Barad-dûr",
+            "fr": "Barad-dûr",
+            "es": "Barad-dûr",
+            "nl": "Barad-dûr"
+        },
+        "attributes": {
+            "special": "Any company moving to Barad-dûr has its hazard limit modified by +2.",
+            "sitePath": "{w}{b}{f}{w}{s}{d}",
+            "haven": "Lórien",
+            "drawOpponent": "6",
+            "unique": true,
+            "draw": "3",
+            "region": "Gorgoroth",
+            "autoAttack": "Orcs - 4 strikes with 7 prowess; Trolls - 3 strikes with 9 prowess",
+            "siteType": "{D}",
+            "playable": "Items (minor, major, greater)"
+        },
+        "id": "TW-374",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, greater)<\/p><p><b><i>Automatic-attacks (2): <\/i><\/b><br>(1st) Orcs \u2014 4 strikes with 7 prowess<br>(2nd) Trolls \u2014 3 strikes with 9 prowess<\/p><p><b><i>Special:<\/i><\/b> Any company moving to this site has its hazard limit increased by 2.<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, grandes)<\/p><p><b><i>Ataques Automáticos (2): <\/i><\/b><br>(1º) Orcos \u2014 4 golpes de poder 7<br>(2º) Trolls \u2014 3 golpes de poder 9<\/p><p><b><i>Especial:<\/i><\/b> El límite de adversidades de cualquier compañía que se mueva hasta este lugar aumenta en 2.<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "Barrowdowns.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 the green mounds, and the stone-rings upon the hills and in the hollows\u2026\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 los Túmulos verdes, y los Círculos de Piedras sobre las Colinas y los huecos\u2026\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Hügelgräberhöhen",
+            "fi": "Hautakerot",
+            "ja": "塚山丘陵",
+            "en": "Barrow-downs",
+            "it": "Tumulilande",
+            "fr": "Hauts des Galgals",
+            "es": "Quebradas de los Túmulos",
+            "nl": "Barrow-downs"
+        },
+        "attributes": {
+            "special": "Each character wounded must make a corruption check.",
+            "sitePath": "{w}{w}",
+            "haven": "Rivendell",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "1",
+            "region": "Cardolan",
+            "autoAttack": "Undead - 1 strike with 8 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, major)"
+        },
+        "id": "TW-375",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Undead \u2014 1 strike with 8 prowess; <br>each character wounded must make a <br>corruption check<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Muertos Vivientes \u2014 1 golpe de poder 8; <br>cada personaje herido debe hacer un chequeo de corrupción.<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F1"
+    },
+    {
+        "image": "BagEnd.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cIn a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cEn un agujero en el suelo, vivía un Hobbit. No un agujero húmedo, sucio, repugnante, con restos de gusanos y olor a fango, ni tampoco un agujero seco, desnudo y arenoso, sin nada en que sentarse o que comer; era un agujero-hobbit, y eso significa comodidad.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Randy Asplund-Faith",
+        "name": {
+            "de": "Beutelsend",
+            "fi": "Repunpää",
+            "ja": "袋小路",
+            "en": "Bag End",
+            "it": "Casa Baggins",
+            "fr": "Cul-de-Sac",
+            "es": "Bolsón Cerrado",
+            "nl": "Bag End"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}{f}",
+            "haven": "Rivendell",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "The Shire",
+            "siteType": "{F}"
+        },
+        "id": "TW-372",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F2"
+    },
+    {
+        "image": "BanditLair.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 there were all the baggages and packages lying broken open, and being rummaged by goblins, and smelt by goblins, and fingered by goblins, and quarreled over by goblins.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 y allí tirados estaban todos los sacos y paquetes, rotos y abiertos, revueltos por trasgos y olidos por trasgos, y disputados por trasgos.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Darryl Elliott",
+        "name": {
+            "de": "Räuberlager",
+            "fi": "Rosvoleiri",
+            "ja": "盗賊の隠れ家",
+            "en": "Bandit Lair",
+            "it": "Covo dei Banditi",
+            "fr": "Repaire de bandits",
+            "es": "Guarida de Bandidos",
+            "nl": "Bandit Lair"
+        },
+        "attributes": {
+            "sitePath": "{w}{s}",
+            "haven": "Lórien",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "1",
+            "region": "Brown Lands",
+            "autoAttack": "Men - 3 strikes with 6 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, gold ring)"
+        },
+        "id": "TW-373",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, gold ring)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Men \u2014 3 strikes with 6 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, anillos de oro)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Hombres \u2014 3 golpes de poder 6<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F3"
+    },
+    {
+        "image": "AmonHen.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 the Hill of the Eye of the Men of Númenor.\u201d \u2014<\/i><b><i>LotRII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 la Colina del Ojo de los Hombres de Númenor.\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "David Martin",
+        "name": {
+            "de": "Amon Hen",
+            "fi": "Amon Hen",
+            "ja": "アモン・ヘン",
+            "en": "Amon Hen",
+            "it": "Amon Hen",
+            "fr": "Amon Hen",
+            "es": "Amon Hen",
+            "nl": "Amon Hen"
+        },
+        "attributes": {
+            "special": "Each character wounded must make a corruption check.",
+            "sitePath": "{w}{b}",
+            "haven": "Lórien",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Rohan",
+            "autoAttack": "Undead - 1 strike with 6 prowess",
+            "siteType": "{R}",
+            "playable": "Information, Items (minor)"
+        },
+        "id": "TW-371",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Information, Items (minor)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Undead \u2014 1 strike with 6 prowess; <br>each character wounded must make a <br>corruption check<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Información, Objetos (menores)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Muertos Vivientes \u2014 1 golpe de poder 6; <br>cada personaje herido debe hacer un chequeo de corrupción<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CA"
+    },
+    {
+        "image": "Bree.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cBree was the chief village of the Bree-land, a small inhabited region, like an island in the empty lands round about\u2026 The village of Bree had some hundred stone houses of the Big Folk, mostly above the road, nestling on the hillside with windows looking west.\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cBree era la Villa principal de las tierras de Bree, pequeña región habitada, semejante a una isla en medio de las tierras desiertas de alrededor\u2026 La aldea de Bree comprendía un centenar de casas de piedra de Gentes Grandes, la mayoría sobre el Camino en el flanco de la loma, con ventanas que daban al oeste.\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Randy Gallegos",
+        "name": {
+            "de": "Bree",
+            "fi": "Brii",
+            "ja": "ブリー村",
+            "en": "Bree",
+            "it": "Bree",
+            "fr": "Bree",
+            "es": "Bree",
+            "nl": "Bree"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}",
+            "haven": "Rivendell",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Arthedain",
+            "siteType": "{B}"
+        },
+        "id": "TW-378",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F1"
+    },
+    {
+        "image": "CamethBrin.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThere the Dúnedain were few, and power had been seized by an evil lord of the Hillmen, who was in secret league with Angmar.\u201d \u2014<\/i><b><i>LotR<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cAllí los Dúnedain eran pocos, y el poder estaba en manos de un Jefe malvado de los Hombres de las Colinas, que tenia un pacto secreto con Angmar.\u201d \u2014<\/i><b><i>SdlA Apéndices<\/i><\/b><\/p>"
+        },
+        "artist": "David Martin",
+        "name": {
+            "de": "Cameth Brin",
+            "fi": "Cameth Brin",
+            "ja": "カメス・ブリン",
+            "en": "Cameth Brin",
+            "it": "Cameth Brin",
+            "fr": "Cameth Brin",
+            "es": "Cameth Brin",
+            "nl": "Cameth Brin"
+        },
+        "attributes": {
+            "sitePath": "{w}",
+            "haven": "Rivendell",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Rhudaur",
+            "siteType": "{B}"
+        },
+        "id": "TW-379",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "BeornsHouse.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThey soon came to a wooden gate, high and broad, beyond which they could see gardens and a cluster of low wooden buildings, some thatched and made of unshaped logs; barns, stables, sheds, and a long low wooden house.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cPronto llegaron a una cancela de madera, alta y ancha, y desde allí, a lo lejos, podían ver jardines y un grupo de edificios de madera, algunos con techo de paja y paredes de leños informes; Graneros, Establos y una Casa grande y de techo bajo, todo de madera.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Eric David Anderson",
+        "name": {
+            "de": "Beorns Haus",
+            "fi": "Beornin Talo",
+            "ja": "ビヨルン屋敷",
+            "en": "Beorn\u2019s House",
+            "it": "Casa di Beorn",
+            "fr": "Maison de Beorn",
+            "es": "Casa de Beorn",
+            "nl": "Beorn's House"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}",
+            "haven": "Lórien",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Anduin Vales",
+            "siteType": "{F}"
+        },
+        "id": "TW-376",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F1"
+    },
+    {
+        "image": "BlueMountainDwarfhold.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 and soon afterwards they removed and wandered in Eriador, until at last they made a home in exile in the east of the Ered Luin beyond the Lune.\u201d \u2014<\/i><b><i>LotR<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 y poco después se mudaron y erraron por Eriador, hasta que levantaron un Hogar en el Exilio al este de las Ered Luin, más allá de Lune\u201d \u2014<\/i><b><i>SdlA Apéndices<\/i><\/b><\/p>"
+        },
+        "artist": "Rob Alexander",
+        "name": {
+            "de": "Zwergenfeste im Blauen Gebirge",
+            "fi": "Sinivuorten Kääpiölinnoitus",
+            "ja": "青の山脈のドワーフ砦",
+            "en": "Blue Mountain Dwarf-hold",
+            "it": "Rocca dei Nani nei Monti Azzurri",
+            "fr": "Citadelle naine des Montagnes Bleues",
+            "es": "Fortaleza Enana de las Montañas Azules",
+            "nl": "Blue Mountain Dwarf-hold"
+        },
+        "attributes": {
+            "sitePath": "{f}{w}",
+            "haven": "Grey Havens",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Númeriador",
+            "siteType": "{F}"
+        },
+        "id": "TW-377",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Grey Havens<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Puertos Grises<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "GladdenFields.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 where there were great beds of iris and flowering reeds.\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 donde había grandes lechos de iris y juncos florecientes.\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Quinton Hoover",
+        "name": {
+            "de": "Schwertelfelder",
+            "fi": "Kurjenmiekkojen Kenttä",
+            "ja": "あやめ野",
+            "en": "Gladden Fields",
+            "it": "Campo Gaggiolo",
+            "fr": "Champs aux Iris",
+            "es": "Campos Gladios",
+            "nl": "Gladden Fields"
+        },
+        "attributes": {
+            "special": "Each character wounded must make a corruption check.",
+            "sitePath": "{w}{b}",
+            "haven": "Lórien",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Anduin Vales",
+            "autoAttack": "Undead - 1 strike with 8 prowess",
+            "siteType": "{R}",
+            "playable": "Items (gold ring)"
+        },
+        "id": "TW-396",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (gold ring)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Undead \u2014 1 strike with 8 prowess; <br>each character wounded must make a <br>corruption check<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (anillos de oro)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Muertos Vivientes \u2014 1 golpe de poder 8; <br>cada personaje herido debe hacer un chequeo de corrupción<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CA"
+    },
+    {
+        "image": "GlitteringCaves.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018\u2026 columns of white and saffron and dawn-rose\u2026 glistening pendants of the roof: wings, ropes, curtains fine as frozen clouds\u2026 pinnacles of suspended palaces!\u2019\u201d \u2014<\/i><b><i>LotRIII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018\u2026 hay columnas de nieve, de azafrán y rosicler\u2026 colgaduras resplandecientes: alas, cordeles, velos sutiles como nubes cristalizadas\u2026 ¡pináculos de palacio colgantes!\u2019\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "David Martin",
+        "name": {
+            "de": "Die Glitzernden Grotten",
+            "fi": "Kimaltavat Luolat",
+            "ja": "燦光洞",
+            "en": "Glittering Caves",
+            "it": "Caverne Scintillanti",
+            "fr": "Cavernes Etincelantes",
+            "es": "Cavernas Resplandecientes",
+            "nl": "Glittering Caves"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{b}",
+            "haven": "Lórien",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Gap of Isen",
+            "autoAttack": "Pûkel-creature - 1 strike with 9 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, major)"
+        },
+        "id": "TW-397",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Pûkel-creature \u2014 1 strike with 9 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Criatura Pûkel \u2014 1 golpe de poder 9<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "Edoras.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cWithin there rise the roofs of houses; and in the midst, set upon a green terrace, there stands aloft a great hall of Men\u2026 it is thatched with gold. The light of it shines far over the land. Golden too are the posts of its doors. There men in bright mail stand\u2026\u201d \u2014<\/i><b><i>LotRIII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cDentro asoman los techos de las casas; y en medio, sobre una terraza verde se levanta un castillo de Hombres. \u2026 está recubierto de oro. La luz del castillo brilla lejos sobre las tierras de alrededor. Dorados son también los montantes de las puertas. Allí hay unos hombres de pie, con mallas relucientes\u2026\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Margaret Organ-Kean",
+        "name": {
+            "de": "Edoras",
+            "fi": "Edoras",
+            "ja": "エドラス",
+            "en": "Edoras",
+            "it": "Edoras",
+            "fr": "Edoras",
+            "es": "Edoras",
+            "nl": "Edoras"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}",
+            "haven": "Lórien",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Rohan",
+            "siteType": "{F}"
+        },
+        "id": "TW-394",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F1"
+    },
+    {
+        "image": "Ettenmoors.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018We have now come to the River Hoarwell\u2026 It flows down out of the Ettenmoors, the troll-fells north of Rivendell\u2026\u2019\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018Hemos llegado al Río Fontegrís\u2026 desciende de las Landas de Etten, los Páramos de los Trolls al norte de Rivendel\u2026\u2019\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Rob Alexander",
+        "name": {
+            "de": "Ettenöden",
+            "fi": "Jättijängät",
+            "ja": "エテン高地",
+            "en": "Ettenmoors",
+            "it": "Erenbrulli",
+            "fr": "Landes d'Etten",
+            "es": "Landas de Etten",
+            "nl": "Ettenmoors"
+        },
+        "attributes": {
+            "sitePath": "{w}",
+            "haven": "Rivendell",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Rhudaur",
+            "autoAttack": "Trolls - 1 strike with 9 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor)"
+        },
+        "id": "TW-395",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p><p><b><i>Playable:<\/i><\/b> Items (minor)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Troll \u2014 1 strike with 9 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Troll \u2014 1 golpe de poder 9<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CA"
+    },
+    {
+        "image": "EasterlingCamp.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 a large army of Easterlings and\u2026 all their camps and settlements east of the Sea.\u201d \u2014<\/i><b><i>LotR<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 un gran ejercito de Orientales\u2026 todos sus campamentos y asentamientos al este del Mar.\u201d \u2014<\/i><b><i>SdlA Apéndices<\/i><\/b><\/p>"
+        },
+        "artist": "Storn Cook",
+        "name": {
+            "de": "Lager der Ostlinge",
+            "fi": "Itäläisten Leiri",
+            "ja": "東夷の野営地",
+            "en": "Easterling Camp",
+            "it": "Accampamento Esterling",
+            "fr": "Camp des Orientaux",
+            "es": "Campamento Oriental",
+            "nl": "Easterling Camp"
+        },
+        "attributes": {
+            "sitePath": "{w}{s}{s}{s}",
+            "haven": "Lórien",
+            "drawOpponent": "4",
+            "unique": true,
+            "draw": "4",
+            "region": "Horse Plains",
+            "siteType": "{B}"
+        },
+        "id": "TW-392",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "Edhellond.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018It is long since the people of Nimrodel left the woodlands of Lórien, and yet one may see that not all sailed from Amroth\u2019s haven west over water.\u2019\u201d \u2014<\/i><b><i>LotRV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018Hace ya mucho tiempo el pueblo de Nimrodel abandonó los bosques de Lórien, pero se puede ver aún que no todos dejaron el puerto de Amroth y navegaron rumbo al Oeste.\u2019\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "Christina Wald",
+        "name": {
+            "de": "Edhellond",
+            "fi": "Edhellond",
+            "ja": "エゼルロンド",
+            "en": "Edhellond",
+            "it": "Edhellond",
+            "fr": "Edhellond",
+            "es": "Edhellond",
+            "nl": "Edhellond"
+        },
+        "attributes": {
+            "drawOpponent": "2",
+            "haven2": "Lórien - {w}{b}{f}{f}{b}{w}",
+            "draw": "2",
+            "region": "Anfalas",
+            "haven1": "Grey Havens - {f}{c}{c}{c}{c}{w}",
+            "siteType": "{H}"
+        },
+        "id": "TW-393",
+        "text": {
+            "en": "<p><b><i>Site Path From Grey Havens:<\/i><\/b> {f}{c}{c}{c}{c}{w}<\/p><p><b><i>Site Path From Lórien:<\/i><\/b> {w}{b}{f}{f}{b}{w}<\/p>",
+            "es": "<p><b><i>Itinerario desde los Puertos Grises:<\/i><\/b> {f}{c}{c}{c}{c}{w}<\/p><p><b><i>Itinerario desde Lórien:<\/i><\/b> {w}{b}{f}{f}{b}{w}<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "DunnishClanhold.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018\u2026 they hid themselves in secret places in the mountains and had no dealings with other men\u2026\u2019\u201d \u2014<\/i><b><i>LotRV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018\u2026 se escondieron en lugares secretos de las montañas y no tuvieron tratos con los otros hombres\u2026\u2019\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "Storn Cook",
+        "name": {
+            "de": "Dunländische Clanfeste",
+            "fi": "Mustainmaalaisten Linnakylä",
+            "ja": "褐色人の部族砦\"",
+            "en": "Dunnish Clan-hold",
+            "it": "Insediamento Dunlandiano",
+            "fr": "Camp fortifié dunéen",
+            "es": "Fuerte Dunlendino",
+            "nl": "Dunnish Clan-hold"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}{w}",
+            "haven": "Rivendell",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Dunland",
+            "siteType": "{B}"
+        },
+        "id": "TW-390",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F1"
+    },
+    {
+        "image": "EaglesEyrie.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 a wide shelf of rock on the mountain-side. There was no path down on to it save by flying; and no path down off it except by jumping over a precipice.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 en una amplia repisa en la ladera de la montaña. No había manera de descender hasta allí, sino volando; y no había sendero para bajar excepto saltando a un precipicio.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Rob Alexander",
+        "name": {
+            "de": "Adlerhorst",
+            "fi": "Kotkanpesä",
+            "ja": "鷲の巣\",\"わしのす",
+            "en": "Eagles\u2019 Eyrie",
+            "it": "Nido delle Aquile",
+            "fr": "Aire des Aigles",
+            "es": "Nido de las Águilas",
+            "nl": "Eagles' Eyrie"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}",
+            "haven": "Lórien",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Anduin Vales",
+            "siteType": "{F}"
+        },
+        "id": "TW-391",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "Goblingate.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cIt was deep, deep dark, such as only goblins\u2026 living in the heart of the mountains can see through. The passages there were crossed and tangled in all directions\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cEl sitio era profundo, profundo y oscuro, tanto que solo los trasgos que habían tenido la ocurrencia de vivir en las montañas podían distinguir algo. Los pasadizos se cruzaban y confundían en todas direcciones\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Randy Gallegos",
+        "name": {
+            "de": "Orkstadt",
+            "fi": "Hiisiportti",
+            "ja": "ゴブリンの裏門",
+            "en": "Goblin-gate",
+            "it": "Goblin-gate",
+            "fr": "Porte des Gobelins",
+            "es": "La Puerta de los Trasgos",
+            "nl": "Goblin-gate"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}",
+            "haven": "Rivendell",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "1",
+            "region": "High Pass",
+            "autoAttack": "Orcs - 3 strikes with 6 prowess",
+            "siteType": "{S}",
+            "playable": "Items (minor, gold ring)"
+        },
+        "id": "TW-398",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, gold ring)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Orcs \u2014 3 strikes with 6 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, anillos de oro)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Orcos \u2014 3 golpes de poder 6<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F2"
+    },
+    {
+        "image": "GreyHavens.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 so they rode down at last to Mithlond, to the Grey Havens in the long firth of Lune\u2026 As they came to the gates Círdan the Shipwright came forth to greet them.\u201d \u2014<\/i><b><i>LotRVI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 y así descendieron por fin hacia Mithlond, hacia los Puertos Grises en el largo Estuario de Lun\u2026 Cuando llegaron a las puertas, Círdan, el Carpintero de Barcos, se adelantó a darles la bienvenida.\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "Mark Poole",
+        "name": {
+            "de": "Die Grauen Anfurten",
+            "fi": "Harmaat Satamat",
+            "ja": "灰色港",
+            "en": "Grey Havens",
+            "it": "Rifugi Oscuri",
+            "fr": "Havres Gris",
+            "es": "Puertos Grises",
+            "nl": "Grey Havens"
+        },
+        "attributes": {
+            "drawOpponent": "2",
+            "haven2": "Edhellond - {w}{c}{c}{c}{c}{f}",
+            "draw": "2",
+            "region": "Lindon",
+            "haven1": "Rivendell - {w}{w}{f}",
+            "siteType": "{H}"
+        },
+        "id": "TW-399",
+        "text": {
+            "en": "<p><b><i>Site Path From Rivendell:<\/i><\/b> {w}{w}{f}<\/p><p><b><i>Site Path From Edhellond:<\/i><\/b> {w}{c}{c}{c}{c}{f}<\/p>",
+            "es": "<p><b><i>Itinerario desde Rivendel:<\/i><\/b> {w}{w}{f}<\/p><p><b><i>Itinerario desde Edhellond:<\/i><\/b> {w}{c}{c}{c}{c}{f}<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "Lorien.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018There are no trees like the trees of that land. For in autumn their leaves fall not, but turn to gold. Not till the spring comes\u2026 do they fall, and then the boughs are laden with golden flowers\u2026\u2019\u201d \u2014<\/i><b><i>LotRII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018No hay otros árboles como los árboles de aquella tierra. Pues en otoño sus hojas no caen, sino que se vuelven doradas. No caen hasta que llega la primavera, y entonces las ramas están cargadas de flores doradas\u2026\u2019\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Stefano Baldo",
+        "name": {
+            "de": "Lórien",
+            "fi": "Lórien",
+            "ja": "ロリアン\",\"ろりあん",
+            "en": "Lórien",
+            "it": "Lórien",
+            "fr": "Lórien",
+            "es": "Lórien",
+            "nl": "Lórien"
+        },
+        "attributes": {
+            "drawOpponent": "2",
+            "haven2": "Edhellond - {w}{b}{f}{f}{b}{w}",
+            "draw": "2",
+            "region": "Wold & Foothills",
+            "haven1": "Rivendell - {w}{w}{b}{w}",
+            "siteType": "{H}"
+        },
+        "id": "TW-408",
+        "text": {
+            "en": "<p><b><i>Site Path From Rivendell:<\/i><\/b> {w}{w}{b}{w}<\/p><p><b><i>Site Path From Edhellond:<\/i><\/b> {w}{b}{f}{f}{b}{w}<\/p>",
+            "es": "<p><b><i>Itinerario desde Rivendel:<\/i><\/b> {w}{w}{b}{w}<\/p><p><b><i>Itinerario desde Edhellond:<\/i><\/b> {w}{b}{f}{f}{b}{w}<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "LossadanCairn.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "J. Wallace Jones",
+        "name": {
+            "de": "Grabstätte der Lossadan",
+            "fi": "Lossadanin Kivikumpu",
+            "ja": "ロスソス族のケルン",
+            "en": "Lossadan Cairn",
+            "it": "Tumulo dei Lossoth",
+            "fr": "Cairn lossadan",
+            "es": "Cairn Lossadan",
+            "nl": "Lossadan Cairn"
+        },
+        "attributes": {
+            "special": "Each character wounded must make a corruption check.",
+            "sitePath": "{w}{w}{w}",
+            "haven": "Rivendell",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Forochel",
+            "autoAttack": "Undead - 2 strikes with 8 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, major, greater*) *-Palantíri only"
+        },
+        "id": "TW-409",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p><p><b><i>Playable:<\/i><\/b>Items (minor, major, greater*), *\u2014Palantíri Only<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Undead \u2014 2 strikes with 8 prowess; <br>each character wounded must make a <br>corruption check<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p><p><b><i>Jugable: <\/i><\/b>Objetos (menores, mayores, grandes*) *\u2014solo Palantíri<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Muertos Vivientes \u2014 2 golpes de poder 8; <br>cada personaje herido debe hacer un chequeo de corrupción<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CA"
+    },
+    {
+        "image": "Laketown.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cIt was not built on the shore\u2026 but right out on the surface of the lake, protected from the swirl of the entering river by a promontory of rock which formed a calm bay. A great bridge made of wood ran out to where on huge piles made of forest trees was built a busy wooden town\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cNo estaba emplazada en la orilla, aunque había allí unas cuantas cabañas y construcciones, sino sobre la superficie misma del lago, en una apacible bahía protegida de los remolinos del río por un promontorio de roca. Un gran puente de madera se extendía hasta unos enormes troncos que sostenían una bulliciosa ciudad también de madera\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Eric David Anderson",
+        "name": {
+            "de": "Seestadt",
+            "fi": "Järvikaupunki",
+            "ja": "湖の町",
+            "en": "Lake-town",
+            "it": "Pontelagolungo",
+            "fr": "Ville du Lac",
+            "es": "Ciudad del Lago",
+            "nl": "Lake-town"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{b}{w}",
+            "haven": "Lórien",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Northern Rhovanion",
+            "siteType": "{B}"
+        },
+        "id": "TW-406",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "LondGalen.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018Or we might pass by and cross the Isen into Langstrand and Lebennin, and so come to Gondor from the regions nigh to the sea.\u2019\u201d \u2014<\/i><b><i>LotRII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018O podrías cruzar el Isen hasta Langstrand y Lebennin, y así llegar hasta Gondor desde las regiones cercanas al mar.\u2019\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "J. Wallace Jones",
+        "name": {
+            "de": "Lond Galen",
+            "fi": "Lond Galen",
+            "ja": "ロンド・ガレン",
+            "en": "Lond Galen",
+            "it": "Lond Galen",
+            "fr": "Lond Galen",
+            "es": "Lond Galen",
+            "nl": "Lond Galen"
+        },
+        "attributes": {
+            "sitePath": "{w}",
+            "haven": "Edhellond",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Anfalas",
+            "siteType": "{B}"
+        },
+        "id": "TW-407",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Edhellond<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Edhellond<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "Isengard.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 four mighty piers of many-sided stone were welded into one, but near the summit they opened into gaping horns, their pinnacles sharp as the points of spears\u2026\u201d \u2014<\/i><b><i>LotRIII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 cuatro poderosos pilares de piedra facetada se fundían en uno, que apuntaba al cielo, pero cerca de la cima se abrían y se separaban como cuernos, de pináculos puntiagudos como puntas de lanza\u2026 \u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Eric David Anderson",
+        "name": {
+            "de": "Isengard",
+            "fi": "Rautapiha",
+            "ja": "アイゼンガルド",
+            "en": "Isengard",
+            "it": "Isengard",
+            "fr": "Isengard",
+            "es": "Isengard",
+            "nl": "Isengard"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{b}",
+            "haven": "Lórien",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Gap of Isen",
+            "autoAttack": "Wolves - 3 strikes with 7 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, major, gold ring)"
+        },
+        "id": "TW-404",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, gold ring)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Wolves \u2014 3 strikes with 7 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, anillos de oro)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Lobos \u2014 3 golpes de poder 7<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F2"
+    },
+    {
+        "image": "IslesoftheDeadthatLive.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cTinúviel was dancing there To music of a pipe unseen\u2026\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cTinúviel bailaba allí, a la música de una flauta invisible\u2026\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Rob Alexander",
+        "name": {
+            "de": "Insel der Lebenden Toten",
+            "fi": "Elävien Kuolleiden Saaret",
+            "ja": "生ける死者の島",
+            "en": "Isles of the Dead that Live",
+            "it": "Isole dei Morti che Vivono",
+            "fr": "Ile des Morts qui Vivent",
+            "es": "Islas de los Muertos que Viven",
+            "nl": "Isles of the Dead that Live"
+        },
+        "attributes": {
+            "special": "Each character wounded must make a corruption check.",
+            "sitePath": "{f}{c}{c}",
+            "haven": "Grey Havens",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "1",
+            "region": "Eriadoran Coast",
+            "autoAttack": "Undead - 2 strikes with 8 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, major, gold ring)"
+        },
+        "id": "TW-405",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Grey Havens<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, gold ring)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Undead \u2014 2 strikes with 8 prowess; <br>each character wounded must make a <br>corruption check<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Puertos Grises<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, anillos de oro)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Muertos Vivientes \u2014 2 golpes de poder 8; <br>cada personaje herido debe hacer un chequeo de corrupción<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "Irerock.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThe wind was on the withered heath\u2026 and like a tide it roared and rolled\u2026 and swept above the dragon\u2019s lair\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cEl viento soplaba sobre el Brezal Marchito\u2026 y como una marea rugía y avanzaba \u2026y azotaba la Guarida del Dragón\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Pat Morrissey",
+        "name": {
+            "de": "Zornfels",
+            "fi": "Vihakivi",
+            "ja": "怒り岩山",
+            "en": "Irerock",
+            "it": "Roccia dell'Ira",
+            "fr": "Ireroche",
+            "es": "Roca de la Ira",
+            "nl": "Irerock"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{s}{w}",
+            "haven": "Lórien",
+            "drawOpponent": "3",
+            "unique": true,
+            "draw": "3",
+            "region": "Withered Heath",
+            "autoAttack": "Dragon - 1 strike with 14 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, major, greater, gold ring)"
+        },
+        "id": "TW-402",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, greater, gold ring)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Dragon \u2014 1 strike with 14 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, grandes, anillos de oro)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Dragón \u2014 1 golpe de poder 14<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "IronHillDwarfhold.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018\u2026 go specially to my cousin Dain in the Iron Hills, for he has many people well-armed, and dwells nearest to this place.\u2019\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018\u2026 pero acude especialmente a mi primo Dain en las Colinas de Hierro, pues tiene mucha gente bien armada y vive cerca.\u2019\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Ron Rousselle II",
+        "name": {
+            "de": "Zwergenfeste in den Eisenbergen",
+            "fi": "Rautavuorten Kääpiölinnoitus",
+            "ja": "くろがね連山のドワーフ砦",
+            "en": "Iron Hill Dwarf-hold",
+            "it": "Rocca dei Nani nei Colli Ferrosi",
+            "fr": "Citadelle naine des Monts du Fer",
+            "es": "Fortaleza Enana de las Colinas de Hierro",
+            "nl": "Iron Hill Dwarf-hold"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{b}{w}{w}",
+            "haven": "Lórien",
+            "drawOpponent": "3",
+            "unique": true,
+            "draw": "3",
+            "region": "Iron Hills",
+            "siteType": "{F}"
+        },
+        "id": "TW-403",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F1"
+    },
+    {
+        "image": "HennethAnnun.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018\u2026 Window of the Sunset, Henneth Annûn, fairest of all the falls of Ithilien, land of many fountains.\u2019\u201d \u2014<\/i><b><i>LotRIV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018\u2026 Ventana del Sol Poniente, Henneth Annûn, la más hermosa de todas las cascadas de Ithilien, tierra de muchos manantiales.\u2019\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Rob Alexander",
+        "name": {
+            "de": "Henneth Annûn",
+            "fi": "Henneth Annûn",
+            "ja": "ヘンネス・アンヌーン",
+            "en": "Henneth Annûn",
+            "it": "Henneth Annûn",
+            "fr": "Henneth Annûn",
+            "es": "Henneth Annûn",
+            "nl": "Henneth Annûn"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{f}{w}",
+            "haven": "Lórien",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Ithilien",
+            "siteType": "{B}"
+        },
+        "id": "TW-400",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F1"
+    },
+    {
+        "image": "Himring.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 on starless waters far astray\u2026 and foundered shores that drowned\u2026\u201d \u2014<\/i><b><i>LotRII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 en Aguas sin Estrellas muy lejanas\u2026 y fondearon en Orillas que se hundieron\u2026\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "David Martin",
+        "name": {
+            "de": "Himring",
+            "fi": "Himring",
+            "ja": "ヒムリング",
+            "en": "Himring",
+            "it": "Himring",
+            "fr": "Himring",
+            "es": "Himring",
+            "nl": "Himring"
+        },
+        "attributes": {
+            "special": "Each character wounded must make a corruption check.",
+            "sitePath": "{f}{c}",
+            "haven": "Grey Havens",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Elven Shores",
+            "autoAttack": "Undead - 1 strike with 8 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, major)"
+        },
+        "id": "TW-401",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Grey Havens<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Undead \u2014 1 strike with 8 prowess; <br>each character wounded must make a <br>corruption check<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Puertos Grises<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Muertos Vivientes \u2014 1 golpe de poder 8; <br>cada personaje herido debe hacer un chequeo de corrupción<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "TheLonelyMountain.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cAnd far away, its dark head in a torn cloud, there loomed the Mountain! \u2026 All alone it rose\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c¡Y allá, a lo lejos, mostrando su cima oscura entre retazos de nubes, allá amenazadora, asomaba la Montaña! Sola y adusta\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Rob Alexander",
+        "name": {
+            "de": "Der Einsame Berg",
+            "fi": "Yksinäinen Vuori",
+            "ja": "はなれ山",
+            "en": "The Lonely Mountain",
+            "it": "La Montagna Solitaria",
+            "fr": "Le Mont Solitaire",
+            "es": "La Montaña Solitaria",
+            "nl": "The Lonely Mountain"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{b}{w}",
+            "haven": "Lórien",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Northern Rhovanion",
+            "autoAttack": "Dragon - 1 strike with 14 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, major, greater, gold ring)"
+        },
+        "id": "TW-428",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, greater, gold ring)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Dragon \u2014 1 strike with 14 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, grandes, anillos de oro)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Dragón \u2014 1 golpe de poder 14<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F2"
+    },
+    {
+        "image": "TheStones.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cGold was piled on the biers of dead kings and queens; and mounds covered them, and the stone doors were shut; and the grass grew over all.\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cEl oro fue amontonado en los sepulcros de los reyes y reinas muertos; y fueron cubiertos con túmulos, y las puertas de piedra fueron cerradas; y la hierba lo cubrió todo.\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Pat Morrissey",
+        "name": {
+            "de": "Die Steine",
+            "fi": "Kivet",
+            "ja": "石碑",
+            "en": "The Stones",
+            "it": "Le Pietre",
+            "fr": "Les Pierres",
+            "es": "Las Piedras",
+            "nl": "The Stones"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}",
+            "haven": "Edhellond",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Andrast",
+            "autoAttack": "Pûkel-creature - 2 strikes with 9 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, major, greater)"
+        },
+        "id": "TW-429",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Edhellond<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, greater)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Pûkel-creature \u2014 2 strikes with 9 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Edhellond<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, grandes)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Criatura Pûkel \u2014 2 golpes de poder 9<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "SouthronOasis.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 his chief peril lay in the south, where the Haradrim had occupied South Gondor, and there was much fighting along the Poros.\u201d \u2014<\/i><b><i>LotR<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 el principal peligro yacía en el Sur, donde los Haradrim habían ocupado el Sur de Gondor, y había numerosas batallas junto al Poros.\u201d \u2014<\/i><b><i>SdlA Apéndices<\/i><\/b><\/p>"
+        },
+        "artist": "Tom Dow",
+        "name": {
+            "de": "Oase der Südlinge",
+            "fi": "Eteläisten Keidas",
+            "ja": "南方人のオアシス",
+            "en": "Southron Oasis",
+            "it": "Oasi dei Sudroni",
+            "fr": "Oasis suderonne",
+            "es": "Oasis Sureño",
+            "nl": "Southron Oasis"
+        },
+        "attributes": {
+            "sitePath": "{w}{f}{c}{w}",
+            "haven": "Edhellond",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Harondor",
+            "siteType": "{B}"
+        },
+        "id": "TW-426",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Edhellond<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Edhellond<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "Stonecircle.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cStone rings grinned out of the ground like broken teeth in the moonlight.\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cHabía piedras afiladas que apuntaban hacia arriba, como dientes mellados que asomaban en encías verdes\u2026\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Christina Wald",
+        "name": {
+            "de": "Steinkreis",
+            "fi": "Kivikehä",
+            "ja": "石の環",
+            "en": "Stone-circle",
+            "it": "Circolo di Pietra",
+            "fr": "Cercle de pierres",
+            "es": "Círculo de Piedras",
+            "nl": "Stone-circle"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}",
+            "haven": "Edhellond",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Old Pûkel Gap",
+            "autoAttack": "Pûkel-creature - 1 strike with 9 prowess",
+            "siteType": "{R}",
+            "playable": "Information, Items (minor)"
+        },
+        "id": "TW-427",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Edhellond<\/p><p><b><i>Playable:<\/i><\/b> Information, Items (minor)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Pûkel-creature \u2014 1 strike with 9 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Edhellond<\/p><p><b><i>Jugable:<\/i><\/b> Información, Objetos (menores)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Criatura Pûkel \u2014 1 golpe de poder 9<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "ShelobsLair.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 the air was still, stagnant, heavy, and sound fell dead. They walked\u2026 in a black vapour wrought of veritable darkness itself that, as it breathed, brought blindness\u2026\u201d \u2014<\/i><b><i>LotRIV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 el aire pesaba, estancado, inmóvil, y los ruidos morían, sin ecos ni resonancias. Caminaban en un vapor negro que parecía engendrado por la oscuridad misma, y cuando era inhalado producía ceguera.\u2026\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Kevin Ward",
+        "name": {
+            "de": "Kankras Lauer",
+            "fi": "Lukitarin Luola",
+            "ja": "シェロブの棲処",
+            "en": "Shelob\u2019s Lair",
+            "it": "Tana di Shelob",
+            "fr": "Antre d'Arachne",
+            "es": "El Antro de Ella-laraña",
+            "nl": "Shelob's Lair"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{f}{w}{s}",
+            "haven": "Lórien",
+            "drawOpponent": "4",
+            "unique": true,
+            "draw": "3",
+            "region": "Imlad Morgul",
+            "autoAttack": "Orcs - 2 strikes with 8 prowess",
+            "siteType": "{S}",
+            "playable": "Items (minor, major)"
+        },
+        "id": "TW-424",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Orcs \u2014 2 strikes with 8 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Orcos \u2014 2 golpes de poder 8<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "ShrelKain.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 between Rhovanion and the Inland Sea\u2026\u201d \u2014<\/i><b><i>LotR<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 entre Rhovanion y el Mar Interior\u2026\u201d \u2014<\/i><b><i>SdlA Apéndices<\/i><\/b><\/p>"
+        },
+        "artist": "J. Wallace Jones",
+        "name": {
+            "de": "Schrel-kain",
+            "fi": "Shrel-Kain",
+            "ja": "シレル＝カイン",
+            "en": "Shrel-Kain",
+            "it": "Shrel-Kain",
+            "fr": "Shrel-Kain",
+            "es": "Shrel-Kain",
+            "nl": "Shrel-Kain"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{b}{w}{b}",
+            "haven": "Lórien",
+            "drawOpponent": "3",
+            "unique": true,
+            "draw": "3",
+            "region": "Dorwinion",
+            "siteType": "{B}"
+        },
+        "id": "TW-425",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "RuinedSignalTower.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018But long before, in the first days of the North Kingdom, they built a great watch-tower\u2026 It was burned and broken, and nothing remains of it now but a tumbled ring\u2026\u2019\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018Pero mucho antes, en los primeros tiempos del Reino del Norte, edificaron una torre de observación\u2026 Fue incendiada y demolida, y nada queda de ella excepto un circulo de piedras desparramadas\u2026\u2019\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Mark Poole",
+        "name": {
+            "de": "Verfallener Signalturm",
+            "fi": "Viestitornin Rauniot",
+            "ja": "烽火台の廃墟",
+            "en": "Ruined Signal Tower",
+            "it": "Torre di Segnalazione Diroccata",
+            "fr": "Tour de signalisation en ruine",
+            "es": "Torre de Señales en Ruinas",
+            "nl": "Ruined Signal Tower"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}{w}",
+            "haven": "Rivendell",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Enedhwaith",
+            "autoAttack": "Spiders - 2 strikes with 8 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, major)"
+        },
+        "id": "TW-422",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Spiders \u2014 2 strikes with 8 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Arañas \u2014 2 golpes de poder 8<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F2"
+    },
+    {
+        "image": "SarnGoriwing.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 there, parting the tumbling waters of the Enchanted River, stood a shadowy spire that served as fast hold for those who would remake the great Greenwood.\u201d \u2014<\/i><b><i>Kuduk Lore<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 allí separando las turbulentas aguas del Río Encantado, se elevaba una sombría Torre que servía como baluarte para quienes deseaban hacer renacer el gran Bosqueverde.\u201d \u2014<\/i><b><i>Sabiduría Kuduk<\/i><\/b><\/p>"
+        },
+        "artist": "J. Wallace Jones",
+        "name": {
+            "de": "Sarn Goriwing",
+            "fi": "Sarn Goriwing",
+            "ja": "サルン・ゴルウィング",
+            "en": "Sarn Goriwing",
+            "it": "Sarn Goriwing",
+            "fr": "Sarn Goriwing",
+            "es": "Sarn Goriwing",
+            "nl": "Sarn Goriwing"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{w}{w}",
+            "haven": "Lórien",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Heart of Mirkwood",
+            "autoAttack": "Orcs - 3 strikes with 5 prowess",
+            "siteType": "{S}",
+            "playable": "Items (minor, major)"
+        },
+        "id": "TW-423",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Orcs \u2014 3 strikes with 5 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Orcos \u2014 3 golpes de poder 5<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CA"
+    },
+    {
+        "image": "Rhosgobel.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018It was Radagast the Brown, who at one time dwelt at Rhosgobel, near the borders of Mirkwood.\u2019\u201d \u2014<\/i><b><i>LotRII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018Era Radagast el Pardo, que en un tiempo vivió en Rhosgobel, cerca del Bosque Negro.\u2019\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Tom Dow",
+        "name": {
+            "de": "Rhosgobel",
+            "fi": "Rhosgobel",
+            "ja": "ロスゴベル",
+            "en": "Rhosgobel",
+            "it": "Rhosgobel",
+            "fr": "Rhosgobel",
+            "es": "Rhosgobel",
+            "nl": "Rhosgobel"
+        },
+        "attributes": {
+            "special": "Healing effects affect all characters at the site.",
+            "sitePath": "{w}{b}{d}",
+            "haven": "Lórien",
+            "drawOpponent": "3",
+            "unique": true,
+            "draw": "2",
+            "region": "Southern Mirkwood",
+            "siteType": "{F}",
+            "playable": "Items (minor)"
+        },
+        "id": "TW-420",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor)<\/p><p><b><i>Special:<\/i><\/b> Healing effects affect all characters at the site<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores)<\/p><p><b><i>Especial:<\/i><\/b> Los efectos de curación afectan a todos los personajes que se encuentran en este lugar<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F2"
+    },
+    {
+        "image": "Rivendell.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018His house was perfect, whether you liked food, or sleep, or work, or story-telling, or singing, or just sitting and thinking best, or a pleasant mixture of them all. Evil things did not come into that valley.\u2019\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018La casa era perfecta tanto para comer o para dormir como para trabajar, o contar historias, o cantar, o simplemente sentarse y pensar mejor, o una agradable mezcla de todo eso. Las cosas malas no entraban en aquel valle\u2019\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Stefano Baldo",
+        "name": {
+            "de": "Bruchtal",
+            "fi": "Rivendell",
+            "ja": "裂け谷",
+            "en": "Rivendell",
+            "it": "Gran Burrone",
+            "fr": "Fondcombe",
+            "es": "Rivendel",
+            "nl": "Rivendell"
+        },
+        "attributes": {
+            "drawOpponent": "2",
+            "haven2": "Grey Havens - {f}{w}{w}",
+            "draw": "2",
+            "region": "Rhudaur",
+            "haven1": "Lórien - {w}{b}{w}{w}",
+            "siteType": "{H}"
+        },
+        "id": "TW-421",
+        "text": {
+            "en": "<p><b><i>Site Path From Lórien:<\/i><\/b>{w}{b}{w}{w}<\/p><p><b><i>Site Path From Grey Havens:<\/i><\/b>{f}{w}{w}<\/p>",
+            "es": "<p><b><i>Itinerario desde Lórien:<\/i><\/b>{w}{b}{w}{w}<\/p><p><b><i>Itinerario desde Puertos Grises:<\/i><\/b>{f}{w}{w}<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "Pelargir.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018The hour is come at last. Now I will go to Pelargir upon Anduin, and ye shall come after me.\u2019\u201d \u2014<\/i><b><i>LotRV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018Por fin ha llegado la hora. Marcharé en seguida a Pelargir en la ribera del Anduin, y vosotros vendréis conmigo.\u2019\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "J. Wallace Jones",
+        "name": {
+            "de": "Pelargir",
+            "fi": "Pelargir",
+            "ja": "ペラルギア",
+            "en": "Pelargir",
+            "it": "Pelargir",
+            "fr": "Pelargir",
+            "es": "Pelargir",
+            "nl": "Pelargir"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{f}",
+            "haven": "Edhellond",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Lebennin",
+            "siteType": "{F}"
+        },
+        "id": "TW-419",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Edhellond<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Edhellond<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "OldForest.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018For you are still afraid, perhaps, of mist and tree-shadows and deep water, and untame things. Fear nothing!\u2019\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018Quizá todavía tenéis miedo de la niebla, de la sombra de los árboles, del agua profunda, de las criaturas del bosque. ¡No temáis nada!\u2019\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Kevin Ward",
+        "name": {
+            "de": "Der Alte Wald",
+            "fi": "Vanha Metsä",
+            "ja": "古森\",\"ふるもり",
+            "en": "Old Forest",
+            "it": "Vecchia Foresta",
+            "fr": "Vieille Forêt",
+            "es": "Bosque Viejo",
+            "nl": "Old Forest"
+        },
+        "attributes": {
+            "special": "Healing effects affect all characters at the site.",
+            "sitePath": "{w}{w}",
+            "haven": "Rivendell",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Cardolan",
+            "siteType": "{B}"
+        },
+        "id": "TW-417",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p><p><b><i>Special:<\/i><\/b> Healing effects affect all characters at the site<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p><p><b><i>Especial:<\/i><\/b> Los efectos de curación afectan a todos los personajes que se encuentran en este lugar<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CA"
+    },
+    {
+        "image": "OstinEdhil.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018There is a wholesome air about Hollin. Much evil must befall a country before it wholly forgets the Elves, if once they dwelt there.\u2019\u201d \u2014<\/i><b><i>LotRII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018Hay un ambiente extraño en Acebeda. Grandes males deben caer sobre una región para que se olvide por completo a los Elfos, si éstos habitaron una vez allí.\u2019\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Mark Poole",
+        "name": {
+            "de": "Ost-in-Edhil",
+            "fi": "Ost-in-Edhil",
+            "ja": "オスト＝イン＝エジル",
+            "en": "Ost-in-Edhil",
+            "it": "Ost-in-Edhil",
+            "fr": "Ost-in-Edhil",
+            "es": "Ost-in-Edhil",
+            "nl": "Ost-in-Edhil"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}",
+            "haven": "Rivendell",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Hollin",
+            "autoAttack": "Wolves - 3 strikes with 5 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, gold ring)"
+        },
+        "id": "TW-418",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, gold ring)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Wolves \u2014 3 strikes with 5 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, anillos de oro)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Lobos \u2014 3 golpes de poder 5<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "MountGram.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cHe charged the ranks of the goblins of Mount Gram in the Battle of the Green Fields, and knocked their king Golfimbul\u2019s head clean off with a wooden club.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cEn la batalla de los Campos Verdes había cargado contra las filas de los trasgos del Monte Gram, y blandiendo una porra de madera le arrancó de cuajo la cabeza al Rey Golfimbul.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Susan Van Camp",
+        "name": {
+            "de": "Der Gramberg",
+            "fi": "Gramin Vuori",
+            "ja": "グラム山",
+            "en": "Mount Gram",
+            "it": "Monte Gramma",
+            "fr": "Mont Gram",
+            "es": "Monte Gram",
+            "nl": "Mount Gram"
+        },
+        "attributes": {
+            "sitePath": "{w}{s}",
+            "haven": "Rivendell",
+            "drawOpponent": "3",
+            "unique": true,
+            "draw": "2",
+            "region": "Angmar",
+            "autoAttack": "Orcs - 3 strikes with 6 prowess",
+            "siteType": "{S}",
+            "playable": "Items (minor, major)"
+        },
+        "id": "TW-415",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Orcs \u2014 3 strikes with 6 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Orcos \u2014 3 golpes de poder 6<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F2"
+    },
+    {
+        "image": "MountGundabad.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 around and beneath the great mountain Gundabad of the North\u2026 a vast host was assembled\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 hasta llegar a las cercanías de la gran montaña de Gundabad en el Norte\u2026 juntaron un inmenso ejército\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Gundabadberg",
+            "fi": "Gundabadin Vuori",
+            "ja": "グンダバド山",
+            "en": "Mount Gundabad",
+            "it": "Monte Guerrinferno",
+            "fr": "Mont Gundabad",
+            "es": "Monte Gundabad",
+            "nl": "Mount Gundabad"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{d}",
+            "haven": "Lórien",
+            "drawOpponent": "3",
+            "unique": true,
+            "draw": "2",
+            "region": "Gundabad",
+            "autoAttack": "Orcs - 2 strikes with 8 prowess",
+            "siteType": "{S}",
+            "playable": "Items (minor, major, greater)"
+        },
+        "id": "TW-416",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, greater)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Orcs \u2014 2 strikes with 8 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, grandes)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Orcos \u2014 2 golpes de poder 8<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "Moria.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cIn the pale ray of the wizard\u2019s staff\u2026 glimpses of stairs and arches, and of other passages and tunnels\u2026\u201d \u2014<\/i><b><i>LotRII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cAl débil resplandor de la vara del mago\u2026 alcanzaba a ver escaleras y arcos, y pasadizos y túneles\u2026\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Kevin Ward",
+        "name": {
+            "de": "Moria",
+            "fi": "Moria",
+            "ja": "モリア\",\"もりあ",
+            "en": "Moria",
+            "it": "Moria",
+            "fr": "Moria",
+            "es": "Moria",
+            "nl": "Moria"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}",
+            "haven": "Lórien",
+            "drawOpponent": "3",
+            "unique": true,
+            "draw": "2",
+            "region": "Redhorn Gate",
+            "autoAttack": "Orcs - 4 strikes with 7 prowess",
+            "siteType": "{S}",
+            "playable": "Items (minor, major, greater, gold ring)"
+        },
+        "id": "TW-413",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, greater, gold ring)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Orcs \u2014 4 strikes with 7 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, grandes, anillos de oro)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Orcos \u2014 4 golpes de poder 7<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F3"
+    },
+    {
+        "image": "MountDoom.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 a huge mass of ash and slag and burned stone\u2026 a sheer-sided cone\u2026\u201d \u2014<\/i><b><i>LotRVI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 una enorme mole de ceniza y escoria y roca calcinada\u2026 un cono de flancos empinados que trepaba hasta las nubes.\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "J. Wallace Jones",
+        "name": {
+            "de": "Schicksalsberg",
+            "fi": "Tuomiovuori",
+            "ja": "滅びの山",
+            "en": "Mount Doom",
+            "it": "Monte Fato",
+            "fr": "Montagne du Destin",
+            "es": "Monte del Destino",
+            "nl": "Mount Doom"
+        },
+        "attributes": {
+            "special": "Any company moving to Mount Doom has its hazard limit modified by +2 and hazard creatures may always be played keyed to the site regardless of any other cards played.",
+            "sitePath": "{w}{b}{f}{w}{s}{d}",
+            "haven": "Lórien",
+            "drawOpponent": "6",
+            "unique": true,
+            "draw": "3",
+            "region": "Gorgoroth",
+            "siteType": "{S}"
+        },
+        "id": "TW-414",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Special:<\/i><\/b> Any company moving to this site has its hazard limit increased by 2 <b>and<\/b> hazard creatures may <i>always<\/i> be played keyed to the site regardless of any other cards played.<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Especial:<\/i><\/b> El límite de adversidades de cualquier compañía que se mueva hasta este lugar aumenta en 2 <b>y<\/b> las adversidades-criatura <i>siempre<\/i> pueden ser jugadas en este lugar, no importa las cartas que se hayan jugado anteriormente.<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "MinasMorgul.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 its cavernous gate, shaped like an open mouth with gleaming teeth\u2026\u201d \u2014<\/i><b><i>LotRIV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 la puerta cavernosa, como una boca flanqueada de dientes relucientes\u2026\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Minas Morgul",
+            "fi": "Minas Morgul",
+            "ja": "ミナス・モルグル",
+            "en": "Minas Morgul",
+            "it": "Minas Morgul",
+            "fr": "Minas Morgul",
+            "es": "Minas Morgul",
+            "nl": "Minas Morgul"
+        },
+        "attributes": {
+            "special": "Each character wounded must make a corruption check.",
+            "sitePath": "{w}{b}{f}{w}{s}",
+            "haven": "Lórien",
+            "drawOpponent": "4",
+            "unique": true,
+            "draw": "3",
+            "region": "Imlad Morgul",
+            "autoAttack": "Undead - 3 strikes with 8 prowess",
+            "siteType": "{D}",
+            "playable": "Items (minor, major, greater)"
+        },
+        "id": "TW-411",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, greater)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Undead \u2014 3 strikes with 8 prowess; <br>each character wounded must make a <br>corruption check<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, grandes)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Muertos Vivientes \u2014 3 golpes de poder 8; <br>cada personaje herido debe hacer un chequeo de corrupción<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "MinasTirith.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 the Guarded City, with its seven walls of stone so strong and old that it seemed to have been not builded but carven by giants out of the stones of the earth.\u201d \u2014<\/i><b><i>LotRV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 la Ciudadela, rodeada por siete muros de piedra, tan antiguos y poderosos que más que obra de hombres parecían tallados por gigantes en la osamenta misma de la montaña.\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "Eric David Anderson",
+        "name": {
+            "de": "Minas Tirith",
+            "fi": "Minas Tirith",
+            "ja": "ミナス・ティリス",
+            "en": "Minas Tirith",
+            "it": "Minas Tirith",
+            "fr": "Minas Tirith",
+            "es": "Minas Tirith",
+            "nl": "Minas Tirith"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{f}",
+            "haven": "Lórien",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Anórien",
+            "siteType": "{F}"
+        },
+        "id": "TW-412",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F2"
+    },
+    {
+        "image": "LossadanCamp.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThe Lossoth\u2026 live mostly, inaccessible to their enemies, on the great Cape of Forochel that shuts off to the north-west the immense bay of that name; but they often camp on the south shores of the bay\u2026\u201d \u2014<\/i><b><i>LotR<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cHabitan sobre todo, inaccesibles a sus enemigos, en el gran Cabo de Forochel, que cierra hacia el noroeste la inmensa bahía de ese nombre; pero a menudo acampan en las costas australes de la bahía\u2026\u201d \u2014<\/i><b><i>SdlA Apéndices<\/i><\/b><\/p>"
+        },
+        "artist": "Lori Deitrick",
+        "name": {
+            "de": "Lager der Lossadan",
+            "fi": "Lossadanin Leiri",
+            "ja": "ロスソス族の野営地",
+            "en": "Lossadan Camp",
+            "it": "Accampamento Lossoth",
+            "fr": "Camp lossadan",
+            "es": "Campamento Lossadan",
+            "nl": "Lossadan Camp"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}{w}",
+            "haven": "Rivendell",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Forochel",
+            "siteType": "{B}"
+        },
+        "id": "TW-410",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "WosePassagehold.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018\u2026 Wild Men have long ears and eyes; know all paths. Wild Men live here before Stone-houses; before Tall Men come up out of Water.\u2019\u201d \u2014<\/i><b><i>LotRIII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018\u2026 Hombres Salvajes tienen orejas y ojos alargados; conocen todas las sendas. Hombres Salvajes viven aquí antes que casas de piedra; antes que el Hombre Alto salga del Agua.\u2019\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "J. Wallace Jones",
+        "name": {
+            "de": "Wegfeste der Wasa",
+            "fi": "Metsäläisten luolasto",
+            "ja": "ウォーゼの丘砦",
+            "en": "Wose Passage-hold",
+            "it": "Passo dei Wose",
+            "fr": "Tumulus wose",
+            "es": "Fuerte de Paso de los Woses",
+            "nl": "Wose Passage-hold"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}{w}",
+            "haven": "Edhellond",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Old Pûkel-land",
+            "siteType": "{B}"
+        },
+        "id": "TW-439",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Edhellond<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Edhellond<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "TheWhiteTowers.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThree Elf-towers of immemorial age were still to be seen beyond the western marches. They shone far off in the moonlight. The tallest was furthest away, standing alone upon a green hill.\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cTres Torres de los Elfos, de edad inmemorial, podían verse aún más allá de las fronteras occidentales. Brillaban en la lejanía a la luz de la Luna. La más alta era la que se encontraba más alejada, elevándose en solitario sobre una colina verde.\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Audrey Corman",
+        "name": {
+            "de": "Die Weißen Türme",
+            "fi": "Valkeat Tornit",
+            "ja": "白の塔",
+            "en": "The White Towers",
+            "it": "Le Bianche Torri",
+            "fr": "Les Tours Blanches",
+            "es": "Las Torres Blancas",
+            "nl": "The White Towers"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}",
+            "haven": "Rivendell",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Arthedain",
+            "autoAttack": "Wolves - 2 strikes with 6 prowess",
+            "siteType": "{R}"
+        },
+        "id": "TW-430",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Wolves \u2014 2 strikes with 6 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Lobos \u2014 2 golpes de poder 6<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "Wellinghall.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 the trees in the court had also begun to glow, faintly at first, but steadily quickening, until every leaf was edged with light: some green, some gold, some red as copper; while the tree-trunks looked like pillars moulded out of luminous stone.\u201d \u2014<\/i><b><i>LotRIII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 los árboles del patio brillaban también ahora, débilmente al principio, pero luego más y más, hasta que en todas las hojas aparecieron nimbos de luz; algunos verdes, otros dorados, otros rojos como cobre; y los troncos de los arboles parecían pilares de piedra luminosa.\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Quellhall",
+            "fi": "Lähteensali",
+            "ja": "水湧き出ずる広間",
+            "en": "Wellinghall",
+            "it": "Salimpozzo",
+            "fr": "Salle du Jaillissement",
+            "es": "Sala del Manantial",
+            "nl": "Wellinghall"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}",
+            "haven": "Lórien",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Fangorn",
+            "siteType": "{F}"
+        },
+        "id": "TW-437",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F1"
+    },
+    {
+        "image": "Woodmentown.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 all the wide forest between was given to the Beornings and the Woodmen.\u201d \u2014<\/i><b><i>LotR<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 todo el amplio Bosque fue entregado a los Beórnidas y a los Hombres del Bosque.\u201d \u2014<\/i><b><i>SdlA Apéndices<\/i><\/b><\/p>"
+        },
+        "artist": "J. Wallace Jones",
+        "name": {
+            "de": "Stadt der Waldmenschen",
+            "fi": "Metsänihmisten Kylä",
+            "ja": "森の人開拓地",
+            "en": "Woodmen-town",
+            "it": "Città degli Uomini dei Boschi",
+            "fr": "Forestville",
+            "es": "Ciudad de los Hombres del Bosque",
+            "nl": "Woodmen-town"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{w}",
+            "haven": "Lórien",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Western Mirkwood",
+            "siteType": "{B}"
+        },
+        "id": "TW-438",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "CB"
+    },
+    {
+        "image": "VariagCamp.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 and the dark sons of Ûvatha\u2019s people drew their rugged ponies in rings, arrayed their camp in the shape of a spoked wheel, and began plotting the month\u2019s pastures and marketplaces.\u201d \u2014<\/i><b><i>Kuduk Lore<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 y los oscuros hijos del pueblo de Ûvatha se llevaron a sus toscos potros formando en círculos, disponiendo sus campamentos con la forma de una rueda dentada, y comenzaron a preparar los pastos del mes y los lugares en los que celebrarían el mercado.\u201d \u2014<\/i><b><i>Sabiduría Kuduk<\/i><\/b><\/p>"
+        },
+        "artist": "Storn Cook",
+        "name": {
+            "de": "Lager der Variags",
+            "fi": "Varjaagileiri",
+            "ja": "ヴァリアグの野営地",
+            "en": "Variag Camp",
+            "it": "Accampamento Variag",
+            "fr": "Camp variag",
+            "es": "Campamento Variag",
+            "nl": "Variag Camp"
+        },
+        "attributes": {
+            "sitePath": "{w}{f}{c}{w}{s}",
+            "haven": "Edhellond",
+            "drawOpponent": "4",
+            "unique": true,
+            "draw": "3",
+            "region": "Khand",
+            "siteType": "{B}"
+        },
+        "id": "TW-435",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Edhellond<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Edhellond<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "Weathertop.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cOn the top they found\u2026 a wide ring of ancient stone-work, now crumbling or covered with age-long grass. But in the centre a cairn of broken stones had been piled.\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cEncontraron arriba\u2026 un amplio círculo de piedras trabajadas, desmoronadas ahora o cubiertas por un pasto secular. Pero en el centro había una pila de piedras rotas, ennegrecidas como por el fuego.\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Tom Dow",
+        "name": {
+            "de": "Wetterspitze",
+            "fi": "Viimapää",
+            "ja": "風見が丘",
+            "en": "Weathertop",
+            "it": "Colle Vento",
+            "fr": "Mont Venteux",
+            "es": "Cima de los Vientos",
+            "nl": "Weathertop"
+        },
+        "attributes": {
+            "sitePath": "{w}{w}",
+            "haven": "Rivendell",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Arthedain",
+            "autoAttack": "Wolves - 2 strikes with 6 prowess",
+            "siteType": "{R}",
+            "playable": "Information"
+        },
+        "id": "TW-436",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Rivendell<\/p><p><b><i>Playable:<\/i><\/b> Information<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Wolves \u2014 2 strikes with 6 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Rivendel<\/p><p><b><i>Jugable:<\/i><\/b> Información<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Lobos \u2014 2 golpes de poder 6<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F4"
+    },
+    {
+        "image": "Tolfalas.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cTolfalas, the great Coastal Island, \u2026 guards the heartland of Gondor\u2026\u201d \u2014<\/i><b><i>Kuduk Lore<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cTolfalas, la gran Isla Costera, \u2026 custodia el corazón de Gondor\u2026\u201d \u2014<\/i><b><i>Sabiduría Kuduk<\/i><\/b><\/p>"
+        },
+        "artist": "Douglass Chaffee",
+        "name": {
+            "de": "Tolfalas",
+            "fi": "Tolfalas",
+            "ja": "トルファラス",
+            "en": "Tolfalas",
+            "it": "Tolfalas",
+            "fr": "Tolfalas",
+            "es": "Tolfalas",
+            "nl": "Tolfalas"
+        },
+        "attributes": {
+            "special": "Each character wounded must make a corruption check.",
+            "sitePath": "{w}{f}{c}",
+            "haven": "Edhellond",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Mouths of the Anduin",
+            "autoAttack": "Undead - 3 strikes with 7 prowess",
+            "siteType": "{R}",
+            "playable": "Items (minor, major, greater*) *-Scroll of Isildur only"
+        },
+        "id": "TW-433",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Edhellond<\/p><p><b><i>Playable:<\/i><\/b> Items (minor, major, greater*) *\u2014<i>Scroll of Isildur<\/i> only.<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Undead \u2014 3 strikes with 7 prowess; <br>each character wounded must make a <br>corruption check<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Edhellond<\/p><p><b><i>Jugable:<\/i><\/b> Objetos (menores, mayores, grandes*) *\u2014solo el <i>Pergamino de Isildur<\/i><\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Muertos Vivientes \u2014 3 golpes de poder 7; <br>cada personaje herido debe hacer un chequeo de corrupción<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "ValeofErech.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 made a great bay that beat up against the sheer southern faces of the mountains. Its steep slopes were grass-grown\u2026 The vale was rich and many folk dwelt there.\u201d \u2014<\/i><b><i>LotRV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 era como una bahía amplia recostada contra los escarpados riscos meridionales. Las barrancas empinadas estaban tapizadas de hierba\u2026 Era un valle rico y muy poblado.\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "J. Wallace Jones",
+        "name": {
+            "de": "Tal von Erech",
+            "fi": "Erechin Laakso",
+            "ja": "エレヒ谷",
+            "en": "Vale of Erech",
+            "it": "Valle di Erech",
+            "fr": "Val d'Erech",
+            "es": "Valle de Erech",
+            "nl": "Vale of Erech"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}",
+            "haven": "Edhellond",
+            "drawOpponent": "1",
+            "unique": true,
+            "draw": "1",
+            "region": "Lamedon",
+            "siteType": "{B}"
+        },
+        "id": "TW-434",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Edhellond<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Edhellond<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "TheWindThrone.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 wind in the cracks and gullies of the rocky wall, but the sounds were those of shrill cries, and wild howls of laughter.\u201d \u2014<\/i><b><i>LotRII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 viento en las grietas y barrancos en el muro de roca, pero los sonidos eran unos escalofriantes chillidos y unos salvajes aullidos o carcajadas.\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Pat Morrissey",
+        "name": {
+            "de": "Thron der Winde",
+            "fi": "Tuulen Valtaistuin",
+            "ja": "風の玉座",
+            "en": "The Wind Throne",
+            "it": "Il Trono del Vento",
+            "fr": "Le Trône Venteux",
+            "es": "El Trono del Viento",
+            "nl": "The Wind Throne"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{s}",
+            "haven": "Lórien",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Grey Mountain Narrows",
+            "autoAttack": "Orcs - 3 strikes with 7 prowess",
+            "siteType": "{R}",
+            "playable": "Information, Items (minor, major)"
+        },
+        "id": "TW-431",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p><p><b><i>Playable:<\/i><\/b> Information, Items (minor, major)<\/p><p><b><i>Automatic-attacks: <\/i><\/b><br>Orcs \u2014 3 strikes with 7 prowess<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p><p><b><i>Jugable:<\/i><\/b> Información, Objetos (menores, mayores)<\/p><p><b><i>Ataques Automáticos: <\/i><\/b><br>Orcos \u2014 3 golpes de poder 7<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F5"
+    },
+    {
+        "image": "ThranduilsHalls.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThis was the bridge that led across the river to the king\u2019s doors. The water flowed dark and swift and strong beneath; and at the far end were gates before the mouth of a huge cave that ran into the side of a steep slope covered with trees.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cEste era el puente que cruzaba el río y llevaba a las puertas del rey. El agua se precipitaba oscura y violenta por debajo; y en el otro extremo había portones que cerraban una enorme caverna en la ladera de una pendiente abrupta cubierta de árboles.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Mark Forrer",
+        "name": {
+            "de": "Thranduils Hallen",
+            "fi": "Thranduilin Salit",
+            "ja": "スランドゥイルの館",
+            "en": "Thranduil\u2019s Halls",
+            "it": "Sale di Thranduil",
+            "fr": "Palais de Thranduil",
+            "es": "Estancias de Thranduil",
+            "nl": "Thranduil's Halls"
+        },
+        "attributes": {
+            "sitePath": "{w}{b}{b}",
+            "haven": "Lórien",
+            "drawOpponent": "2",
+            "unique": true,
+            "draw": "2",
+            "region": "Woodland Realm",
+            "siteType": "{F}"
+        },
+        "id": "TW-432",
+        "text": {
+            "en": "<p><b><i>Nearest Haven: <\/i><\/b>Lórien<\/p>",
+            "es": "<p><b><i>Refugio más cercano: <\/i><\/b>Lórien<\/p>"
+        },
+        "type": "Site",
+        "alignment": "Hero",
+        "rarity": "F1"
+    }
+]
