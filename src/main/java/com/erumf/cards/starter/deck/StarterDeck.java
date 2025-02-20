@@ -1,13 +1,97 @@
 package com.erumf.cards.starter.deck;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
+import com.erumf.Basic;
 import com.erumf.Player;
 import com.erumf.cards.locations.Locations;
 import com.erumf.elements.Character;
 import com.erumf.elements.Hazard;
+import com.erumf.elements.Item;
+import com.erumf.elements.Resource;
 
 public class StarterDeck {
+
+    public static List<Basic> defaultDeck1(Player player1) {
+        List<Basic> deck = new ArrayList<>();
+
+        // Adding characters
+        deck.add(new AragornII(player1)); // G01
+        deck.add(new BoromirII(player1)); // G02
+        deck.add(new ShieldOfIronBoundAsh(player1)); // G03
+        deck.add(new Kili(player1)); // G04
+        deck.add(new Merry(player1)); // G05
+        deck.add(new ElvenCloak(player1)); // G06
+        deck.add(new Dodge(player1)); // G07
+        deck.add(new LuckyStrike(player1)); // G09
+        deck.add(new TemperingFriendship(player1)); // G10
+        deck.add(new Concealment(player1)); // G11
+        deck.add(new BertBurat(player1)); // G12
+        deck.add(new OrcRaiders(player1)); // G13
+        deck.add(new OrcGuard(player1)); // G14
+        deck.add(new OrcWarriors(player1)); // G15
+        deck.add(new Beregond(player1)); // G17
+        deck.add(new HalflingStrength(player1)); // G20
+        deck.add(new ScrollOfIsildur(player1)); // G21
+        deck.add(new Faramir(player1)); // G22
+        deck.add(new Dodge(player1)); // G23
+        deck.add(new LuckyStrike(player1)); // G24
+        deck.add(new Eomer(player1)); // G25
+        deck.add(new Gandalf(player1)); // G26
+        deck.add(new GreatShieldOfRohan(player1)); // G27
+        deck.add(new Escape(player1)); // G29
+        deck.add(new OrcGuard(player1)); // G30
+        deck.add(new Concealment(player1)); // G33
+        deck.add(new OrcWarriors(player1)); // G34
+        deck.add(new Escape(player1)); // G35
+        deck.add(new Gandalf(player1)); // G38
+        deck.add(new Dodge(player1)); // G39
+        deck.add(new LuckyStrike(player1)); //G40
+        deck.add(new Glamdring(player1)); // G41
+        deck.add(new OrcRaiders(player1)); // G42
+        deck.add(new Erkenbrand(player1)); // G44
+        deck.add(new OrcGuard(player1)); // G45
+        deck.add(new Ford(player1)); // G50
+        deck.add(new HalflingStrength(player1)); // G51
+        deck.add(new OrcRaiders(player1)); // G52
+        deck.add(new Bridge(player1)); // G55
+        deck.add(new HalflingStealth(player1)); // G56
+        deck.add(new Muster(player1)); // G59
+
+        deck.add(new OrcWarriors(player1)); // G54
+        deck.add(new Brigands(player1)); // G18
+        deck.add(new Brigands(player1)); // G32
+        deck.add(new Brigands(player1)); // G49
+        deck.add(new WilliamWuluag(player1)); // G28
+        deck.add(new OrcWatch(player1)); // G47
+        deck.add(new OrcWatch(player1)); // G57
+        deck.add(new OrcWatch(player1)); // G60
+        deck.add(new ArouseMinions(player1)); // G16
+        deck.add(new ArouseMinions(player1)); // G37
+        deck.add(new ArouseMinions(player1)); // G58
+        deck.add(new River(player1)); // G19
+        deck.add(new River(player1)); // G48
+        deck.add(new MinionsStir(player1)); // G36
+        deck.add(new MinionsStir(player1)); // G46
+
+        return deck;
+    }
+
+    public static List<Basic> defaultDeck2(Player player2) {
+        List<Basic> deck = new ArrayList<>();
+        
+        // Adding characters
+
+        // Adding objects
+
+        // Adding resources
+
+        // Adding hazards
+
+        return deck;
+    }
 
     public StarterDeck() {
         // Constructor
@@ -19,7 +103,8 @@ public class StarterDeck {
      */
     public static class AragornII extends Character {
         public AragornII(Player player) {
-            super(player, Race.DUNEDAIN, Locations.Bree.class, 3, 9, Set.of(Skills.WARRIOR, Skills.SCOUT, Skills.RANGER), 0, 9, 6);
+            super(player, Race.DUNEDAIN, Locations.Bree.class, 3, 9,
+                    Set.of(Skills.WARRIOR, Skills.SCOUT, Skills.RANGER), 0, 9, 6);
         }
     }
 
@@ -37,7 +122,8 @@ public class StarterDeck {
      */
     public static class Kili extends Character {
         public Kili(Player player) {
-            super(player, Race.DWARF, Locations.BlueMountainDwarfHold.class, 0, 3, Set.of(Skills.WARRIOR, Skills.SCOUT), 1, 8, 3);
+            super(player, Race.DWARF, Locations.BlueMountainDwarfHold.class, 0, 3, Set.of(Skills.WARRIOR, Skills.SCOUT),
+                    1, 8, 3);
         }
     }
 
@@ -64,7 +150,8 @@ public class StarterDeck {
      */
     public static class Faramir extends Character {
         public Faramir(Player player) {
-            super(player, Race.DUNEDAIN, Locations.HennethAnnun.class, 1, 5, Set.of(Skills.WARRIOR, Skills.RANGER), 0, 8, 5);
+            super(player, Race.DUNEDAIN, Locations.HennethAnnun.class, 1, 5, Set.of(Skills.WARRIOR, Skills.RANGER), 0,
+                    8, 5);
         }
     }
 
@@ -83,7 +170,8 @@ public class StarterDeck {
      */
     public static class Gandalf extends Character {
         public Gandalf(Player player) {
-            super(player, Race.WIZARD, Locations.Rivendell.class, 10, 0, Set.of(Skills.WARRIOR, Skills.SCOUT, Skills.SAGE, Skills.DIPLOMAT), -1, 9, 6);
+            super(player, Race.WIZARD, Locations.Rivendell.class, 10, 0,
+                    Set.of(Skills.WARRIOR, Skills.SCOUT, Skills.SAGE, Skills.DIPLOMAT), -1, 9, 6);
         }
     }
 
@@ -96,13 +184,106 @@ public class StarterDeck {
         }
     }
 
+    // OBJETOS GANDALF
+    public static class ShieldOfIronBoundAsh extends Item {
+        public ShieldOfIronBoundAsh(Player player) {
+            super(player, 1, 0, 0, 1, 8, 0, ItemType.MINOR_ITEM);
+        }
+    }
+
+    public static class ElvenCloak extends Item {
+        public ElvenCloak(Player player) {
+            super(player, 1, 0, 0, 0, 0, 0, ItemType.MINOR_ITEM);
+        }
+    }
+
+    public static class ScrollOfIsildur extends Item {
+        public ScrollOfIsildur(Player player) {
+            super(player, 3, 4, 0, 0, 0, 0, ItemType.GREATER_ITEM);
+        }
+    }
+
+    public static class GreatShieldOfRohan extends Item {
+        public GreatShieldOfRohan(Player player) {
+            super(player, 2, 2, 0, 0, 2, 9, ItemType.MAJOR_ITEM);
+        }
+    }
+
+    public static class Glamdring extends Item {
+        public Glamdring(Player player) {
+            super(player, 1, 2, 0, 0, 0, 8, ItemType.MAJOR_ITEM);
+        }
+    }
+
+    // RECURSOS DE GANDALF
+    public static class Dodge extends Resource {
+        public Dodge(Player player) {
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+        }
+    }
+
+    public static class LuckyStrike extends Resource {
+        public LuckyStrike(Player player) {
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+        }
+    }
+
+    public static class TemperingFriendship extends Resource {
+        public TemperingFriendship(Player player) {
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+        }
+    }
+
+    public static class Concealment extends Resource {
+        public Concealment(Player player) {
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+        }
+    }
+
+    public static class HalflingStealth extends Resource {
+        public HalflingStealth(Player player) {
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+        }
+    }
+
+    public static class HalflingStrength extends Resource {
+        public HalflingStrength(Player player) {
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+        }
+    }
+
+    public static class Escape extends Resource {
+        public Escape(Player player) {
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+        }
+    }
+
+    public static class Ford extends Resource {
+        public Ford(Player player) {
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+        }
+    }
+
+    public static class Bridge extends Resource {
+        public Bridge(Player player) {
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+        }
+    }
+
+    public static class Muster extends Resource {
+        public Muster(Player player) {
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+        }
+    }
+
     // PERSONAJES SARUMAN
     /**
      * S01 TW046 Personaje Gimli
      */
     public static class Gimli extends Character {
         public Gimli(Player player) {
-            super(player, Race.DWARF, Locations.IronHillDwarfHold.class, 2, 6, Set.of(Skills.WARRIOR, Skills.DIPLOMAT), 0, 8, 5);
+            super(player, Race.DWARF, Locations.IronHillDwarfHold.class, 2, 6, Set.of(Skills.WARRIOR, Skills.DIPLOMAT),
+                    0, 8, 5);
         }
     }
 
@@ -111,7 +292,8 @@ public class StarterDeck {
      */
     public static class Legolas extends Character {
         public Legolas(Player player) {
-            super(player, Race.ELF, Locations.ThranduilsHalls.class, 2, 6, Set.of(Skills.WARRIOR, Skills.DIPLOMAT), 0, 8, 5);
+            super(player, Race.ELF, Locations.ThranduilsHalls.class, 2, 6, Set.of(Skills.WARRIOR, Skills.DIPLOMAT), 0,
+                    8, 5);
         }
     }
 
@@ -139,7 +321,8 @@ public class StarterDeck {
      */
     public static class Saruman extends Character {
         public Saruman(Player player) {
-            super(player, Race.WIZARD, Locations.Isengard.class, 10, 0, Set.of(Skills.SCOUT, Skills.RANGER, Skills.SAGE, Skills.DIPLOMAT), 0, 9, 6);
+            super(player, Race.WIZARD, Locations.Isengard.class, 10, 0,
+                    Set.of(Skills.SCOUT, Skills.RANGER, Skills.SAGE, Skills.DIPLOMAT), 0, 9, 6);
         }
     }
 
@@ -176,6 +359,50 @@ public class StarterDeck {
     public static class Elrohir extends Character {
         public Elrohir(Player player) {
             super(player, Race.ELF, Locations.Rivendell.class, 0, 4, Set.of(Skills.WARRIOR, Skills.RANGER), 0, 8, 5);
+        }
+    }
+
+    // OBJETOS SARUMAN
+    public static class DaggerOfWesternesse extends Item {
+        public DaggerOfWesternesse(Player player) {
+            super(player, 1, 0, 0, 0, 1, 8, ItemType.MINOR_ITEM);
+        }
+    }
+
+    public static class HauberkOfBrightMail extends Item {
+        public HauberkOfBrightMail(Player player) {
+            super(player, 1, 2, 0, 0, 0, 0, ItemType.MAJOR_ITEM);
+        }
+    }
+
+    public static class Orcrist extends Item {
+        public Orcrist(Player player) {
+            super(player, 2, 4, 0, 0, 3, 9, ItemType.GREATER_ITEM);
+        }
+    }
+
+    public static class SwordOfGondolin extends Item {
+        public SwordOfGondolin(Player player) {
+            super(player, 2, 4, 0, 0, 0, 0, ItemType.MAJOR_ITEM);
+        }
+    }
+
+    // RECURSOS DE SARUMAN
+    public static class Block extends Resource {
+        public Block(Player player) {
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+        }
+    }
+
+    public static class RiskyBlow extends Resource {
+        public RiskyBlow(Player player) {
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+        }
+    }
+
+    public static class DarkQuarrels extends Resource {
+        public DarkQuarrels(Player player) {
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
         }
     }
 

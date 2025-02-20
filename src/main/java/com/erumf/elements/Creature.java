@@ -5,14 +5,15 @@ import java.util.Set;
 
 import com.erumf.Player;
 import com.erumf.elements.Location.PlaceType;
+import com.erumf.utils.GameProperty;
 
 public abstract class Creature extends Hazard {
     private final Set<PlaceType> places;
     private final Map<RegionType, Integer> regions;
     private final Set<String> regionNames;
     private final Set<String> locationNames;
-    private int prowess;
-    private int body;
+    private final GameProperty<Integer> prowess;
+    private final GameProperty<Integer> body;
 
     private final Set<PlaceType> _places;
     private final Map<RegionType, Integer> _regions;
@@ -27,8 +28,8 @@ public abstract class Creature extends Hazard {
         this.regions = regions;
         this.regionNames = regionNames;
         this.locationNames = locationNames;
-        this.prowess = prowess;
-        this.body = body;
+        this.prowess = new GameProperty<>("prowess", prowess, this);
+        this.body = new GameProperty<>("body", body, this);
 
         this._places = places;
         this._regions = regions;
@@ -55,19 +56,19 @@ public abstract class Creature extends Hazard {
     }
 
     public int getProwess() {
-        return prowess < 0 ? 0 : prowess;
+        return prowess.getValue() < 0 ? 0 : prowess.getValue();
     }
 
     public int getBody() {
-        return body < 0 ? 0 : body;
+        return body.getValue() < 0 ? 0 : body.getValue();
     }
 
     public void setProwess(int prowess) {
-        this.prowess = prowess;
+        this.prowess.setValue(prowess);
     }
 
     public void setBody(int body) {
-        this.body = body;
+        this.body.setValue(body);
     }
 
     public void addPlace(PlaceType place) {

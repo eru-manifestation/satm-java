@@ -26,8 +26,8 @@ public abstract class Item extends Resource {
      * @param type        the type of the resource
      * @param itemType    the type of the item
      */
-    public Item(Player player, int mp, int corruption, int influence, int mind, int body, int prowess, Type type, ItemType itemType) {
-        super(player, mp, corruption, influence, mind, body, prowess, type);
+    public Item(Player player, int mp, int corruption, int influence, int mind, int body, int prowess, ItemType itemType) {
+        super(player, mp, corruption, influence, mind, body, prowess, Resource.Type.ITEM);
         this.itemType = itemType;
     }
 

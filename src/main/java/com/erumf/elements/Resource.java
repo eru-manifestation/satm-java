@@ -2,6 +2,7 @@ package com.erumf.elements;
 
 import com.erumf.Basic;
 import com.erumf.Player;
+import com.erumf.utils.GameProperty;
 
 /**
  * The Resource class represents a resource card in the game.
@@ -9,17 +10,17 @@ import com.erumf.Player;
  * such as mp, corruption, influence, mind, body, and prowess.
  */
 public abstract class Resource extends Basic {
-    private int mp;
+    private final GameProperty<Integer> mp;
     private final int _mp;
-    private int corruption;
+    private final GameProperty<Integer> corruption;
     private final int _corruption;
-    private int influence;
+    private final GameProperty<Integer> influence;
     private final int _influence;
-    private int mind;
+    private final GameProperty<Integer> mind;
     private final int _mind;
-    private int body;
+    private final GameProperty<Integer> body;
     private final int _body;
-    private int prowess;
+    private final GameProperty<Integer> prowess;
     private final int _prowess;
 
     public enum Type {
@@ -42,17 +43,17 @@ public abstract class Resource extends Basic {
      */
     public Resource(Player player, int mp, int corruption, int influence, int mind, int body, int prowess, Type type) {
         super(player);
-        this.mp = mp;
+        this.mp = new GameProperty<>("mp", mp, this);
         this._mp = mp;
-        this.corruption = corruption;
+        this.corruption = new GameProperty<>("corruption", corruption, this);
         this._corruption = corruption;
-        this.influence = influence;
+        this.influence = new GameProperty<>("influence", influence, this);
         this._influence = influence;
-        this.mind = mind;
+        this.mind = new GameProperty<>("mind", mind, this);
         this._mind = mind;
-        this.body = body;
+        this.body = new GameProperty<>("body", body, this);
         this._body = body;
-        this.prowess = prowess;
+        this.prowess = new GameProperty<>("prowess", prowess, this);
         this._prowess = prowess;
         this.type = type;
     }
@@ -64,11 +65,11 @@ public abstract class Resource extends Basic {
      * @return the mp value
      */
     public int getMp() {
-        return mp;
+        return mp.getValue();
     }
 
     public void setMp(int mp) {
-        this.mp = mp;
+        this.mp.setValue(mp);
     }
 
     /**
@@ -78,11 +79,11 @@ public abstract class Resource extends Basic {
      * @return the corruption value
      */
     public int getCorruption() {
-        return corruption;
+        return corruption.getValue();
     }
 
     public void setCorruption(int corruption) {
-        this.corruption = corruption;
+        this.corruption.setValue(corruption);
     }
 
     /**
@@ -92,11 +93,11 @@ public abstract class Resource extends Basic {
      * @return the influence value
      */
     public int getInfluence() {
-        return influence;
+        return influence.getValue();
     }
 
     public void setInfluence(int influence) {
-        this.influence = influence;
+        this.influence.setValue(influence);
     }
 
     /**
@@ -106,11 +107,11 @@ public abstract class Resource extends Basic {
      * @return the mind value
      */
     public int getMind() {
-        return mind;
+        return mind.getValue();
     }
 
     public void setMind(int mind) {
-        this.mind = mind;
+        this.mind.setValue(mind);
     }
 
     /**
@@ -120,11 +121,11 @@ public abstract class Resource extends Basic {
      * @return the body value
      */
     public int getBody() {
-        return body;
+        return body.getValue();
     }
 
     public void setBody(int body) {
-        this.body = body;
+        this.body.setValue(body);
     }
 
     /**
@@ -134,11 +135,11 @@ public abstract class Resource extends Basic {
      * @return the prowess value
      */
     public int getProwess() {
-        return prowess;
+        return prowess.getValue();
     }
 
     public void setProwess(int prowess) {
-        this.prowess = prowess;
+        this.prowess.setValue(prowess);
     }
 
     public Type getType() {
