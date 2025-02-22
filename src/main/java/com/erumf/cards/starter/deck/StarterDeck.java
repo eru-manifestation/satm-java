@@ -166,7 +166,6 @@ public class StarterDeck {
         deck.add(new DarkQuarrels(player2)); // S18
         deck.add(new Saruman(player2)); // S19
         deck.add(new LesserSpiders(player2)); // S20
-        deck.add(new Orcrist(player2)); // S20 TODO: THE WEB HAS A MISTAKE, ONE OF THIS IS NOT CORRECT
         deck.add(new Ghouls(player2)); // S21
         deck.add(new HalflingStealth(player2)); // S22
         deck.add(new Annalena(player2)); // S23
@@ -186,7 +185,7 @@ public class StarterDeck {
         deck.add(new ArouseMinions(player2)); // S37
         deck.add(new Huorn(player2)); // S38
         deck.add(new RiskyBlow(player2)); // S39
-        deck.add(new Wolves(player2)); // S40 TODO: This is NOT the real S40 card, no information on the web
+        deck.add(new Orcrist(player2)); // S40
         deck.add(new River(player2)); // S41
         deck.add(new Celeborn(player2)); // S42
         deck.add(new Block(player2)); // S43
