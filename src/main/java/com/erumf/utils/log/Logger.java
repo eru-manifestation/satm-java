@@ -7,7 +7,7 @@ public class Logger {
         printWithTag("[INFO]", message);
     }
 
-    public static void warning(String message) {
+    public static void warn(String message) {
         System.out.println();
         printWithTag("[WARNING]", message);
     }
