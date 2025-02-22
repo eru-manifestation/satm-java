@@ -1,4 +1,4 @@
-package com.erumf.log;
+package com.erumf.utils.log;
 
 public class Logger {
 
