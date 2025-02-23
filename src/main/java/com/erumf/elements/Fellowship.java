@@ -8,6 +8,7 @@ import com.erumf.Player;
  * The fellowship moves and faces threats together.
  */
 public class Fellowship extends Basic {
+    public static final float MAX_COMPANIONS = 7f;
     private boolean empty = true;
     private float companions = 0.0f;
 

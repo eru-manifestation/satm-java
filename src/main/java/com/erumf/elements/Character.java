@@ -3,13 +3,14 @@ package com.erumf.elements;
 import java.util.Set;
 
 import com.erumf.Basic;
+import com.erumf.Main;
 import com.erumf.Player;
 import com.erumf.utils.GameProperty;
 
 /**
  * The Character class represents a character card in the game.
  * It extends the Basic class and includes various properties
- * such as influence, mind, skills, race, corruption, body, and prowess.
+ * such as influence, mind, skills, race, corruption, body, prowess, and mp.
  */
 public abstract class Character extends Basic {
     private final boolean unique;
@@ -27,6 +28,8 @@ public abstract class Character extends Basic {
     private final int _body;
     private final GameProperty<Integer> prowess;
     private final int _prowess;
+    private final GameProperty<Integer> mp;
+    private final int _mp;
 
     /**
      * Constructs a new Character with the specified properties.
@@ -41,8 +44,9 @@ public abstract class Character extends Basic {
      * @param corruption  the corruption of the character
      * @param body        the body of the character
      * @param prowess     the prowess of the character
+     * @param mp          the mp of the character
      */
-    public Character(Player player, Race race, Class<? extends Location> birthplace, int influence, int mind, Set<Skills> skills, int corruption, int body, int prowess) {
+    public Character(Player player, Race race, Class<? extends Location> birthplace, int influence, int mind, Set<Skills> skills, int corruption, int body, int prowess, int mp) {
         super(player);
         this.unique = true;
         this.race = race;
@@ -59,6 +63,8 @@ public abstract class Character extends Basic {
         this._body = body;
         this.prowess = new GameProperty<>("prowess", prowess, this);
         this._prowess = prowess;
+        this.mp = new GameProperty<>("mp", mp, this);
+        this._mp = mp;
     }
 
     public boolean isUnique() {
@@ -158,6 +164,20 @@ public abstract class Character extends Basic {
     }
 
     /**
+     * Gets the mp value.
+     * This value is subject to changes by game rules.
+     *
+     * @return the mp value
+     */
+    public int getMp() {
+        return Math.max(mp.getValue(), 0);
+    }
+
+    public void setMp(int mp) {
+        this.mp.setValue(mp);
+    }
+
+    /**
      * Gets the initial influence value.
      *
      * @return the initial influence value
@@ -212,6 +232,15 @@ public abstract class Character extends Basic {
     }
 
     /**
+     * Gets the initial mp value.
+     *
+     * @return the initial mp value
+     */
+    public int getInitialMp() {
+        return _mp;
+    }
+
+    /**
      * The possible races of a character.
      */
     public enum Race {
@@ -220,5 +249,45 @@ public abstract class Character extends Basic {
 
     public enum Skills {
         WARRIOR, SCOUT, RANGER, SAGE, DIPLOMAT
+    }
+
+    /**
+     * Gets the companion size of the character.
+     * Returns 0.5f if the race is HOBBIT, 1 otherwise.
+     *
+     * @return the companion size
+     */
+    public float companionSize() {
+        return race == Race.HOBBIT ? 0.5f : 1.0f;
+    }
+
+    //TODO: doc
+    public void addCharacterToLocation(Class<? extends Location> locationClass) {
+        Player player = this.getPlayer();
+        Location location = Main.positionGraph.findLocation(locationClass);
+        if (location == null) {
+            throw new IllegalArgumentException("Location not found in the graph");
+        }
+
+        Fellowship fellowship = Main.positionGraph.edgesOf(location).stream()
+                .map(Main.positionGraph::getEdgeTarget)
+                .filter(Fellowship.class::isInstance)
+                .map(Fellowship.class::cast)
+                .filter(f -> f.getPlayer().equals(player))
+                .findFirst()
+                .orElse(null);
+
+        if (fellowship == null) {
+            fellowship = new Fellowship(player);
+            Main.positionGraph.addVertex(fellowship);
+            Main.positionGraph.addEdge(location, fellowship);
+            Main.positionGraph.addEdge(fellowship, this);
+        } else {
+            if (fellowship.getCompanions() + this.companionSize() <= Fellowship.MAX_COMPANIONS) {
+                Main.positionGraph.addEdge(fellowship, this);
+            } else {
+                throw new IllegalStateException("Fellowship would surpass the maximum number of companions");
+            }
+        }
     }
 }

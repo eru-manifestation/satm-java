@@ -1,9 +1,5 @@
 package com.erumf.cards.starter.deck;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import com.erumf.Basic;
 import com.erumf.Player;
 import com.erumf.cards.starter.deck.StarterAllies.Gollum;
 import com.erumf.cards.starter.deck.StarterAllies.Quickbeam;
@@ -71,11 +67,12 @@ import com.erumf.cards.starter.deck.StarterItems.Orcrist;
 import com.erumf.cards.starter.deck.StarterItems.ScrollOfIsildur;
 import com.erumf.cards.starter.deck.StarterItems.ShieldOfIronBoundAsh;
 import com.erumf.cards.starter.deck.StarterItems.SwordOfGondolin;
+import com.erumf.utils.Deck;
 
 public class StarterDeck {
 
-    public static List<Basic> defaultDeck1(Player player1) {
-        List<Basic> deck = new ArrayList<>();
+    public static Deck defaultDeckGandalf(Player player1) {
+        Deck deck = new Deck();
 
         // Adding characters
         deck.add(new AragornII(player1)); // G01
@@ -142,8 +139,8 @@ public class StarterDeck {
         return deck;
     }
 
-    public static List<Basic> defaultDeck2(Player player2) {
-        List<Basic> deck = new ArrayList<>();
+    public static Deck defaultDeckSaruman(Player player2) {
+        Deck deck = new Deck();
         
         // Adding characters
         deck.add(new Gimli(player2)); // S01

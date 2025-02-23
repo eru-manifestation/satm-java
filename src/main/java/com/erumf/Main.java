@@ -4,40 +4,75 @@ import java.util.List;
 
 import org.jgrapht.Graph;
 
+import com.erumf.cards.locations.Locations;
 import com.erumf.cards.locations.Locations2;
+import com.erumf.cards.starter.deck.StarterCharacters;
 import com.erumf.cards.starter.deck.StarterDeck;
+import com.erumf.cards.starter.deck.StarterItems;
+import com.erumf.cards.starter.deck.StarterItems.ElvenCloak;
+import com.erumf.cards.starter.deck.StarterItems.ShieldOfIronBoundAsh;
+import com.erumf.elements.Character;
 import com.erumf.elements.Location;
-import com.erumf.log.Logger;
 import com.erumf.utils.graph.DefaultPathEdge;
+import com.erumf.utils.graph.PositionGraph;
+import com.erumf.utils.log.Logger;
 
 public class Main {
-    static Graph<Location, DefaultPathEdge> pathsGraph = Locations2.generateDefaultLocations();
-    public static Player player1 = new Player();
-    public static Player player2 = new Player();
+    public static final Graph<Location, DefaultPathEdge> pathsGraph = Locations2.generateDefaultLocations();
+    public static final PositionGraph positionGraph = PositionGraph.generatePositionGraph(pathsGraph);
+    public static final Player player1 = new Player("Player 1");
+    public static final Player player2 = new Player("Player 2");
 
     public static void main(String[] args) {
 
         Logger.info("Starting game...");
-        List<Basic> deck1 = StarterDeck.defaultDeck1(player1);
-        List<Basic> deck2 = StarterDeck.defaultDeck2(player2);
+        defaultGameSetup();
 
-        Logger.info("Deck 1: " + deck1.size());
-        Logger.info("Deck 2: " + deck2.size());
-
-        // GameProperty<String> property = new GameProperty<>("hello", "world", null);
-        // GameProperty<String> property2 = new GameProperty<>("goodbye", "world", null);
-        // GameListener.create(EventType.IN,
-        //     (p, v) -> p.getName().equals("hello"), 
-        //     (p, v) -> {
-        //         System.out.println("Hello " + v + "!");
-        //         return true;
-        //     }
-        // );
-        // System.out.println(property.getValue());
-
-        // property.setValue("WORLD");
-        // System.out.println(property.getValue());
-        
     }
 
+    public static void instantiateCardInRivendell(Character card) {
+        String playerName = card.getPlayer().getName();
+        List<Basic> drawDeck = card.getPlayer().getDrawDeck();
+        if (!drawDeck.isEmpty()) {
+            drawDeck.remove(drawDeck.indexOf(card));
+            card.addCharacterToLocation(Locations.Rivendell.class);
+            Logger.info("Card " + card.getClass().getSimpleName()
+                    + " instantiated in Rivendell for player " + playerName);
+        } else {
+            Logger.warn("Draw deck is empty for player " + playerName);
+        }
+    }
+
+    public static void defaultGameSetup() {
+        // Set up the players' draw decks
+        player1.setDrawDeck(StarterDeck.defaultDeckGandalf(player1));
+        player2.setDrawDeck(StarterDeck.defaultDeckSaruman(player2));
+
+        Character merry = player1.getDrawDeck().findFirstOf(StarterCharacters.Merry.class);
+        Character boromirii = player1.getDrawDeck().findFirstOf(StarterCharacters.BoromirII.class);
+        Character pippin = player2.getDrawDeck().findFirstOf(StarterCharacters.Pippin.class);
+        Character legolas = player2.getDrawDeck().findFirstOf(StarterCharacters.Legolas.class);
+
+        // Instantiate the initial character cards in Rivendell
+        player1.getDrawDeck().stream()
+                .filter(Character.class::isInstance)
+                .map(Character.class::cast)
+                .limit(4)
+                .forEach(Main::instantiateCardInRivendell);
+        player2.getDrawDeck().stream()
+                .filter(Character.class::isInstance)
+                .map(Character.class::cast)
+                .limit(4)
+                .forEach(Main::instantiateCardInRivendell);
+        
+        // Set up inital items
+        player1.getDrawDeck().findFirstOf(ElvenCloak.class).playAsInitialItem(merry);
+        player1.getDrawDeck().findFirstOf(ShieldOfIronBoundAsh.class).playAsInitialItem(boromirii);
+        player2.getDrawDeck().findFirstOf(ElvenCloak.class).playAsInitialItem(pippin);
+        player2.getDrawDeck().findFirstOf(StarterItems.DaggerOfWesternesse.class).playAsInitialItem(legolas);
+
+        // Both players draw
+        player1.standardizeHand();
+        player2.standardizeHand();
+    }
 }

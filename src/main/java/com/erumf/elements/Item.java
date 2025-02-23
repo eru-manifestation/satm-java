@@ -1,5 +1,6 @@
 package com.erumf.elements;
 
+import com.erumf.Main;
 import com.erumf.Player;
 
 /**
@@ -23,7 +24,6 @@ public abstract class Item extends Resource {
      * @param mind        the mind of the item (for allies)
      * @param body        the body modifier of the item
      * @param prowess     the prowess of the item
-     * @param type        the type of the resource
      * @param itemType    the type of the item
      */
     public Item(Player player, int mp, int corruption, int influence, int mind, int body, int prowess, ItemType itemType) {
@@ -33,5 +33,25 @@ public abstract class Item extends Resource {
 
     public ItemType getItemType() {
         return itemType;
+    }
+
+    private void applyEffects(Character character) {
+        this.getPlayer().setMp(this.getPlayer().getMp() + getMp());
+        character.setCorruption(character.getCorruption() + getCorruption());
+        character.setInfluence(character.getInfluence() + getInfluence());
+        character.setMind(character.getMind() + getMind());
+        character.setBody(character.getBody() + getBody());
+        character.setProwess(character.getProwess() + getProwess());
+    }
+
+    /**
+     * Plays the item as an initial item and puts it under the specified character.
+     *
+     * @param character the character to put the item under
+     */
+    public void playAsInitialItem(Character character) {        
+        getPlayer().getDrawDeck().remove(this);
+        Main.positionGraph.addEdge(character, this);//TODO: this should be prepared if it is not permitted, to go back
+        applyEffects(character);
     }
 }

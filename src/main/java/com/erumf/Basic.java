@@ -1,19 +1,10 @@
 package com.erumf;
 
 public abstract class Basic {
-    private Basic position;
     private final Player player;
 
     public Basic(Player player) {
         this.player = player;
-    }
-
-    public Basic getPosition() {
-        return position;
-    }
-
-    public void setPosition(Basic position) {
-        this.position = position;
     }
 
     public Player getPlayer() {
