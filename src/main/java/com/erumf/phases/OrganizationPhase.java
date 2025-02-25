@@ -15,15 +15,37 @@ import com.erumf.elements.Location;
 import com.erumf.utils.cli.ConsoleUtils;
 import com.erumf.utils.position.Card;
 
+/**
+ * Organization Phase
+ * <p>
+ * The following actions may be taken in any order:
+ * - Play a {@link Character} card or a {@link Character.Race#WIZARD} card (if
+ * allowed).
+ * - Reorganize your characters at the same Haven into any number of companies.
+ * - Shift your characters between being controlled by general influence and
+ * being controlled by direct influence.
+ * - Transfer items between your characters at the same site. A corruption check
+ * is required for the character giving up an item.
+ * - Store items or other designated resources from your companies at a Haven
+ * site or at sites specified on the item cards. A corruption check is required
+ * for the character giving up an item.
+ */
 public class OrganizationPhase {
     public static void organizationPhase(Player player1) {
+        // TODO: Make it so that each action could be taken in any order
         playCharacter(player1);
+        boolean done;
+        do {
+            done = organizeCompanies(player1);
+        } while (done);
     }
 
     /**
      * Plays a character from the player's hand.
-     * The method first finds all the characters in the player's hand that can be played.
-     * It then prompts the user to choose a character to play and the position where it can be played.
+     * The method first finds all the characters in the player's hand that can be
+     * played.
+     * It then prompts the user to choose a character to play and the position where
+     * it can be played.
      * If a valid choice is made, the character is added to the chosen position.
      *
      * @param player the player who is playing the character
@@ -55,8 +77,9 @@ public class OrganizationPhase {
                         .filter(mapCharacter -> handCharacter.getMind() <= mapCharacter.getInfluence())
                         .map(mapCharacter -> new Pair<Character, Card>(handCharacter, mapCharacter)))
                 .toList());
-        
-        Pair<Character, Card> choice = ConsoleUtils.chooseActionNoForced("Choose a character to play", playableCharacters);
+
+        Pair<Character, Card> choice = ConsoleUtils.chooseActionNoForced("Choose a character to play",
+                playableCharacters);
         if (choice != null) {
             switch (choice.getSecond()) {
                 case Location location -> {
@@ -81,7 +104,8 @@ public class OrganizationPhase {
     }
 
     /**
-     * Returns the existing fellowships in which a character could be played inside a location.
+     * Returns the existing fellowships in which a character could be played inside
+     * a location.
      *
      * @param character the character to be played
      * @param location  the location where the character could be played
@@ -106,7 +130,8 @@ public class OrganizationPhase {
      *
      * @param character the character to be played
      * @param player    the player who owns the character
-     * @return a stream of pairs representing the character and the positions where it can be played
+     * @return a stream of pairs representing the character and the positions where
+     *         it can be played
      */
     private static Stream<Pair<Character, Card>> playablePositions(Character character, Player player) {
         Set<Card> playablePosition = new HashSet<>();
@@ -121,5 +146,35 @@ public class OrganizationPhase {
                 .toList());
         return playablePosition.stream()
                 .map(position -> new Pair<>(character, position));
+    }
+
+    // WORK IN PROGRESS
+    private static boolean organizeCompanies(Player player) {
+        // * - Reorganize your characters at the same Haven into any number of
+        // companies. (select many at a time and choose a company to move them to
+        // or create)
+
+        // player.getCardsInPlay().stream()
+        //         .filter(Character.class::isInstance)
+        //         .map(Character.class::cast)
+        //         .filter(Character::isInHaven)//NO
+        //         ;
+        Main.positionGraph.havens.stream()
+                .flatMap(haven -> haven.getChildren().stream())
+                .filter(Fellowship.class::isInstance)
+                .filter(fell -> fell.getPlayer().equals(player))
+                // Fellowships from this player in havens
+                .flatMap(fell -> {
+                    // Any combination of characters in this fellowship
+                    return null;
+                })
+                // Transform it into a Pair<List<Character>>, Card> 
+                // where card can be an existing fellowship or a Location,
+                // meaning to create a new fellowship
+                ;
+        
+        // * - Shift your characters between being controlled by general influence and
+        // * being controlled by direct influence.
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 }
