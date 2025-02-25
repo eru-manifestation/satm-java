@@ -6,6 +6,7 @@ import com.erumf.Main;
 import com.erumf.Player;
 import com.erumf.utils.GameProperty;
 import com.erumf.utils.position.Card;
+import com.erumf.utils.position.Deck;
 
 /**
  * The Character class represents a character card in the game.
@@ -13,7 +14,6 @@ import com.erumf.utils.position.Card;
  * such as influence, mind, skills, race, corruption, body, prowess, and mp.
  */
 public abstract class Character extends Card {
-    private final boolean unique;
     private final Class<? extends Location> birthplace;
     private final GameProperty<Integer> influence;
     private final int _influence;
@@ -37,7 +37,6 @@ public abstract class Character extends Card {
      * Constructs a new Character with the specified properties.
      *
      * @param player      the player owning the character
-     * @param unique      whether the character is unique
      * @param race        the race of the character
      * @param birthplace  the birthplace of the character
      * @param influence   the influence of the character
@@ -49,8 +48,7 @@ public abstract class Character extends Card {
      * @param mp          the mp of the character
      */
     public Character(Player player, Race race, Class<? extends Location> birthplace, int influence, int mind, Set<Skills> skills, int corruption, int body, int prowess, int mp) {
-        super(player);
-        this.unique = true;
+        super(player, true);
         this.race = race;
         this.birthplace = birthplace;
         this.influence = new GameProperty<>("influence", influence, this);
@@ -67,10 +65,6 @@ public abstract class Character extends Card {
         this._prowess = prowess;
         this.mp = new GameProperty<>("mp", mp, this);
         this._mp = mp;
-    }
-
-    public boolean isUnique() {
-        return unique;
     }
 
     public Class<? extends Location> getBirthplace() {
@@ -264,6 +258,7 @@ public abstract class Character extends Card {
     }
 
     //TODO: doc
+    // TODO: adjust to the new position sistem
     public void addCharacterToLocation(Class<? extends Location> locationClass) {
         Player player = this.getPlayer();
         Location location = Main.positionGraph.findLocation(locationClass);
@@ -314,5 +309,50 @@ public abstract class Character extends Card {
 
     public boolean isInHaven() {
         return false;//TODO: Implement
+    }
+
+    /**
+     * Adds a child card to this character.
+     * <p>If the child card is a {@link Character}:
+     * - The child card is thought to be a follower and it checks if the character 
+     * has enough influence to control the child character.
+     * - If this character is in a {@link Fellowship}, it checks if the fellowship has enough space 
+     * for the child character (follower).
+     * - If this character is a follower, it throws an exception.
+     * - If this character has no father (supposedly meaning it is in a {@link Deck}), 
+     * it throws an exception.
+     * 
+     * @param card the child card to add
+     * @throws IllegalArgumentException if the character cannot control the child character
+     * @throws IllegalArgumentException if the fellowship has no space for this follower
+     * @throws IllegalArgumentException if a follower character tries to have followers
+     * @throws IllegalArgumentException if the character is not in a deck and has no father
+     */
+    @Override
+    public void addChild(Card card){
+        if(card instanceof Character character){
+            this.setInfluence(this.getInfluence() - character.getMind());
+            if(this.getInfluence() < 0){
+                throw new IllegalArgumentException("Not enough influence to play the character as a follower");
+            }
+            switch(this.getFather()){
+                case Fellowship fellowship -> {
+                    fellowship.setCompanions(fellowship.getCompanions() + character.companionSize());
+                    if(fellowship.getCompanions() > Fellowship.MAX_COMPANIONS){
+                        throw new IllegalArgumentException("Fellowship is full");
+                    }
+                }
+                case Character followedCharacter -> {
+                    throw new IllegalArgumentException("Follower characters can't have followers");
+                }
+                case null -> {
+                    throw new IllegalArgumentException("Characters with null father must always be in a deck");
+                }
+                default -> {
+                    throw new IllegalArgumentException("Unexpected father found for a character in play");
+                }
+            }
+        }
+        super.addChild(card);
     }
 }

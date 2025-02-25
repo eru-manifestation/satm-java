@@ -11,7 +11,7 @@ public class StarterItems {
      */
     public static class ShieldOfIronBoundAsh extends Item {
         public ShieldOfIronBoundAsh(Player player) {
-            super(player, 1, 0, 0, 1, 8, 0, ItemType.MINOR_ITEM);
+            super(player, 1, 0, 0, 1, 8, 0, ItemType.MINOR_ITEM, false);
         }
     }
 
@@ -21,7 +21,7 @@ public class StarterItems {
      */
     public static class ElvenCloak extends Item {
         public ElvenCloak(Player player) {
-            super(player, 1, 0, 0, 0, 0, 0, ItemType.MINOR_ITEM);
+            super(player, 1, 0, 0, 0, 0, 0, ItemType.MINOR_ITEM, false);
         }
     }
 
@@ -30,7 +30,7 @@ public class StarterItems {
      */
     public static class ScrollOfIsildur extends Item {
         public ScrollOfIsildur(Player player) {
-            super(player, 3, 4, 0, 0, 0, 0, ItemType.GREATER_ITEM);
+            super(player, 3, 4, 0, 0, 0, 0, ItemType.GREATER_ITEM, true);
         }
     }
 
@@ -39,7 +39,7 @@ public class StarterItems {
      */
     public static class GreatShieldOfRohan extends Item {
         public GreatShieldOfRohan(Player player) {
-            super(player, 2, 2, 0, 0, 2, 9, ItemType.MAJOR_ITEM);
+            super(player, 2, 2, 0, 0, 2, 9, ItemType.MAJOR_ITEM, true);
         }
     }
 
@@ -48,7 +48,7 @@ public class StarterItems {
      */
     public static class Glamdring extends Item {
         public Glamdring(Player player) {
-            super(player, 1, 2, 0, 0, 0, 8, ItemType.MAJOR_ITEM);
+            super(player, 1, 2, 0, 0, 0, 8, ItemType.MAJOR_ITEM, true);
         }
     }
 
@@ -58,7 +58,7 @@ public class StarterItems {
      */
     public static class DaggerOfWesternesse extends Item {
         public DaggerOfWesternesse(Player player) {
-            super(player, 1, 0, 0, 0, 1, 8, ItemType.MINOR_ITEM);
+            super(player, 1, 0, 0, 0, 1, 8, ItemType.MINOR_ITEM, false);
         }
     }
 
@@ -67,7 +67,7 @@ public class StarterItems {
      */
     public static class HauberkOfBrightMail extends Item {
         public HauberkOfBrightMail(Player player) {
-            super(player, 1, 2, 0, 0, 0, 0, ItemType.MAJOR_ITEM);
+            super(player, 1, 2, 0, 0, 0, 0, ItemType.MAJOR_ITEM, false);
         }
     }
 
@@ -76,7 +76,7 @@ public class StarterItems {
      */
     public static class Orcrist extends Item {
         public Orcrist(Player player) {
-            super(player, 2, 4, 0, 0, 3, 9, ItemType.GREATER_ITEM);
+            super(player, 2, 4, 0, 0, 3, 9, ItemType.GREATER_ITEM, true);
         }
     }
 
@@ -85,7 +85,7 @@ public class StarterItems {
      */
     public static class SwordOfGondolin extends Item {
         public SwordOfGondolin(Player player) {
-            super(player, 2, 4, 0, 0, 0, 0, ItemType.MAJOR_ITEM);
+            super(player, 2, 4, 0, 0, 0, 0, ItemType.MAJOR_ITEM, false);
         }
     }
 }

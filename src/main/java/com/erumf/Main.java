@@ -1,14 +1,8 @@
 package com.erumf;
 
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
-import java.util.function.BiFunction;
-import java.util.function.Function;
-import java.util.stream.Stream;
 
 import org.jgrapht.Graph;
-import org.jgrapht.alg.util.Pair;
 
 import com.erumf.cards.locations.Locations;
 import com.erumf.cards.locations.Locations2;
@@ -18,14 +12,12 @@ import com.erumf.cards.starter.deck.StarterItems;
 import com.erumf.cards.starter.deck.StarterItems.ElvenCloak;
 import com.erumf.cards.starter.deck.StarterItems.ShieldOfIronBoundAsh;
 import com.erumf.elements.Character;
-import com.erumf.elements.Fellowship;
 import com.erumf.elements.Location;
 import com.erumf.phases.OrganizationPhase;
 import com.erumf.phases.UntapPhase;
 import com.erumf.utils.graph.DefaultPathEdge;
 import com.erumf.utils.graph.PositionGraph;
 import com.erumf.utils.log.Logger;
-import com.erumf.utils.position.Card;
 import com.erumf.utils.position.Deck;
 
 public class Main {

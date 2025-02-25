@@ -41,8 +41,8 @@ public abstract class Resource extends Card {
      * @param prowess     the prowess of the resource
      * @param type        the type of the resource
      */
-    public Resource(Player player, int mp, int corruption, int influence, int mind, int body, int prowess, Type type) {
-        super(player);
+    public Resource(Player player, int mp, int corruption, int influence, int mind, int body, int prowess, Type type, boolean unique) {
+        super(player, unique);
         this.mp = new GameProperty<>("mp", mp, this);
         this._mp = mp;
         this.corruption = new GameProperty<>("corruption", corruption, this);

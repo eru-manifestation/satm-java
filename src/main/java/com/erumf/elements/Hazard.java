@@ -9,19 +9,13 @@ public abstract class Hazard extends Card {
     }
 
     private final Type type;
-    private final boolean unique;
 
     public Hazard(Player player, Type type, boolean unique) {
-        super(player);
+        super(player, unique);
         this.type = type;
-        this.unique = unique;
     }
 
     public Type getType() {
         return type;
-    }
-
-    public boolean isUnique() {
-        return unique;
     }
 }

@@ -17,7 +17,7 @@ public abstract class Faction extends Resource {
     private final Map<Race, Integer> influenceModifier;
 
     public Faction(Player player, int mp, int corruption, int influence, int mind, int body, int prowess, FactionType factionType, Set<Class<? extends Location>> playablePlaces, int influenceCheck, Map<Race, Integer> influenceModifier) {
-        super(player, mp, corruption, influence, mind, body, prowess, Item.Type.FACTION);
+        super(player, mp, corruption, influence, mind, body, prowess, Item.Type.FACTION, true);
         this.factionType = factionType;
         this.playablePlaces = playablePlaces;
         this.influenceCheck = influenceCheck;

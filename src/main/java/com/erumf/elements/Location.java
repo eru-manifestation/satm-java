@@ -21,7 +21,7 @@ public abstract class Location extends Card {
     }
 
     public Location(int playerDraw, int enemyDraw, Map<RegionType, Integer> route, PlaceType place, List<String> automaticAttacks, Set<ItemType> playableItems) {
-        super(null);
+        super(null, true);
         this.closestHaven = null;
         this.playerDraw = playerDraw;
         this.enemyDraw = enemyDraw;

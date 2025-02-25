@@ -13,7 +13,7 @@ public class Fellowship extends Card {
     private float companions = 0.0f;
 
     public Fellowship(Player player) {
-        super(player);
+        super(player, false);
     }
 
     public boolean isEmpty() {
@@ -30,5 +30,26 @@ public class Fellowship extends Card {
 
     public void setCompanions(float companions) {
         this.companions = companions;
+    }
+
+    /**
+     * Adds a card to the fellowship.
+     * <p>If the card is a character, it is considered as if a character joins the fellowship
+     * and increases the number of companions.
+     * If the number of companions exceeds the maximum allowed, an exception is thrown.
+     *
+     * @param card the card to add
+     * @throws IllegalArgumentException if the fellowship is full
+     */
+    @Override
+    public void addChild(Card card) {
+        if(card instanceof Character character){
+            this.setCompanions(this.getCompanions() + character.companionSize());
+            empty = false;
+            if(companions >= MAX_COMPANIONS){
+                throw new IllegalArgumentException("Fellowship is full");
+            }
+        }
+        super.addChild(card);
     }
 }

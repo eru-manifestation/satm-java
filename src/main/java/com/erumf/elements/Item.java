@@ -27,8 +27,8 @@ public abstract class Item extends Resource {
      * @param prowess     the prowess of the item
      * @param itemType    the type of the item
      */
-    public Item(Player player, int mp, int corruption, int influence, int mind, int body, int prowess, ItemType itemType) {
-        super(player, mp, corruption, influence, mind, body, prowess, Resource.Type.ITEM);
+    public Item(Player player, int mp, int corruption, int influence, int mind, int body, int prowess, ItemType itemType, boolean unique) {
+        super(player, mp, corruption, influence, mind, body, prowess, Resource.Type.ITEM, unique);
         this.itemType = itemType;
     }
 

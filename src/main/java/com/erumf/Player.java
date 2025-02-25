@@ -1,5 +1,6 @@
 package com.erumf;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.erumf.utils.GameProperty;
@@ -14,6 +15,12 @@ import com.erumf.utils.position.Deck;
 public class Player {
     private Deck drawDeck = null;
     private final Deck hand = new Deck();
+    private final Deck discardDeck = new Deck();
+    /**
+     * Since this is just a view of the cards in play, it MUST NOT have the add implementation
+     * that disconnects the card from the position tree.
+     */
+    private final List<Card> cardsInPlay = new ArrayList<>();
     private final String name;
     private final GameProperty<Integer> generalInfluence;
     private final GameProperty<Integer> mp;
@@ -55,6 +62,24 @@ public class Player {
      */
     public Deck getHand() {
         return hand;
+    }
+
+    /**
+     * Gets the player's discard deck.
+     *
+     * @return the discard deck
+     */
+    public Deck getDiscardDeck() {
+        return discardDeck;
+    }
+
+    /**
+     * Gets the player's cards in play.
+     *
+     * @return the cards in play
+     */
+    public List<Card> getCardsInPlay() {
+        return cardsInPlay;
     }
 
     /**
@@ -141,5 +166,20 @@ public class Player {
                 .filter(clazz::isInstance)
                 .map(clazz::cast)
                 .toList();
+    }
+
+    /**
+     * Checks if a unique card of the specified class is disabled (in the discard deck)
+     * or in play. Use only on unique cards.
+     *
+     * @param clazz the class of the card to check
+     * @param <T>   the type of the card
+     * @return true if the unique card is in the discard deck or in play, false otherwise
+     */
+    public <T extends Card> boolean isUniqueDisabled(Class<T> clazz) {
+        return this.getDiscardDeck().stream()
+                .anyMatch(discarded -> discarded.getClass().equals(clazz)) ||
+               this.getCardsInPlay().stream()
+                .anyMatch(inPlay -> inPlay.getClass().equals(clazz));
     }
 }

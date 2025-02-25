@@ -13,7 +13,7 @@ public class StarterEventResources {
      */
     public static class Dodge extends Resource {
         public Dodge(Player player) {
-            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT, false);
         }
     }
 
@@ -24,7 +24,7 @@ public class StarterEventResources {
      */
     public static class LuckyStrike extends Resource {
         public LuckyStrike(Player player) {
-            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT, false);
         }
     }
 
@@ -34,7 +34,7 @@ public class StarterEventResources {
      */
     public static class TemperingFriendship extends Resource {
         public TemperingFriendship(Player player) {
-            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT, false);
         }
     }
 
@@ -46,7 +46,7 @@ public class StarterEventResources {
      */
     public static class Concealment extends Resource {
         public Concealment(Player player) {
-            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT, false);
         }
     }
 
@@ -56,7 +56,7 @@ public class StarterEventResources {
      */
     public static class HalflingStealth extends Resource {
         public HalflingStealth(Player player) {
-            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT, false);
         }
     }
 
@@ -68,7 +68,7 @@ public class StarterEventResources {
      */
     public static class HalflingStrength extends Resource {
         public HalflingStrength(Player player) {
-            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT, false);
         }
     }
 
@@ -79,7 +79,7 @@ public class StarterEventResources {
      */
     public static class Escape extends Resource {
         public Escape(Player player) {
-            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT, false);
         }
     }
 
@@ -89,7 +89,7 @@ public class StarterEventResources {
      */
     public static class Ford extends Resource {
         public Ford(Player player) {
-            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT, false);
         }
     }
 
@@ -99,7 +99,7 @@ public class StarterEventResources {
      */
     public static class Bridge extends Resource {
         public Bridge(Player player) {
-            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT, false);
         }
     }
 
@@ -109,7 +109,7 @@ public class StarterEventResources {
      */
     public static class Muster extends Resource {
         public Muster(Player player) {
-            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT, false);
         }
     }
 
@@ -121,7 +121,7 @@ public class StarterEventResources {
      */
     public static class Block extends Resource {
         public Block(Player player) {
-            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT, false);
         }
     }
 
@@ -132,7 +132,7 @@ public class StarterEventResources {
      */
     public static class RiskyBlow extends Resource {
         public RiskyBlow(Player player) {
-            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT, false);
         }
     }
 
@@ -141,7 +141,7 @@ public class StarterEventResources {
      */
     public static class DarkQuarrels extends Resource {
         public DarkQuarrels(Player player) {
-            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT);
+            super(player, 0, 0, 0, 0, 0, 0, Type.SHORT_EVENT, false);
         }
     }
 }
