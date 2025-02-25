@@ -2,17 +2,17 @@ package com.erumf.elements;
 
 import java.util.Set;
 
-import com.erumf.Basic;
 import com.erumf.Main;
 import com.erumf.Player;
 import com.erumf.utils.GameProperty;
+import com.erumf.utils.position.Card;
 
 /**
  * The Character class represents a character card in the game.
  * It extends the Basic class and includes various properties
  * such as influence, mind, skills, race, corruption, body, prowess, and mp.
  */
-public abstract class Character extends Basic {
+public abstract class Character extends Card {
     private final boolean unique;
     private final Class<? extends Location> birthplace;
     private final GameProperty<Integer> influence;
@@ -30,6 +30,8 @@ public abstract class Character extends Basic {
     private final int _prowess;
     private final GameProperty<Integer> mp;
     private final int _mp;
+    private boolean tapped = false;
+    private boolean wounded = false;
 
     /**
      * Constructs a new Character with the specified properties.
@@ -281,13 +283,36 @@ public abstract class Character extends Basic {
             fellowship = new Fellowship(player);
             Main.positionGraph.addVertex(fellowship);
             Main.positionGraph.addEdge(location, fellowship);
+            Main.positionGraph.addVertex(this);
             Main.positionGraph.addEdge(fellowship, this);
         } else {
             if (fellowship.getCompanions() + this.companionSize() <= Fellowship.MAX_COMPANIONS) {
+                Main.positionGraph.addVertex(this);
                 Main.positionGraph.addEdge(fellowship, this);
             } else {
                 throw new IllegalStateException("Fellowship would surpass the maximum number of companions");
             }
         }
+    }
+
+    public boolean isTapped() {
+        return tapped;
+    }
+
+    public void untap() {
+        this.tapped = false;
+    }
+
+    public boolean isWounded() {
+        return wounded;
+    }
+
+    public void heal() {
+        this.wounded = false;
+        this.tapped = true;
+    }
+
+    public boolean isInHaven() {
+        return false;//TODO: Implement
     }
 }

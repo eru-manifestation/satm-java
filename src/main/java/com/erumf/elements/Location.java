@@ -4,10 +4,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.erumf.Basic;
 import com.erumf.elements.Item.ItemType;
+import com.erumf.utils.position.Card;
 
-public abstract class Location extends Basic {
+public abstract class Location extends Card {
     private final Location closestHaven;
     private final int playerDraw;
     private final int enemyDraw;

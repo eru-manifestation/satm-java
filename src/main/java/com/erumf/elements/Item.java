@@ -13,6 +13,7 @@ public abstract class Item extends Resource {
     }
 
     private final ItemType itemType;
+    private State state = State.UNTAPPED;
 
     /**
      * Constructs a new Item with the specified properties.
@@ -51,7 +52,20 @@ public abstract class Item extends Resource {
      */
     public void playAsInitialItem(Character character) {        
         getPlayer().getDrawDeck().remove(this);
+        Main.positionGraph.addVertex(character);
         Main.positionGraph.addEdge(character, this);//TODO: this should be prepared if it is not permitted, to go back
         applyEffects(character);
+    }
+
+    public boolean isTapped() {
+        return state == State.TAPPED;
+    }
+
+    public void untap() {
+        this.state = State.UNTAPPED;
+    }
+
+    public enum State {
+        TAPPED, UNTAPPED
     }
 }

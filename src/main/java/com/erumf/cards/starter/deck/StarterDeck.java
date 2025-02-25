@@ -67,7 +67,7 @@ import com.erumf.cards.starter.deck.StarterItems.Orcrist;
 import com.erumf.cards.starter.deck.StarterItems.ScrollOfIsildur;
 import com.erumf.cards.starter.deck.StarterItems.ShieldOfIronBoundAsh;
 import com.erumf.cards.starter.deck.StarterItems.SwordOfGondolin;
-import com.erumf.utils.Deck;
+import com.erumf.utils.position.Deck;
 
 public class StarterDeck {
 

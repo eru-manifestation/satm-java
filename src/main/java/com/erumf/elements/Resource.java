@@ -1,15 +1,15 @@
 package com.erumf.elements;
 
-import com.erumf.Basic;
 import com.erumf.Player;
 import com.erumf.utils.GameProperty;
+import com.erumf.utils.position.Card;
 
 /**
  * The Resource class represents a resource card in the game.
  * It extends the Basic class and includes various properties
  * such as mp, corruption, influence, mind, body, and prowess.
  */
-public abstract class Resource extends Basic {
+public abstract class Resource extends Card {
     private final GameProperty<Integer> mp;
     private final int _mp;
     private final GameProperty<Integer> corruption;

@@ -1,9 +1,9 @@
 package com.erumf.elements;
 
-import com.erumf.Basic;
 import com.erumf.Player;
+import com.erumf.utils.position.Card;
 
-public abstract class Hazard extends Basic {
+public abstract class Hazard extends Card {
     public enum Type {
         CREATURE, LONG_EVENT, SHORT_EVENT, PERMANENT_EVENT
     }
