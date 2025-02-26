@@ -3,9 +3,9 @@ package com.erumf.phases;
 import com.erumf.Main;
 import com.erumf.Player;
 import com.erumf.elements.Character;
-import com.erumf.elements.Fellowship;
 import com.erumf.elements.Item;
 import com.erumf.utils.position.Card;
+import com.erumf.utils.position.Fellowship;
 
 /**
  * The UntapPhase class handles the untapping phase of the game.

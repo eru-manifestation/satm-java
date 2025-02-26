@@ -55,7 +55,7 @@ public class ConsoleUtils {
      * @param <U>     the type of the second element in the pair
      * @return the chosen action
      */
-    public static <T extends Card, U extends Card> Pair<T, U> chooseAction(String message, List<Pair<T, U>> actions) {
+    public static <T, U extends Card> Pair<T, U> chooseAction(String message, List<Pair<T, U>> actions) {
         List<String> options = actions.stream()
                 .map(action -> action.getFirst().getClass().getSimpleName() + " -> " + action.getSecond().getClass().getSimpleName())
                 .collect(Collectors.toList());
@@ -72,7 +72,7 @@ public class ConsoleUtils {
      * @param <U>     the type of the second element in the pair
      * @return the chosen action or null if the user chooses to do nothing
      */
-    public static <T extends Card, U extends Card> Pair<T, U> chooseActionNoForced(String message, List<Pair<T, U>> actions) {
+    public static <T, U extends Card> Pair<T, U> chooseActionNoForced(String message, List<Pair<T, U>> actions) {
         List<String> options = actions.stream()
                 .map(action -> action.getFirst().getClass().getSimpleName() + " -> " + action.getSecond().getClass().getSimpleName())
                 .collect(Collectors.toList());

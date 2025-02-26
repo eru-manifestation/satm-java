@@ -1,7 +1,7 @@
-package com.erumf.elements;
+package com.erumf.utils.position;
 
 import com.erumf.Player;
-import com.erumf.utils.position.Card;
+import com.erumf.elements.Character;
 
 /**
  * The Fellowship class represents a group of character cards in the game.
@@ -51,5 +51,25 @@ public class Fellowship extends Card {
             }
         }
         super.addChild(card);
+    }
+
+    /**
+     * Removes a card from the fellowship.
+     * <p>If the card is a character, it is considered as if a character leaves the fellowship
+     * and decreases the number of companions.
+     *
+     * @param card the card to remove
+     */
+    @Override
+    void removeChild(Card card) {
+        if(card instanceof Character character){
+            this.setCompanions(this.getCompanions() - character.companionSize());
+            if(companions == 0){
+                empty = true;
+                // Remove empty Fellowship
+                this.getFather().removeChild(this);
+            }
+        }
+        super.removeChild(card);
     }
 }

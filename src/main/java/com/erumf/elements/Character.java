@@ -7,6 +7,7 @@ import com.erumf.Player;
 import com.erumf.utils.GameProperty;
 import com.erumf.utils.position.Card;
 import com.erumf.utils.position.Deck;
+import com.erumf.utils.position.Fellowship;
 
 /**
  * The Character class represents a character card in the game.
@@ -32,6 +33,7 @@ public abstract class Character extends Card {
     private final int _mp;
     private boolean tapped = false;
     private boolean wounded = false;
+    private boolean isFollower = false;
 
     /**
      * Constructs a new Character with the specified properties.
@@ -236,6 +238,10 @@ public abstract class Character extends Card {
         return _mp;
     }
 
+    public boolean isFollower() {
+        return isFollower;
+    }
+
     /**
      * The possible races of a character.
      */
@@ -335,6 +341,7 @@ public abstract class Character extends Card {
             if(this.getInfluence() < 0){
                 throw new IllegalArgumentException("Not enough influence to play the character as a follower");
             }
+            character.isFollower = true;
             switch(this.getFather()){
                 case Fellowship fellowship -> {
                     fellowship.setCompanions(fellowship.getCompanions() + character.companionSize());
@@ -354,5 +361,20 @@ public abstract class Character extends Card {
             }
         }
         super.addChild(card);
+    }
+
+    /**
+     * Removes a child card from this character.
+     * <p>If the child card is a {@link Character}:
+     * - The child card is thought to be a follower and it sets isFollower to false in it
+     * 
+     * @param card the child card to remove
+     */
+    @Override
+    public void removeChild(Card card){
+        if(card instanceof Character character){
+            character.isFollower = false;
+        }
+        super.removeChild(card);
     }
 }

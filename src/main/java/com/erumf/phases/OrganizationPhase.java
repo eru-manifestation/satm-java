@@ -10,10 +10,11 @@ import org.jgrapht.alg.util.Pair;
 import com.erumf.Main;
 import com.erumf.Player;
 import com.erumf.elements.Character;
-import com.erumf.elements.Fellowship;
 import com.erumf.elements.Location;
+import com.erumf.utils.Combinations;
 import com.erumf.utils.cli.ConsoleUtils;
 import com.erumf.utils.position.Card;
+import com.erumf.utils.position.Fellowship;
 
 /**
  * Organization Phase
@@ -36,6 +37,7 @@ public class OrganizationPhase {
         playCharacter(player1);
         boolean done;
         do {
+            //TODO: Rewrite the stop condition
             done = organizeCompanies(player1);
         } while (done);
     }
@@ -148,33 +150,152 @@ public class OrganizationPhase {
                 .map(position -> new Pair<>(character, position));
     }
 
-    // WORK IN PROGRESS
     private static boolean organizeCompanies(Player player) {
         // * - Reorganize your characters at the same Haven into any number of
         // companies. (select many at a time and choose a company to move them to
         // or create)
-
-        // player.getCardsInPlay().stream()
-        //         .filter(Character.class::isInstance)
-        //         .map(Character.class::cast)
-        //         .filter(Character::isInHaven)//NO
-        //         ;
-        Main.positionGraph.havens.stream()
+        // TODO: handle the condition that in a haven, any fellowship has no growth limit
+        List<Pair<List<Character>, Card>> possibleDivisions =
+            Main.positionGraph.havens.stream()
                 .flatMap(haven -> haven.getChildren().stream())
                 .filter(Fellowship.class::isInstance)
                 .filter(fell -> fell.getPlayer().equals(player))
                 // Fellowships from this player in havens
-                .flatMap(fell -> {
-                    // Any combination of characters in this fellowship
-                    return null;
-                })
-                // Transform it into a Pair<List<Character>>, Card> 
-                // where card can be an existing fellowship or a Location,
-                // meaning to create a new fellowship
-                ;
-        
+                .flatMap(fell -> Combinations.getAllCombinationsExcludingAll(
+                        fell.getChildren().stream()
+                                .filter(Character.class::isInstance)
+                                .map(Character.class::cast)
+                                .toList())
+                        .stream())
+                .flatMap(characters -> allPossibleMovements(characters))
+                .toList();
+
         // * - Shift your characters between being controlled by general influence and
         // * being controlled by direct influence.
-        throw new UnsupportedOperationException("Not supported yet.");
+        List<Pair<Character, Fellowship>> possibleUnfollowings = player.getCardsInPlay().stream()
+                .filter(Character.class::isInstance)
+                .map(Character.class::cast)
+                .filter(Character::isFollower)
+                .map(foll -> new Pair<>(foll, (Fellowship) foll.getFather().getFather()))
+                .filter(pair -> pair.getFirst().companionSize() + pair.getSecond().getCompanions() <= Fellowship.MAX_COMPANIONS)
+                .toList();
+        
+        List<Pair<Character, Character>> possibleFollowings = player.getCardsInPlay().stream()
+                .filter(Character.class::isInstance)
+                .map(Character.class::cast)
+                .flatMap(ch -> {
+                    Fellowship sourceFell = (Fellowship) (ch.isFollower() ? ch.getFather().getFather() : ch.getFather());
+                    return sourceFell.getChildren().stream()
+                        .filter(Character.class::isInstance)
+                        .map(Character.class::cast)
+                        .filter(newCh -> !newCh.isFollower() && newCh != ch && newCh.getInfluence() >= ch.getMind())
+                        .map(newCh -> new Pair<>(ch, newCh));
+                }).toList();
+        
+        // Offer the choices to the player
+        Pair<List<Character>, Card> reorganize = ConsoleUtils.<List<Character>, Card>chooseActionNoForced("Reorganize your characters in havens",
+                possibleDivisions);
+        Pair<Character, Fellowship> unfollowing = ConsoleUtils.<Character, Fellowship>chooseActionNoForced("Shift your characters between being controlled by general influence and being controlled by direct influence",
+                possibleUnfollowings);
+        Pair<Character, Character> following = ConsoleUtils.<Character, Character>chooseActionNoForced("Shift your characters between being controlled by general influence and being controlled by direct influence",
+                possibleFollowings);
+
+        // Apply the choices
+        if (reorganize != null) {
+            // Move the characters to the fellowship if the second argument is a fellowship
+            // if the second argument is a location, create a new fellowship and then move the characters there
+            switch(reorganize.getSecond()) {
+                case Fellowship fellowship -> {
+                    // Move the characters to the fellowship
+                    reorganize.getFirst().forEach(ch -> {
+                        fellowship.addChild(ch);
+                    });
+                }
+                case Location location -> {
+                    // Create a new fellowship
+                    Fellowship fellowship = new Fellowship(player);
+                    location.addChild(fellowship);
+                    // Move the characters to the fellowship
+                    reorganize.getFirst().forEach(ch -> {
+                        fellowship.addChild(ch);
+                    });
+                }
+                default -> {
+                    throw new IllegalStateException("Unexpected value: " + reorganize.getSecond());
+                }
+            }
+        }
+        if (unfollowing != null) {
+            // Move the character to the fellowship
+            unfollowing.getSecond().addChild(unfollowing.getFirst());
+        }
+        if (following != null) {
+            // Move the character to the other character
+            following.getSecond().addChild(following.getFirst());
+        }
+
+        return unfollowing == null && following == null && reorganize == null;
+    }
+
+    private static List<Pair<List<Character>, Card>> posibleChoices(List<Fellowship> destinations,
+            List<Character> characters) {
+        double totalCompanionSize = characters.stream()
+                .mapToDouble(Character::companionSize)
+                .sum();
+        Stream<Pair<List<Character>, Card>> choices = destinations.stream()
+                .map(dest -> new Pair<>(characters, (Card) dest))
+                .filter(pair -> {
+                    if (pair.getSecond() instanceof Fellowship fellowship) {
+                        return totalCompanionSize + fellowship.getCompanions() <= Fellowship.MAX_COMPANIONS;
+                    } else {
+                        return totalCompanionSize <= Fellowship.MAX_COMPANIONS;
+                    }
+                });
+        return choices.toList();
+    }
+
+    /**
+     * Returns all possible movements for a list of characters.
+     * The method finds all possible destinations (fellowships or locations) where the characters can be moved.
+     * It ensures that the total companion size of the characters does not exceed the maximum allowed in a fellowship.
+     * If the location is chosen, a new fellowship must be created to put them into.
+     *
+     * @param characters the list of characters to be moved
+     * @return a stream of pairs representing the list of characters and the possible destinations
+     */
+    private static Stream<Pair<List<Character>, Card>> allPossibleMovements(List<Character> characters) {
+        // Get any character that is not a follower
+        Character any = characters.stream()
+                .filter(ch -> !ch.isFollower())
+                .findAny()
+                .orElse(null);
+
+        // Fellowships in the same haven
+        List<Fellowship> destinations = List.copyOf(any
+                .getFather()
+                .getFather()
+                .getChildren()
+                .stream()
+                .filter(Fellowship.class::isInstance)
+                .map(Fellowship.class::cast)
+                .toList());
+        // They do not move to their own fellowship
+        destinations.remove((Fellowship) any.getFather());
+
+        double totalCompanionSize = characters.stream()
+                .mapToDouble(Character::companionSize)
+                .sum();
+        if (totalCompanionSize <= Fellowship.MAX_COMPANIONS) {
+            // Return the possible combinations of groups of characters
+            // and destinations in which they may fit
+            List<Pair<List<Character>, Card>> choices = posibleChoices(destinations, characters);
+
+            // Add the haven itself as a possible destination
+            // to create a new fellowship
+            choices.add(new Pair<>(characters, any.getFather().getFather()));
+            return choices.stream();
+        } else {
+            return Stream.empty();
+        }
     }
 }

@@ -78,7 +78,7 @@ public abstract class Card {
      *
      * @param child the child to remove
      */
-    void removeChild(Card child) {
+    public void removeChild(Card child) {
         children.remove(child);
         child.setFather(null);
     }

@@ -1,5 +1,9 @@
 package com.erumf.cards.starter.deck;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import com.erumf.Basic;
 import com.erumf.Player;
 import com.erumf.cards.starter.deck.StarterAllies.Gollum;
 import com.erumf.cards.starter.deck.StarterAllies.Quickbeam;
@@ -67,12 +71,11 @@ import com.erumf.cards.starter.deck.StarterItems.Orcrist;
 import com.erumf.cards.starter.deck.StarterItems.ScrollOfIsildur;
 import com.erumf.cards.starter.deck.StarterItems.ShieldOfIronBoundAsh;
 import com.erumf.cards.starter.deck.StarterItems.SwordOfGondolin;
-import com.erumf.utils.position.Deck;
 
 public class StarterDeck {
 
-    public static Deck defaultDeckGandalf(Player player1) {
-        Deck deck = new Deck();
+    public static List<Basic> defaultDeck1(Player player1) {
+        List<Basic> deck = new ArrayList<>();
 
         // Adding characters
         deck.add(new AragornII(player1)); // G01
@@ -139,8 +142,8 @@ public class StarterDeck {
         return deck;
     }
 
-    public static Deck defaultDeckSaruman(Player player2) {
-        Deck deck = new Deck();
+    public static List<Basic> defaultDeck2(Player player2) {
+        List<Basic> deck = new ArrayList<>();
         
         // Adding characters
         deck.add(new Gimli(player2)); // S01
@@ -163,6 +166,7 @@ public class StarterDeck {
         deck.add(new DarkQuarrels(player2)); // S18
         deck.add(new Saruman(player2)); // S19
         deck.add(new LesserSpiders(player2)); // S20
+        deck.add(new Orcrist(player2)); // S20 TODO: THE WEB HAS A MISTAKE, ONE OF THIS IS NOT CORRECT
         deck.add(new Ghouls(player2)); // S21
         deck.add(new HalflingStealth(player2)); // S22
         deck.add(new Annalena(player2)); // S23
@@ -182,7 +186,7 @@ public class StarterDeck {
         deck.add(new ArouseMinions(player2)); // S37
         deck.add(new Huorn(player2)); // S38
         deck.add(new RiskyBlow(player2)); // S39
-        deck.add(new Orcrist(player2)); // S40
+        deck.add(new Wolves(player2)); // S40 TODO: This is NOT the real S40 card, no information on the web
         deck.add(new River(player2)); // S41
         deck.add(new Celeborn(player2)); // S42
         deck.add(new Block(player2)); // S43
