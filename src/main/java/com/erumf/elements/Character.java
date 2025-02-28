@@ -1,9 +1,11 @@
 package com.erumf.elements;
 
+import java.util.List;
 import java.util.Set;
 
 import com.erumf.Main;
 import com.erumf.Player;
+import com.erumf.exception.GameLogicException;
 import com.erumf.utils.GameProperty;
 import com.erumf.utils.position.Card;
 import com.erumf.utils.position.Deck;
@@ -242,6 +244,10 @@ public abstract class Character extends Card {
         return isFollower;
     }
 
+    public boolean corruptionCheck() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
     /**
      * The possible races of a character.
      */
@@ -329,34 +335,34 @@ public abstract class Character extends Card {
      * it throws an exception.
      * 
      * @param card the child card to add
-     * @throws IllegalArgumentException if the character cannot control the child character
-     * @throws IllegalArgumentException if the fellowship has no space for this follower
-     * @throws IllegalArgumentException if a follower character tries to have followers
-     * @throws IllegalArgumentException if the character is not in a deck and has no father
+     * @throws GameLogicException if the character cannot control the child character
+     * @throws GameLogicException if the fellowship has no space for this follower
+     * @throws GameLogicException if a follower character tries to have followers
+     * @throws GameLogicException if the character is not in a deck and has no father
      */
     @Override
     public void addChild(Card card){
         if(card instanceof Character character){
             this.setInfluence(this.getInfluence() - character.getMind());
             if(this.getInfluence() < 0){
-                throw new IllegalArgumentException("Not enough influence to play the character as a follower");
+                throw new GameLogicException("Not enough influence to play the character as a follower");
             }
             character.isFollower = true;
             switch(this.getFather()){
                 case Fellowship fellowship -> {
                     fellowship.setCompanions(fellowship.getCompanions() + character.companionSize());
                     if(fellowship.getCompanions() > Fellowship.MAX_COMPANIONS){
-                        throw new IllegalArgumentException("Fellowship is full");
+                        throw new GameLogicException("Fellowship is full");
                     }
                 }
                 case Character followedCharacter -> {
-                    throw new IllegalArgumentException("Follower characters can't have followers");
+                    throw new GameLogicException("Follower characters can't have followers");
                 }
                 case null -> {
-                    throw new IllegalArgumentException("Characters with null father must always be in a deck");
+                    throw new GameLogicException("Characters with null father must always be in a deck");
                 }
                 default -> {
-                    throw new IllegalArgumentException("Unexpected father found for a character in play");
+                    throw new GameLogicException("Unexpected father found for a character in play");
                 }
             }
         }
@@ -376,5 +382,47 @@ public abstract class Character extends Card {
             character.isFollower = false;
         }
         super.removeChild(card);
+    }
+    
+    /**
+     * Gets the fellowship of this character.
+     * <p>If this character is a follower, it gets the fellowship of the followed character.
+     * If this character is not a follower, it gets the fellowship it is in.
+     * 
+     * @return the {@link Fellowship} of this character
+     * @throws GameLogicException if the character is a follower and has no followed character
+     * @throws GameLogicException if the character is not a follower and has no fellowship
+     */
+    public Fellowship getFellowship(){
+        Fellowship fellowship = null;
+        if(this.isFollower()){
+            if(this.getFather() instanceof Character followedCh){
+                fellowship = followedCh.getFellowship();
+            }else{
+                throw new GameLogicException("Follower character must have a character as father");
+            }
+        }else{
+            if(this.getFather() instanceof Fellowship fatherFellowship){
+                fellowship = fatherFellowship;
+            }else{
+                throw new GameLogicException("Non-follower character must be in a fellowship");
+            }
+        }
+        return fellowship;
+    }
+
+
+    /**
+     * Gets the followers of this character.
+     * <p>It gets the children of this character that are characters and are followers.
+     * 
+     * @return the list of followers of this character
+     */
+    public List<Character> getFollowers(){
+        return this.getChildren().stream()
+                .filter(Character.class::isInstance)
+                .map(Character.class::cast)
+                .filter(Character::isFollower)
+                .toList();
     }
 }

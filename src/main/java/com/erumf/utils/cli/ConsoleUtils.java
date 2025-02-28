@@ -81,4 +81,25 @@ public class ConsoleUtils {
         Integer indexChoice = options.indexOf(choice);
         return indexChoice == -1 ? null : actions.get(indexChoice);
     }
+
+    /**
+     * Prompts the user to confirm an action with a yes or no response.
+     *
+     * @param message the message to display to the user
+     * @return true if the user confirms the action, false otherwise
+     */
+    public static boolean confirmAction(String message) {
+        
+        try (Scanner scanner = new Scanner(System.in)) {
+            String choice = "";
+            while (!choice.equalsIgnoreCase("y") && !choice.equalsIgnoreCase("n")) {
+                System.out.print(message + " (y/n): ");
+                choice = scanner.next();
+            }
+            return choice.equalsIgnoreCase("y");
+        } catch (Exception e) {
+            System.err.println("An error occurred while reading input: " + e.getMessage());
+            return false;
+        }
+    }
 }

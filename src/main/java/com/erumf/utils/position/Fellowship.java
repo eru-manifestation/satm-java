@@ -1,7 +1,11 @@
 package com.erumf.utils.position;
 
+import java.util.List;
+import java.util.stream.Stream;
+
 import com.erumf.Player;
 import com.erumf.elements.Character;
+import com.erumf.elements.Location;
 
 /**
  * The Fellowship class represents a group of character cards in the game.
@@ -61,7 +65,7 @@ public class Fellowship extends Card {
      * @param card the card to remove
      */
     @Override
-    void removeChild(Card card) {
+    public void removeChild(Card card) {
         if(card instanceof Character character){
             this.setCompanions(this.getCompanions() - character.companionSize());
             if(companions == 0){
@@ -71,5 +75,28 @@ public class Fellowship extends Card {
             }
         }
         super.removeChild(card);
+    }
+
+    /**
+     * Gets the list of characters in the fellowship and their followers in order.
+     *
+     * @return the list of characters in the fellowship and their followers
+     */
+    public List<Character> getCompanionList(){
+        List<Character> companionList = this.getChildren().stream()
+                .filter(Character.class::isInstance)
+                .map(Character.class::cast).toList();
+        Stream<Character> followers = companionList.stream()
+               .flatMap(character -> character.getFollowers().stream());
+        return Stream.concat(companionList.stream(), followers).toList();
+    }
+
+    /**
+     * Gets the location of the fellowship.
+     *
+     * @return the {@link Location} of the fellowship
+     */
+    public Location getLocation() {
+        return (Location) this.getFather();
     }
 }

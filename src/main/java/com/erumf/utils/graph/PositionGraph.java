@@ -8,13 +8,14 @@ import org.jgrapht.graph.SimpleDirectedGraph;
 
 import com.erumf.Main;
 import com.erumf.cards.locations.Locations.Rivendell;
+import com.erumf.elements.Haven;
 import com.erumf.elements.Location;
 
 public class PositionGraph extends SimpleDirectedGraph<Object, DefaultEdge> {
 
     private final String root;
     public final Set<Location> locations;
-    public final Set<Location> havens;
+    public final Set<Haven> havens;
     public final Rivendell rivendell;
 
     private PositionGraph(Set<Location> locations) {
@@ -22,7 +23,8 @@ public class PositionGraph extends SimpleDirectedGraph<Object, DefaultEdge> {
         this.root="root";
         this.locations = locations;
         this.havens = locations.stream()
-                .filter(location -> location.getPlace().equals(Location.PlaceType.HAVEN))
+                .filter(Haven.class::isInstance)
+                .map(Haven.class::cast)
                 .collect(java.util.stream.Collectors.toSet());
         this.rivendell = this.havens.stream()
                 .filter(Rivendell.class::isInstance)

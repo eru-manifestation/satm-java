@@ -6,6 +6,7 @@ import java.util.Set;
 
 import com.erumf.elements.Item.ItemType;
 import com.erumf.utils.position.Card;
+import com.erumf.utils.position.Fellowship;
 
 public abstract class Location extends Card {
     private final Location closestHaven;
@@ -57,6 +58,13 @@ public abstract class Location extends Card {
 
     public Set<ItemType> getPlayableItems() {
         return playableItems;
+    }
+
+    public List<Fellowship> getFellowships() {
+        return this.getChildren().stream()
+                .filter(Fellowship.class::isInstance)
+                .map(Fellowship.class::cast)
+                .toList();
     }
 
     @Override

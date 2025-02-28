@@ -2,6 +2,7 @@ package com.erumf.elements;
 
 import com.erumf.Main;
 import com.erumf.Player;
+import com.erumf.exception.GameLogicException;
 
 /**
  * The Item class represents an item card in the game.
@@ -67,5 +68,19 @@ public abstract class Item extends Resource {
 
     public enum State {
         TAPPED, UNTAPPED
+    }
+
+    /**
+     * Returns the owner of the item.
+     * 
+     * @throws GameLogicException if the item has no owner
+     * @return the {@link Character} owner of the item
+     */
+    public Character getOwner() {
+        Character res = null;
+        if(this.getFather() instanceof Character owner){
+            res = owner;
+        }else throw new GameLogicException("Item has no owner");
+        return res;
     }
 }
