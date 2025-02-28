@@ -39,7 +39,14 @@ public class OrganizationPhase {
         do {
             //TODO: Rewrite the stop condition
             done = organizeCompanies(player1);
+            done |= exchangeItems(player1);
+            done |= storeItems(player1);
         } while (done);
+        /*TODO:
+         * Si por circunstancias del juego no tienes suficiente Influencia
+            General o j para controlar a todos tus personajes deberás
+            descartar los personajes que sobren en esta fase.
+         */
     }
 
     /**
@@ -234,7 +241,7 @@ public class OrganizationPhase {
             following.getSecond().addChild(following.getFirst());
         }
 
-        return unfollowing == null && following == null && reorganize == null;
+        return unfollowing != null || following != null || reorganize != null;
     }
 
     private static List<Pair<List<Character>, Card>> posibleChoices(List<Fellowship> destinations,
@@ -297,5 +304,24 @@ public class OrganizationPhase {
         } else {
             return Stream.empty();
         }
+    }
+
+    private static boolean exchangeItems(Player player){
+        /* TODO: Puedes intercambiar objetos entre tus personajes si están en
+        el mismo lugar, pero antes, el portador de cada objeto deberá
+        hacer un chequeo de corrupción por cada objeto que confiera puntos de
+        corrupción que quiera intercambiar. */
+        throw new UnsupportedOperationException("Not implemented yet");
+    }
+
+    private static boolean storeItems(Player player){
+        /* TODO: También puedes almacenar objetos si el portador está en un
+        ~ . No hace falta almacenar un objeto para ganar sus PV, pero
+        evitará que lo puedas perder debido a ciertas adversidades y el
+        portador se liberará de sus puntos de corrupción.
+        El personaje que lleva el objeto deberá hacer un chequeo de
+        corrupción antes de almacenarlo. Los objetos almacenados se
+        colocan en la pila de PV. El Anillo Único no puede ser almacenado.*/
+        throw new UnsupportedOperationException("Not implemented yet");
     }
 }

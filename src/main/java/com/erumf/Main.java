@@ -48,8 +48,8 @@ public class Main {
 
     public static void defaultGameSetup() {
         // Set up the players' draw decks
-        player1.setDrawDeck(StarterDeck.defaultDeckGandalf(player1));
-        player2.setDrawDeck(StarterDeck.defaultDeckSaruman(player2));
+        player1.setDrawDeck(StarterDeck.defaultGandalfDeck(player1));
+        player2.setDrawDeck(StarterDeck.defaultSarumanDeck(player2));
 
         Character merry = player1.getDrawDeck().findFirstOf(StarterCharacters.Merry.class);
         Character boromirii = player1.getDrawDeck().findFirstOf(StarterCharacters.BoromirII.class);
