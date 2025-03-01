@@ -3,9 +3,13 @@ package com.erumf.utils.position;
 import java.util.List;
 import java.util.stream.Stream;
 
+import org.jgrapht.alg.util.Pair;
+
 import com.erumf.Player;
 import com.erumf.elements.Character;
 import com.erumf.elements.Location;
+import com.erumf.exception.GameLogicException;
+import com.erumf.utils.cli.ConsoleUtils;
 
 /**
  * The Fellowship class represents a group of character cards in the game.
@@ -98,5 +102,26 @@ public class Fellowship extends Card {
      */
     public Location getLocation() {
         return (Location) this.getFather();
+    }
+
+    public Pair<Fellowship, Location> chooseDestination() {
+        List<Pair<Fellowship,Location>> possibleDestinations = this.getLocation().getDestinations().stream()
+                .map(destination -> new Pair<>(this, destination))
+                .toList();
+        return ConsoleUtils.chooseActionNoForced("Choose a destination", possibleDestinations);
+    }
+
+    /**
+     * Adds a companion to the fellowship.
+     * Checks if the fellowship would exceed the max capacity and if it doesn't, adds the companion as a child.
+     *
+     * @param companion the companion to add
+     * @throws GameLogicException if the fellowship is full
+     */
+    public void addCompanion(Character companion) {
+        if (this.getCompanions() + companion.companionSize() > MAX_COMPANIONS) {
+            throw new GameLogicException("Fellowship would surpass the maximum number of companions");
+        }
+        this.addChild(companion);
     }
 }

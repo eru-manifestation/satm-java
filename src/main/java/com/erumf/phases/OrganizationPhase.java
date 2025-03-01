@@ -44,12 +44,13 @@ public class OrganizationPhase {
             done |= exchangeItems(player1);
             done |= storeItems(player1);
         } while (done);
-        /*
-         * TODO:
-         * Si por circunstancias del juego no tienes suficiente Influencia
-         * General o j para controlar a todos tus personajes deberás
-         * descartar los personajes que sobren en esta fase.
-         */
+        // Set the destinations for the fellowships
+        player1.setDestinations(player1.getCardsInPlay().stream()
+                .filter(Fellowship.class::isInstance)
+                .map(Fellowship.class::cast)
+                .map(Fellowship::chooseDestination));
+
+        discardExcessCharacters(player1);
     }
 
     /**
@@ -148,7 +149,7 @@ public class OrganizationPhase {
     private static Stream<Pair<Character, Card>> playablePositions(Character character, Player player) {
         Set<Card> playablePosition = new HashSet<>();
         Location loc = Main.positionGraph.findLocation(character.getBirthplace());
-        Set<Location> playableHavens = character.getRace().equals(Character.Race.WIZARD) ? Main.positionGraph.havens
+        Set<? extends Location> playableHavens = character.getRace().equals(Character.Race.WIZARD) ? Main.positionGraph.havens
                 : Set.of(Main.positionGraph.rivendell);
         playablePosition.addAll(playableHavens);
         playablePosition.add(loc);
@@ -322,6 +323,7 @@ public class OrganizationPhase {
      * Exchange items between two characters of the same player that are in the same
      * location, after a corruption check if the transfered item has corruption
      * points.
+     * 
      * @param player
      * @return false if the player whishes not to exchange any item, true otherwise
      */
@@ -337,10 +339,10 @@ public class OrganizationPhase {
                 .filter(Item.class::isInstance)
                 .map(Item.class::cast)
                 .flatMap(item -> item.getOwner().getFellowship().getLocation().getFellowships().stream()
-                    .filter(fell->fell.getPlayer().equals(player))
-                    .flatMap(fell -> fell.getCompanionList().stream()
-                        .filter(companion -> companion != item.getOwner())
-                        .map(companion -> new Pair<>(item, companion))))
+                        .filter(fell -> fell.getPlayer().equals(player))
+                        .flatMap(fell -> fell.getCompanionList().stream()
+                                .filter(companion -> companion != item.getOwner())
+                                .map(companion -> new Pair<>(item, companion))))
                 // .filter(item -> item.isExchangeable()) TODO: Implement that only one Armor
                 // and one Weapon can be used at a time
                 .toList();
@@ -369,9 +371,12 @@ public class OrganizationPhase {
     }
 
     /**
-     * Store items or other designated resources from your companies at a Haven site.
-     * A corruption check is required for the character giving up an item (if the item
+     * Store items or other designated resources from your companies at a Haven
+     * site.
+     * A corruption check is required for the character giving up an item (if the
+     * item
      * has corruption points). The One Ring cannot be stored.
+     * 
      * @param player
      * @return false if the player whishes not to store any item, true otherwise
      */
@@ -420,5 +425,31 @@ public class OrganizationPhase {
         }
 
         return false;
+    }
+
+    /**
+     * Discard excess characters if the player does not have enough general
+     * influence
+     * 
+     * @param player1
+     */
+    private static void discardExcessCharacters(Player player) {
+        List<Character> companions = player.getCardsInPlay().stream()
+                .filter(Character.class::isInstance)
+                .map(Character.class::cast)
+                .filter(ch -> !ch.isFollower())
+                .toList();
+        while (player.getGeneralInfluence() < 0) {
+            String choice = ConsoleUtils.chooseFrom(
+                    "You must discard a character, the used general influence exceeds the limit.", companions.stream()
+                            .map(character -> character.getClass().getSimpleName()).toList());
+            Character character = companions.stream()
+                    .filter(ch -> ch.getClass().getSimpleName().equals(choice))
+                    .findFirst()
+                    .orElseThrow();
+            // TODO: Implement the special condition of discarding a character
+            character.discard();
+
+        }
     }
 }

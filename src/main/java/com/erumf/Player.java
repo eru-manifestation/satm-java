@@ -2,11 +2,16 @@ package com.erumf;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
+import org.jgrapht.alg.util.Pair;
+
+import com.erumf.elements.Location;
 import com.erumf.utils.GameProperty;
 import com.erumf.utils.cli.ConsoleUtils;
 import com.erumf.utils.position.Card;
 import com.erumf.utils.position.Deck;
+import com.erumf.utils.position.Fellowship;
 
 /**
  * The Player class represents a player in the game.
@@ -25,6 +30,7 @@ public class Player {
     private final GameProperty<Integer> generalInfluence;
     private final GameProperty<Integer> mp;
     public static final int MAX_HAND_SIZE = 8;
+    private Stream<Pair<Fellowship, Location>> destinations;
 
     /**
      * Constructs a new Player with the specified name.
@@ -181,5 +187,9 @@ public class Player {
                 .anyMatch(discarded -> discarded.getClass().equals(clazz)) ||
                this.getCardsInPlay().stream()
                 .anyMatch(inPlay -> inPlay.getClass().equals(clazz));
+    }
+
+    public void setDestinations(Stream<Pair<Fellowship, Location>> destinations) {
+        this.destinations = destinations;
     }
 }

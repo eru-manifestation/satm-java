@@ -249,6 +249,25 @@ public abstract class Character extends Card {
     }
 
     /**
+     * Adds an item to the character.
+     * <p>It applies the effects of the item to the character and adds the item as a child.
+     * @param item
+     */
+    public void addItem(Item item) {
+        applyEffects(item);
+        this.addChild(item);
+    }
+
+    private void applyEffects(Item item) {
+        this.getPlayer().setMp(this.getPlayer().getMp() + item.getMp());
+        this.setCorruption(this.getCorruption() + item.getCorruption());
+        this.setInfluence(this.getInfluence() + item.getInfluence());
+        this.setMind(this.getMind() + item.getMind());
+        this.setBody(this.getBody() + item.getBody());
+        this.setProwess(this.getProwess() + item.getProwess());
+    }
+
+    /**
      * The possible races of a character.
      */
     public enum Race {
@@ -269,8 +288,13 @@ public abstract class Character extends Card {
         return race == Race.HOBBIT ? 0.5f : 1.0f;
     }
 
-    //TODO: doc
-    // TODO: adjust to the new position sistem
+    /**
+     * Adds the character to the specified location. In the first fellowship found.
+     * Thought only for spawning the character as an initial character.
+     *
+     * @param locationClass the location to add the character to
+     * @throws IllegalArgumentException if the location is not found in the graph
+     */
     public void addCharacterToLocation(Class<? extends Location> locationClass) {
         Player player = this.getPlayer();
         Location location = Main.positionGraph.findLocation(locationClass);
@@ -278,28 +302,16 @@ public abstract class Character extends Card {
             throw new IllegalArgumentException("Location not found in the graph");
         }
 
-        Fellowship fellowship = Main.positionGraph.edgesOf(location).stream()
-                .map(Main.positionGraph::getEdgeTarget)
-                .filter(Fellowship.class::isInstance)
-                .map(Fellowship.class::cast)
-                .filter(f -> f.getPlayer().equals(player))
+        Fellowship fellowship = location.getFellowships().stream()
+                .filter(fell -> fell.getPlayer().equals(player))
                 .findFirst()
                 .orElse(null);
 
         if (fellowship == null) {
             fellowship = new Fellowship(player);
-            Main.positionGraph.addVertex(fellowship);
-            Main.positionGraph.addEdge(location, fellowship);
-            Main.positionGraph.addVertex(this);
-            Main.positionGraph.addEdge(fellowship, this);
-        } else {
-            if (fellowship.getCompanions() + this.companionSize() <= Fellowship.MAX_COMPANIONS) {
-                Main.positionGraph.addVertex(this);
-                Main.positionGraph.addEdge(fellowship, this);
-            } else {
-                throw new IllegalStateException("Fellowship would surpass the maximum number of companions");
-            }
+            location.addFellowship(fellowship);
         }
+        fellowship.addCompanion(this);
     }
 
     public boolean isTapped() {

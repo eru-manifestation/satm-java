@@ -1,6 +1,5 @@
 package com.erumf.elements;
 
-import com.erumf.Main;
 import com.erumf.Player;
 import com.erumf.exception.GameLogicException;
 
@@ -37,15 +36,6 @@ public abstract class Item extends Resource {
         return itemType;
     }
 
-    private void applyEffects(Character character) {
-        this.getPlayer().setMp(this.getPlayer().getMp() + getMp());
-        character.setCorruption(character.getCorruption() + getCorruption());
-        character.setInfluence(character.getInfluence() + getInfluence());
-        character.setMind(character.getMind() + getMind());
-        character.setBody(character.getBody() + getBody());
-        character.setProwess(character.getProwess() + getProwess());
-    }
-
     /**
      * Plays the item as an initial item and puts it under the specified character.
      *
@@ -53,9 +43,7 @@ public abstract class Item extends Resource {
      */
     public void playAsInitialItem(Character character) {        
         getPlayer().getDrawDeck().remove(this);
-        Main.positionGraph.addVertex(character);
-        Main.positionGraph.addEdge(character, this);//TODO: this should be prepared if it is not permitted, to go back
-        applyEffects(character);
+        character.addItem(this);
     }
 
     public boolean isTapped() {
