@@ -50,7 +50,7 @@ public class Fellowship extends Card {
      * @throws IllegalArgumentException if the fellowship is full
      */
     @Override
-    public void addChild(Card card) {
+    protected void addChild(Card card) {
         if(card instanceof Character character){
             this.setCompanions(this.getCompanions() + character.companionSize());
             empty = false;
@@ -69,7 +69,7 @@ public class Fellowship extends Card {
      * @param card the card to remove
      */
     @Override
-    public void removeChild(Card card) {
+    protected void removeChild(Card card) {
         if(card instanceof Character character){
             this.setCompanions(this.getCompanions() - character.companionSize());
             if(companions == 0){

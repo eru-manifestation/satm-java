@@ -21,6 +21,7 @@ public class Player {
     private Deck drawDeck = null;
     private final Deck hand = new Deck();
     private final Deck discardDeck = new Deck();
+    private final Deck mpDeck = new Deck();
     /**
      * Since this is just a view of the cards in play, it MUST NOT have the add implementation
      * that disconnects the card from the position tree.
@@ -191,5 +192,9 @@ public class Player {
 
     public void setDestinations(Stream<Pair<Fellowship, Location>> destinations) {
         this.destinations = destinations;
+    }
+
+    public Deck getMpDeck() {
+        return mpDeck;
     }
 }

@@ -267,6 +267,19 @@ public abstract class Character extends Card {
         this.setProwess(this.getProwess() + item.getProwess());
     }
 
+    private void unapplyEffects(Item item) {
+        this.getPlayer().setMp(this.getPlayer().getMp() - item.getMp());
+        this.setCorruption(this.getCorruption() - item.getCorruption());
+        this.setInfluence(this.getInfluence() - item.getInfluence());
+        this.setMind(this.getMind() - item.getMind());
+        this.setBody(this.getBody() - item.getBody());
+        this.setProwess(this.getProwess() - item.getProwess());
+    }
+
+    public void addFollower(Character character) {
+        this.addChild(character);
+    }
+
     /**
      * The possible races of a character.
      */
@@ -332,7 +345,8 @@ public abstract class Character extends Card {
     }
 
     public boolean isInHaven() {
-        return false;//TODO: Implement
+        throw new UnsupportedOperationException("Not supported yet.");
+        //TODO: Implement
     }
 
     /**
@@ -353,7 +367,7 @@ public abstract class Character extends Card {
      * @throws GameLogicException if the character is not in a deck and has no father
      */
     @Override
-    public void addChild(Card card){
+    protected void addChild(Card card){
         if(card instanceof Character character){
             this.setInfluence(this.getInfluence() - character.getMind());
             if(this.getInfluence() < 0){
@@ -389,9 +403,13 @@ public abstract class Character extends Card {
      * @param card the child card to remove
      */
     @Override
-    public void removeChild(Card card){
-        if(card instanceof Character character){
-            character.isFollower = false;
+    protected void removeChild(Card card){
+        switch (card) {
+            case Character character -> character.isFollower = false;
+            case Item item -> this.unapplyEffects(item);
+            default -> {
+                throw new GameLogicException("Unexpected card found as child of a character");
+            }
         }
         super.removeChild(card);
     }

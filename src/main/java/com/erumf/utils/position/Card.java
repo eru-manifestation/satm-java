@@ -58,7 +58,7 @@ public abstract class Card {
      * @param child the child to add
      * @throws IllegalArgumentException if the card is unique and already in the discard deck
      */
-    public void addChild(Card child) {
+    protected void addChild(Card child) {
         if(child.isUnique() && child.getPlayer().isUniqueDisabled(child.getClass())){
             throw new IllegalArgumentException("Card is unique and already in the discard deck or in play");
         }
@@ -78,7 +78,7 @@ public abstract class Card {
      *
      * @param child the child to remove
      */
-    public void removeChild(Card child) {
+    protected void removeChild(Card child) {
         children.remove(child);
         child.setFather(null);
     }

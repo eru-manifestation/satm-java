@@ -97,16 +97,16 @@ public class OrganizationPhase {
             switch (choice.getSecond()) {
                 case Location location -> {
                     Fellowship fellowship = new Fellowship(player);
-                    location.addChild(fellowship);
-                    fellowship.addChild(choice.getFirst());
+                    location.addFellowship(fellowship);
+                    fellowship.addCompanion(choice.getFirst());
                     break;
                 }
                 case Fellowship fellowship -> {
-                    fellowship.addChild(choice.getFirst());
+                    fellowship.addCompanion(choice.getFirst());
                     break;
                 }
                 case Character character -> {
-                    character.addChild(choice.getFirst());
+                    character.addFollower(character);
                     break;
                 }
                 default -> {
@@ -224,18 +224,14 @@ public class OrganizationPhase {
             switch (reorganize.getSecond()) {
                 case Fellowship fellowship -> {
                     // Move the characters to the fellowship
-                    reorganize.getFirst().forEach(ch -> {
-                        fellowship.addChild(ch);
-                    });
+                    reorganize.getFirst().forEach(ch -> fellowship.addCompanion(ch));
                 }
                 case Location location -> {
                     // Create a new fellowship
                     Fellowship fellowship = new Fellowship(player);
-                    location.addChild(fellowship);
+                    location.addFellowship(fellowship);
                     // Move the characters to the fellowship
-                    reorganize.getFirst().forEach(ch -> {
-                        fellowship.addChild(ch);
-                    });
+                    reorganize.getFirst().forEach(ch -> fellowship.addCompanion(ch));
                 }
                 default -> {
                     throw new IllegalStateException("Unexpected value: " + reorganize.getSecond());
@@ -244,11 +240,11 @@ public class OrganizationPhase {
         }
         if (unfollowing != null) {
             // Move the character to the fellowship
-            unfollowing.getSecond().addChild(unfollowing.getFirst());
+            unfollowing.getSecond().addCompanion(unfollowing.getFirst());
         }
         if (following != null) {
             // Move the character to the other character
-            following.getSecond().addChild(following.getFirst());
+            following.getSecond().addFollower(following.getFirst());
         }
 
         return unfollowing != null || following != null || reorganize != null;
@@ -358,12 +354,12 @@ public class OrganizationPhase {
                 } else {
                     if (owner.corruptionCheck()) {
                         // Transfer the item
-                        newOwner.addChild(item);
+                        newOwner.addItem(item);
                     }
                 }
             }
             // Transfer the item
-            newOwner.addChild(item);
+            newOwner.addItem(item);
             return true;
         }
 
@@ -415,12 +411,12 @@ public class OrganizationPhase {
                 } else {
                     if (owner.corruptionCheck()) {
                         // Store the item
-                        choice.getSecond().addChild(item);
+                        choice.getSecond().storeItem(item);
                     }
                 }
             }
-            // Transfer the item
-            choice.getSecond().addChild(item);
+            // Store the item
+            choice.getSecond().storeItem(item);
             return true;
         }
 
