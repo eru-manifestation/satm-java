@@ -47,6 +47,18 @@ public class ConsoleUtils {
     }
 
     /**
+     * Displays a list of options to the user and prompts them to choose one or do nothing.
+     *
+     * @param message the message to display to the user
+     * @param options the list of options to choose from
+     * @return the chosen option or null if the user chooses to do nothing
+     */
+    public static String chooseFromOptional(String message, List<String> options) {
+        options.add("Do nothing");
+        return chooseFrom(message, options);
+    }
+
+    /**
      * Displays a list of actions to the user and prompts them to choose one.
      *
      * @param message the message to display to the user
@@ -59,8 +71,10 @@ public class ConsoleUtils {
         List<String> options = actions.stream()
                 .map(action -> action.getFirst().getClass().getSimpleName() + " -> " + action.getSecond().getClass().getSimpleName())
                 .collect(Collectors.toList());
+        options.add("Do nothing");
         String choice = chooseFrom(message, options);
-        return actions.get(options.indexOf(choice));
+        Integer indexChoice = options.indexOf(choice);
+        return indexChoice == options.size()-1 ? null : actions.get(indexChoice);
     }
 
     /**
@@ -79,7 +93,7 @@ public class ConsoleUtils {
         options.add("Do nothing");
         String choice = chooseFrom(message, options);
         Integer indexChoice = options.indexOf(choice);
-        return indexChoice == -1 ? null : actions.get(indexChoice);
+        return indexChoice == options.size()-1 ? null : actions.get(indexChoice);
     }
 
     /**

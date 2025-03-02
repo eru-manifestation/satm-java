@@ -101,6 +101,16 @@ public abstract class Card {
         this.player.getDiscardDeck().add(this);
     }
 
+
+    /**
+     * Checks if the card is playable.
+     *
+     * @return true if the card is playable, false otherwise
+     */
+    public boolean isPlayable() {
+        return !isUnique() || !player.isUniqueDisabled(this.getClass());
+    }
+
     /**
      * TODO: IMPLEMENTAR UNA COLECCIÓN DE LISTENERS CON TIPO: IN, EXEC, OUT Y UN
      * EVENTO ASOCIADO

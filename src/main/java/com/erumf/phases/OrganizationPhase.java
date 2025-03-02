@@ -68,21 +68,20 @@ public class OrganizationPhase {
 
         // Play characters with general influence
         List<Pair<Character, Card>> playableCharacters = handCharacters.stream()
-                .filter(character -> player.isUniqueDisabled(character.getClass()))
+                .filter(Character::isPlayable)
                 .filter(character -> player.getGeneralInfluence() >= character.getMind())
                 .flatMap(character -> playablePositions(character, player))
                 .toList();
 
         // Play characters with direct influence
         playableCharacters.addAll(handCharacters.stream()
-                .filter(character -> player.isUniqueDisabled(character.getClass()))
+                .filter(Character::isPlayable)
                 .flatMap(handCharacter -> Main.positionGraph.locations.stream()
                         .filter(loc -> loc.getPlace().equals(Location.PlaceType.HAVEN)
                                 || loc.getClass().equals(handCharacter.getBirthplace()))
-                        .flatMap(loc -> loc.getChildren().stream())
-                        .filter(Fellowship.class::isInstance)
+                        .flatMap(loc -> loc.getFellowships().stream())
                         .filter(fell -> fell.getPlayer().equals(player))
-                        .filter(fell -> ((Fellowship) fell).getCompanions()
+                        .filter(fell -> fell.getCompanions()
                                 + handCharacter.companionSize() <= Fellowship.MAX_COMPANIONS)
                         .flatMap(fell -> fell.getChildren().stream())
                         .filter(Character.class::isInstance)
@@ -98,14 +97,17 @@ public class OrganizationPhase {
                 case Location location -> {
                     Fellowship fellowship = new Fellowship(player);
                     location.addFellowship(fellowship);
+                    player.getHand().remove(choice.getFirst());
                     fellowship.addCompanion(choice.getFirst());
                     break;
                 }
                 case Fellowship fellowship -> {
+                    player.getHand().remove(choice.getFirst());
                     fellowship.addCompanion(choice.getFirst());
                     break;
                 }
                 case Character character -> {
+                    player.getHand().remove(choice.getFirst());
                     character.addFollower(character);
                     break;
                 }

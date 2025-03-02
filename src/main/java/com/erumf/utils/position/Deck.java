@@ -17,9 +17,9 @@ public class Deck extends ArrayList<Card> {
         return this.remove(0);
     }
 
-    public List<Card> draw(Integer index) {
-        List<Card> drawn = this.subList(0, index);
-        this.removeRange(0, index);
+    public List<Card> draw(Integer ammount) {
+        List<Card> drawn = this.subList(0, ammount);
+        this.removeRange(0, ammount);
         return drawn;
     }
 

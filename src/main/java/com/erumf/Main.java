@@ -87,14 +87,20 @@ public class Main {
         LongEventPhase.longEventPhase(player1);
         MovementPhase.movementPhase(player1);
         hazardPhase(player1);
-        longEventPhase(player1);
     }
 
     private static void hazardPhase(Player player) {
         // Implement hazard phase logic
     }
 
-    private static void longEventPhase(Player player) {
-        // Implement long event phase logic
+
+    public static Player enemy(Player player) {
+        if (player.equals(player1)) {
+            return player2;
+        } else if (player.equals(player2)) {
+            return player1;
+        } else {
+            throw new IllegalArgumentException("Invalid player");
+        }
     }
 }
