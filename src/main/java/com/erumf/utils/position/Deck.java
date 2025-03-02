@@ -36,7 +36,7 @@ public class Deck extends ArrayList<Card> {
         if(father != null) {
             father.removeChild(card);
         }
-        card.children.forEach(c->super.add(c));
+        card.children.forEach(this::add);
         return super.add(card);
     }
 }

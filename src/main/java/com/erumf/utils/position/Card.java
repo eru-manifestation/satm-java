@@ -94,11 +94,9 @@ public abstract class Card {
 
     /**
      * Discards this card, removing it from its current position and adding it to the player's discard deck.
+     * Also discards all its children.
      */
     public void discard() {
-        if (this.father != null) {
-            this.father.removeChild(this);
-        }
         this.player.getCardsInPlay().remove(this);
         this.player.getDiscardDeck().add(this);
     }

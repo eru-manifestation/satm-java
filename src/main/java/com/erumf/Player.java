@@ -21,6 +21,7 @@ public class Player {
     private Deck drawDeck = null;
     private final Deck hand = new Deck();
     private final Deck discardDeck = new Deck();
+    private final Deck outOfPlayDeck = new Deck();
     private final Deck mpDeck = new Deck();
     /**
      * Since this is just a view of the cards in play, it MUST NOT have the add implementation
@@ -184,7 +185,7 @@ public class Player {
      * @return true if the unique card is in the discard deck or in play, false otherwise
      */
     public <T extends Card> boolean isUniqueDisabled(Class<T> clazz) {
-        return this.getDiscardDeck().stream()
+        return this.getOutOfPlayDeck().stream()
                 .anyMatch(discarded -> discarded.getClass().equals(clazz)) ||
                this.getCardsInPlay().stream()
                 .anyMatch(inPlay -> inPlay.getClass().equals(clazz));
@@ -196,5 +197,13 @@ public class Player {
 
     public Deck getMpDeck() {
         return mpDeck;
+    }
+
+    public Stream<Pair<Fellowship, Location>> getDestinations() {
+        return destinations;
+    }
+
+    public Deck getOutOfPlayDeck() {
+        return outOfPlayDeck;
     }
 }

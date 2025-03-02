@@ -6,6 +6,7 @@ import java.util.Set;
 import com.erumf.Main;
 import com.erumf.Player;
 import com.erumf.exception.GameLogicException;
+import com.erumf.utils.Dice;
 import com.erumf.utils.GameProperty;
 import com.erumf.utils.position.Card;
 import com.erumf.utils.position.Deck;
@@ -245,7 +246,43 @@ public abstract class Character extends Card {
     }
 
     public boolean corruptionCheck() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        Integer roll = Dice.roll();
+        if (roll > this.getCorruption()) {
+            return true;
+        } else if (roll == this.getCorruption() || roll + 1 == this.getCorruption()){
+            this.discard();
+            return false;
+        } else {
+            this.eliminate();
+            return false;
+        }
+    }
+
+
+    /**
+     * Discards the character from the game.
+     * <p>It adds the followers of the character to the fellowship and then discards the character.
+     * If the character card is found again, it can return to the game.
+     */
+    @Override
+    public void discard() {
+        Fellowship fellowship = this.getFellowship();
+        // TODO: allow to surpass the fellowship limit
+        this.getFollowers().forEach(follower -> fellowship.addCompanion(follower));
+        super.discard();
+    }
+
+    /**
+     * Eliminates the character from the game.
+     * <p>It adds the followers of the character to the fellowship and then discards the character.
+     * A character that is eliminated cannot return to the game.
+     */
+    public void eliminate() {
+        Fellowship fellowship = this.getFellowship();
+        // TODO: allow to surpass the fellowship limit
+        this.getFollowers().forEach(follower -> fellowship.addCompanion(follower));
+        this.getPlayer().getCardsInPlay().remove(this);
+        this.getPlayer().getOutOfPlayDeck().add(this);
     }
 
     /**
