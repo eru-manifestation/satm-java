@@ -2,6 +2,7 @@ package com.erumf.utils.cli;
 
 import java.util.List;
 import java.util.Scanner;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 import org.jgrapht.alg.util.Pair;
@@ -115,5 +116,41 @@ public class ConsoleUtils {
             System.err.println("An error occurred while reading input: " + e.getMessage());
             return false;
         }
+    }
+
+    /**
+     * Displays a list of elements to the user and prompts them to choose one.
+     *
+     * @param message  the message to display to the user
+     * @param elements the list of elements to choose from
+     * @param toString the function to convert an element to a string
+     * @param <T>      the type of the elements
+     * @return the chosen element
+     */
+    public static <T> T chooseElement(String message, List<T> elements, Function<T, String> toString) {
+        List<String> options = elements.stream()
+                .map(Object::toString)
+                .collect(Collectors.toList());
+        String choice = chooseFrom(message, options);
+        Integer indexChoice = options.indexOf(choice);
+        return elements.get(indexChoice);
+    }
+
+    /**
+     * Displays a list of elements to the user and prompts them to choose one.
+     *
+     * @param message  the message to display to the user
+     * @param elements the list of elements to choose from
+     * @param toString the function to convert an element to a string
+     * @param <T>      the type of the elements
+     * @return the chosen element
+     */
+    public static <T> T chooseElementOptional(String message, List<T> elements, Function<T, String> toString) {
+        List<String> options = elements.stream()
+                .map(Object::toString)
+                .collect(Collectors.toList());
+        String choice = chooseFromOptional(message, options);
+        Integer indexChoice = options.indexOf(choice);
+        return elements.get(indexChoice);
     }
 }

@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 import com.erumf.Player;
+import com.erumf.exception.GameLogicException;
 
 /**
  * The Basic class represents a basic element in the game.
@@ -109,6 +110,17 @@ public abstract class Card {
      */
     public boolean isPlayable() {
         return !isUnique() || !player.isUniqueDisabled(this.getClass());
+    }
+
+
+    public void play() {
+        if (isPlayable()) {
+            if(player.getHand().remove(this))
+                player.getCardsInPlay().add(this);
+            else throw new GameLogicException("Card not found in hand");
+        } else {
+            throw new GameLogicException("Conditions are not met for this card to be played");
+        }
     }
 
     /**

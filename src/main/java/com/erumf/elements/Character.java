@@ -413,7 +413,7 @@ public abstract class Character extends Card {
             character.isFollower = true;
             switch(this.getFather()){
                 case Fellowship fellowship -> {
-                    fellowship.setCompanions(fellowship.getCompanions() + character.companionSize());
+                    fellowship.setCompanions(fellowship.getCompanions() + 1);
                     if(fellowship.getCompanions() > Fellowship.MAX_COMPANIONS){
                         throw new GameLogicException("Fellowship is full");
                     }
@@ -442,7 +442,10 @@ public abstract class Character extends Card {
     @Override
     protected void removeChild(Card card){
         switch (card) {
-            case Character character -> character.isFollower = false;
+            case Character character -> {
+                this.getFellowship().setCompanions(this.getFellowship().getCompanions() - 1);
+                character.isFollower = false;
+            }
             case Item item -> this.unapplyEffects(item);
             default -> {
                 throw new GameLogicException("Unexpected card found as child of a character");

@@ -156,6 +156,14 @@ public class Player {
     }
 
     /**
+     * Draws a card from the draw deck and adds it to the player's hand.
+     */
+    public void draw(Integer number) {
+        for (int i = 0; i < number; i++)
+            this.hand.add(this.drawDeck.draw());
+    }
+
+    /**
      * Asks the user to select a card for discard from the player's hand.
      */
     private void discard() {

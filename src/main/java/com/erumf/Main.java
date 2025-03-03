@@ -86,13 +86,7 @@ public class Main {
         OrganizationPhase.organizationPhase(player1);
         LongEventPhase.longEventPhase(player1);
         MovementPhase.movementPhase(player1);
-        hazardPhase(player1);
     }
-
-    private static void hazardPhase(Player player) {
-        // Implement hazard phase logic
-    }
-
 
     public static Player enemy(Player player) {
         if (player.equals(player1)) {

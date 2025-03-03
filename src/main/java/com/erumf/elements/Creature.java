@@ -142,4 +142,9 @@ public abstract class Creature extends Hazard {
     public void removeInitLocationName(String locationName) {
         _locationNames.remove(locationName);
     }
+
+    public int getStrikes() {
+        // TODO: Implement this method
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 }
