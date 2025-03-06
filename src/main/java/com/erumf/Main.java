@@ -17,6 +17,7 @@ import com.erumf.phases.LongEventPhase;
 import com.erumf.phases.MovementPhase;
 import com.erumf.phases.OrganizationPhase;
 import com.erumf.phases.UntapPhase;
+import com.erumf.ui.LanternaWindow;
 import com.erumf.utils.graph.DefaultPathEdge;
 import com.erumf.utils.graph.PositionGraph;
 import com.erumf.utils.log.Logger;
@@ -31,8 +32,9 @@ public class Main {
     public static void main(String[] args) {
 
         Logger.info("Starting game...");
-        defaultGameSetup();
-        startGame(player1);
+        LanternaWindow.startWindow();
+        // defaultGameSetup();
+        // startGame(player1);
     }
 
     public static void instantiateCardInRivendell(Character card) {
