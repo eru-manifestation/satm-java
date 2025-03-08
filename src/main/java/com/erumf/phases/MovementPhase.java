@@ -29,31 +29,38 @@ public class MovementPhase {
         Fellowship fellowship = pair.getFirst();
         Location location = pair.getSecond();
         Integer hazardLimit;
-        if (location == null) {
-            // La compañía no se mueve
+        if (location == null) {// La compañía no se mueve
+            // Calcular limite de adversidades
+            hazardLimit = hazardLimit(fellowship);
+            // Jugar adversidades
+            playhazards(player, fellowship, location, hazardLimit);
+
+            goBack();
+
+        } else {// La compañía se mueve
+            boolean obligedToGoBack = false;
+
+            // Revelar el lugar de destino
+            revealDestination(player, fellowship, location);
 
             // Calcular limite de adversidades
             hazardLimit = hazardLimit(fellowship);
-            // Jugar adversidades
-            playhazards(player, fellowship, location, hazardLimit);
-            // Reponer mano
-            player.standardizeHand();
-            Main.enemy(player).standardizeHand();
-        } else {
-            // Revelar el lugar de destino
-            // TODO
-            // Calcular limite de adversidades
-            hazardLimit = hazardLimit(fellowship);
+
             // Robar cartas
             drawCards(player, fellowship.getLocation() ,location);
+
             // Jugar adversidades
             playhazards(player, fellowship, location, hazardLimit);
+
             // Llegar al lugar de destino
-            // TODO
-            // Reponer mano
-            player.standardizeHand();
-            Main.enemy(player).standardizeHand();
+            if(obligedToGoBack)
+                goBack();
+            else
+                arriveDestination(player, fellowship, location);
         }
+        // Reponer mano
+        player.standardizeHand();
+        Main.enemy(player).standardizeHand();
     }
 
     /**
@@ -87,17 +94,51 @@ public class MovementPhase {
     }
 
     private static void playhazards(Player player, Fellowship fellowship, Location location, Integer hazardLimit) {
-        boolean done;
+        boolean done = false;
+        boolean guardPlayed = false;
         do {
-            done = playEventHazard(player, fellowship, location);
+            if (!guardPlayed) {
+                guardPlayed = playGuard(player, fellowship, location);
+                done |= guardPlayed;
+            }
+            done |= playEventHazard(player, fellowship, location);
             done |= playCreatureHazard(player, fellowship, location);
         } while (hazardLimit > 0 && done);
     }
 
-    private static boolean playEventHazard(Player player, Fellowship fellowship, Location location) {
+    /**
+     * The enemy can play a guard card to attack the company on its destination (or source, if they do not move)
+     * and can be activated under certain circumstances.
+     * @param player
+     * @param fellowship
+     * @param location
+     * @return  true if a guard card was played, false otherwise
+     */
+    private static boolean playGuard(Player player, Fellowship fellowship, Location location) {
+        // TODO
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
+    /**
+     * The enemy can play an event hazard event that affects the moving company.
+     * @param player
+     * @param fellowship
+     * @param location
+     * @return true if an event hazard was played, false otherwise
+     */
+    private static boolean playEventHazard(Player player, Fellowship fellowship, Location location) {
+        // TODO
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    /**
+     * The enemy can play a creature hazard that attacks the moving company. The combat is inmediately
+     * resolved.
+     * @param player
+     * @param fellowship
+     * @param location
+     * @return true if a creature hazard was played, false otherwise
+     */
     private static boolean playCreatureHazard(Player player, Fellowship fellowship, Location location) {
         List<Creature> choices = Main.enemy(player).getHand().stream()
                 .filter(Creature.class::isInstance)
@@ -114,6 +155,21 @@ public class MovementPhase {
             return true;
         }
         return false;
+    }
+
+    private static void revealDestination(Player player, Fellowship fellowship, Location location) {
+        // TODO
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    private static void arriveDestination(Player player, Fellowship fellowship, Location location) {
+        // TODO
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    private static void goBack() {
+        // TODO
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 
 }
