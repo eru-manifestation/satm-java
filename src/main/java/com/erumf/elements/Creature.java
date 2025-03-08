@@ -3,6 +3,7 @@ package com.erumf.elements;
 import java.util.Map;
 import java.util.Set;
 
+import com.erumf.Main;
 import com.erumf.Player;
 import com.erumf.elements.Location.PlaceType;
 import com.erumf.utils.GameProperty;
@@ -146,5 +147,29 @@ public abstract class Creature extends Hazard {
     public int getStrikes() {
         // TODO: Implement this method
         throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    /**
+     * Checks if the creature has resistance to a strike and if it has, makes a resistance
+     * check. This does NOT discard nor remove the creature from the game.
+     * 
+     * @return true if the creature has resisted the check, false otherwise
+     */
+    public boolean resistanceCheck() {
+        if (this.getInitBody() != 0) {
+            // TODO pass this resistance check
+        }else{
+            // TODO return false
+        }
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    /**
+     * Eliminates the creature from the game as if it had been defeated.
+     * <p>It moves the creature from play to the enemy's MP deck.
+     */
+    public void eliminate() {
+        this.getPlayer().getCardsInPlay().remove(this);
+        Main.enemy(this.getPlayer()).getMpDeck().add(this);
     }
 }

@@ -16,36 +16,51 @@ import com.erumf.utils.position.Fellowship;
  */
 public class Combat {
 
-    public static void creatureCombat(Fellowship fellowship, Creature creature) {
-        // TODO
+    private Integer unassignedStrikes;
+    private String result = "success";
+    private final List<Character> strikes;
+    private final Creature creature;
+    private final Fellowship fellowship;
 
-        /**
-         * Las cartas que modifiquen el número de golpes se tienen que
-        jugar antes de asignarlos. Los factores que modifican un golpe
-        deben decidirse antes de hacer la tirada en este orden:
-            l. El jugador atacante puede jugar cartas de adversidades que
-            modifiquen el golpe .
-            2. El jugador atacante puede usar los golpes sin objetivo como
-            modificadores -1 al poder sobre un personaje.
-            3. El personaje objetivo del golpe puede luchar con -3 al poder
-            para no quedar girado.
-            4. Finalmente el jugador defensor puede jugar recursos que
-            modifiquen el golpe.
-         */
+    private Combat(Fellowship fellowship, Creature creature) {
+        this.fellowship = fellowship;
+        this.creature = creature;
         // Jugar cartas que modifiquen el número de golpes
-        // TODO
+        playStrikeNumberModifyingHazards();
+        
         // Asignar golpes
-        List<Character> strikes = assignStrikes(fellowship, creature);
-        Integer unAsiggnedStrikes = creature.getStrikes() - strikes.size();
-        do { 
-            Character strike = ConsoleUtils.chooseElement("Choose the strike that you would like to resolve", 
-                strikes, 
-                ch -> ch.getClass().getSimpleName());
-            strikes.remove(strike);
-            unAsiggnedStrikes = executeStrike(strike, unAsiggnedStrikes);
-        } while (!strikes.isEmpty());
+        this.strikes = assignStrikes();
+        this.unassignedStrikes = creature.getStrikes() - strikes.size();
+
+        // Resolución de golpes
+        resolveStrikes();
+
+        // Consecuencias de los golpes
+        if(this.result.equals("success")){
+            creature.eliminate();
+        }else{
+            creature.discard();
+        }
+    }
+        
+    public static Combat creatureCombat(Fellowship fellowship, Creature creature) {
+        return new Combat(fellowship, creature);
     }
 
+    /**
+     * Resolves the strikes of the creature against the fellowship.
+     */
+    private void resolveStrikes() {
+        do { 
+            Character striken = ConsoleUtils.chooseElement("Choose the strike that you would like to resolve", 
+                strikes, 
+                ch -> ch.getClass().getSimpleName());
+            strikes.remove(striken);
+            StrikeCheck strike = new StrikeCheck(this, striken, creature);
+            if("success".equals(this.result))
+                this.result = strike.getResult();
+        } while (!strikes.isEmpty());
+    }
 
     /**
      * The defender can choose the target character of each strike, but only if it is untapped.
@@ -55,12 +70,12 @@ public class Combat {
      * @param creature
      * @return the list of characters that will face the strikes
      */
-    public static List<Character> assignStrikes(Fellowship fellowship, Creature creature) {
-        List<Character> companions = fellowship.getCompanionList();
+    private List<Character> assignStrikes() {
+        List<Character> companions = this.fellowship.getCompanionList();
         List<Character> unstrikenUntapped = companions.stream()
             .filter(ch -> !ch.isTapped())
             .toList();
-        List<Character> strikes = new ArrayList<>();
+        List<Character> assignedStrikes = new ArrayList<>();
         Boolean keep = false;
         if(!unstrikenUntapped.isEmpty() && ConsoleUtils.confirmAction("Do you want to a strike?")){
             keep = true;
@@ -71,7 +86,7 @@ public class Combat {
                 unstrikenUntapped, 
                 ch -> ch.getClass().getSimpleName());
             unstrikenUntapped.remove(strike);
-            strikes.add(strike);
+            assignedStrikes.add(strike);
             keep = ConsoleUtils.confirmAction("Do you want to assign another strike?");
         }
         while(!unstrikenUntapped.isEmpty()){
@@ -82,46 +97,27 @@ public class Combat {
             unstrikenUntapped.remove(strike);
         }
         
-        return strikes;
+        return assignedStrikes;
     }
 
-    private static Integer executeStrike(Character strike, Integer unAsiggnedStrikes) {
-        Integer accumulatedModifier = 0;
-        // Jugar cartas que modifiquen un golpe
-        // TODO
-        // Atacante puede asignar un golpe sin objetivo como modificador -1 al poder sobre un personaje
-        if(unAsiggnedStrikes > 0) {
-            if(ConsoleUtils.confirmAction("Do yo want to use a unassigned strike as a -1 modifier for this strike?")) {
-                unAsiggnedStrikes--;
-                strike.setProwess(strike.getProwess() - 1);
-                accumulatedModifier-=1;
-            }
-        }
-        // Personaje objetivo del golpe puede luchar con -3 al poder para no quedar girado
-        if(!strike.isTapped()){
-            if (ConsoleUtils.confirmAction("Do you want to face the strike with a -3 prowess modifier to avoid tapping the character afterwards?" )) {
-                strike.setProwess(strike.getProwess() - 3);
-                accumulatedModifier-=3;
-            }
-        }else if(strike.isWounded()){
-            strike.setProwess(strike.getProwess() - 2);
-            accumulatedModifier-=2;
-        }else{
-            strike.setProwess(strike.getProwess() - 1);
-            accumulatedModifier-=1;
-        }
+    public Integer getUnassignedStrikes() {
+        return unassignedStrikes;
+    }
 
-        // Defensor puede jugar recursos que modifiquen el golpe
-        // TODO
+    public void setUnassignedStrikes(Integer unassignedStrikes) {
+        this.unassignedStrikes = unassignedStrikes;
+    }
 
-        // Se resuelve el golpe
-        // TODO
+    public String getResult() {
+        return result;
+    }
 
-        // Consecuencia de los golpes
+    /**
+     * The enemy plays {@link Hazard} that modify the number of strikes.
+     */
+    private void playStrikeNumberModifyingHazards() {
         // TODO
-        
-        strike.setProwess(strike.getProwess() - accumulatedModifier);
-        return unAsiggnedStrikes;
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 
 }

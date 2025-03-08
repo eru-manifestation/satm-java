@@ -245,6 +245,15 @@ public abstract class Character extends Card {
         return isFollower;
     }
 
+    /**
+     * Checks the corruption level of the character by rolling a dice.
+     * 
+     * @return true if the dice roll is greater than the character's corruption level.
+     *         false if the dice roll is equal to or one less than the character's corruption level,
+     *         in which case the character is discarded.
+     *         false if the dice roll is less than the character's corruption level,
+     *         in which case the character is eliminated.
+     */
     public boolean corruptionCheck() {
         Integer roll = Dice.roll();
         if (roll > this.getCorruption()) {
@@ -315,6 +324,18 @@ public abstract class Character extends Card {
 
     public void addFollower(Character character) {
         this.addChild(character);
+    }
+
+    /**
+     * Makes a resistance check for the character.
+     * <p>It rolls a dice and compares it with the character's resistance value. If the character
+     * fails the resistance check, it is eliminated from the game (moved to the out of play deck).
+     * 
+     * @return true if the character resists, false otherwise
+     */
+    public boolean resistanceCheck() {
+        //TODO implement with elimination feature
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 
     /**

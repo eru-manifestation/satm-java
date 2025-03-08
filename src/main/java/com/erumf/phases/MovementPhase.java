@@ -89,16 +89,16 @@ public class MovementPhase {
     private static void playhazards(Player player, Fellowship fellowship, Location location, Integer hazardLimit) {
         boolean done;
         do {
-            done = playEventhazard(player, fellowship, location);
-            done |= playCreaturehazard(player, fellowship, location);
+            done = playEventHazard(player, fellowship, location);
+            done |= playCreatureHazard(player, fellowship, location);
         } while (hazardLimit > 0 && done);
     }
 
-    private static boolean playEventhazard(Player player, Fellowship fellowship, Location location) {
+    private static boolean playEventHazard(Player player, Fellowship fellowship, Location location) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
-    private static boolean playCreaturehazard(Player player, Fellowship fellowship, Location location) {
+    private static boolean playCreatureHazard(Player player, Fellowship fellowship, Location location) {
         List<Creature> choices = Main.enemy(player).getHand().stream()
                 .filter(Creature.class::isInstance)
                 .map(Creature.class::cast)
