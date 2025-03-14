@@ -1,0 +1,1708 @@
+[
+    {
+        "image": "Neekerbreekers.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThere were thousands of them, and they squeaked all round, neek-breek, breek-neek, unceasingly all the night, until the hobbits were nearly frantic.\u201d \u2014<\/i><b><i>LotR<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cHabía miles de ellos, chillando todos alrededor, nic-bric, nic-bric, incesantemente, toda la noche, hasta poner frenéticos a los hobbits.\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Quinton Hoover",
+        "name": {
+            "de": "Zirperkirper",
+            "fi": "",
+            "ja": "コウベサセ虫",
+            "en": "Neeker-breekers",
+            "it": "",
+            "fr": "Nicbriqueux",
+            "es": "Nique-Briques",
+            "nl": "Neeker-breekers"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Animals",
+            "subtype": "Creature",
+            "strikes": "1/each",
+            "body": "-",
+            "prowess": "7",
+            "playable": "{b}{w}{s}{d}{R}"
+        },
+        "id": "TW-493",
+        "text": {
+            "en": "<p><i>Animals.<\/i> Each non-Wizard/non-Ringwraith character in the company faces one strike. His prowess against such a strike is equal to his mind attribute. Any character that would normally be wounded is only tapped instead\u2014no body checks are made.<\/p>",
+            "es": "<p><i>Animales.<\/i> Cada uno de los personajes que no sea Mago ni Espectro del Anillo de la compañía se enfrenta a un golpe. Su poder contra este golpe es igual a su atributo de mente. Cualquier personaje que en circunstancias normales hubiera quedado herido, tan solo es girado\u2014no se hace el chequeo de resistencia.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "P"
+    },
+    {
+        "image": "Daelomin.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "David Martin",
+        "name": {
+            "de": "Daelomin",
+            "fi": "Daelomin",
+            "ja": "ダエロミン",
+            "en": "Daelomin",
+            "it": "Daelomin",
+            "fr": "Daelomin",
+            "es": "Daelomin",
+            "nl": "Daelomin"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "4",
+            "race": "Dragon",
+            "subtype": "Creature",
+            "unique": true,
+            "strikes": "3",
+            "body": "8",
+            "prowess": "13"
+        },
+        "id": "TW-26",
+        "text": {
+            "en": "<p><b><i>Unique. May be played at Dancing Spire. <\/i><\/b><i>Dragon.<\/i> Three strikes. Attacker chooses defending characters.<\/p><p>If <i>Doors of Night<\/i> is in play, may also be played keyed to Grey Mountain Narrows, Iron Hills, Northern Rhovanion, and Withered Heath; and may also be played at sites in these regions.<\/p>",
+            "es": "<p><b><i>Única. Puede ser jugada en la Cima Danzarina. <\/i><\/b><i>Dragón.<\/i> Tres golpes. El atacante elige a los personajes defensores.<\/p><p>Si están en juego las <i>Puertas de la Noche<\/i>, también puede ser jugada en: Pasos de las Montañas Grises, Colinas de Hierro, Norte de Rhovanion, y Brezal Marchito; y también puede ser jugada en los lugares de dichas regiones.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "R"
+    },
+    {
+        "image": "Crebain.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cAs they passed overhead, in so dense a throng that their shadow followed them darkly over the ground below, one harsh croak was heard.\u201d \u2014<\/i><b><i>LotRII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cMientras pasaban sobre su loma, en una columna tan apretada que su sombra les seguía oscuramente por el suelo, se oyó un único graznido\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Stefano Baldo",
+        "name": {
+            "de": "Crebain",
+            "fi": "Crebain",
+            "ja": "クリバイン",
+            "en": "Crebain",
+            "it": "Crebain",
+            "fr": "Crébains",
+            "es": "Crebain",
+            "nl": "Crebain"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Animals",
+            "subtype": "Creature",
+            "strikes": "1/each",
+            "body": "-",
+            "prowess": "5",
+            "playable": "{b}{w}{s}{d}{R}{S}{D}"
+        },
+        "id": "TW-25",
+        "text": {
+            "en": "<p><i>Animals.<\/i> Each character in the company faces one strike.<\/p><p>After the attack, the defender must reveal one random card from his hand for each character in the defending company.<\/p>",
+            "es": "<p><i>Animales.<\/i> Cada personaje de la compañía debe enfrentarse a un golpe.<\/p><p>Después del ataque, el jugador defensor debe revelar una carta de su mano aleatoriamente por cada personaje de la compañía.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA"
+    },
+    {
+        "image": "CorsairsofUmbar.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 with black sails bellying in the wind.\u201d \u2014<\/i><b><i>LotRV<\/i><\/b><\/p>",
+            "es": ""
+        },
+        "artist": "Angelo Montanini",
+        "name": {
+            "de": "Korsaren von Umbar",
+            "fi": "Umbarin Merirosvot",
+            "ja": "ウンバールの海賊",
+            "en": "Corsairs of Umbar",
+            "it": "Corsari di Umbar",
+            "fr": "Corsaires d'Umbar",
+            "es": "Corsarios de Umbar",
+            "nl": "Corsairs of Umbar"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Men",
+            "subtype": "Creature",
+            "strikes": "5",
+            "body": "-",
+            "prowess": "9",
+            "playable": "{c}"
+        },
+        "id": "TW-24",
+        "text": {
+            "en": "<p><i>Men.<\/i> Five strikes. May also be played keyed to Andrast, Anfalas, Belfalas, Cardolan, Enedhwaith, Harondor, Lindon, Lebennin, and Old Pûkel-land; and may also be played at Ruins & Lairs [{R}] and Shadow-holds [{S}] in these regions.<\/p><p>May also be played at any site in Elven Shores, Eriadoran Coast, Andrast Coast, Bay of Belfalas, or Mouths of the Anduin.<\/p>",
+            "es": "<p><i>Hombres.<\/i> Cinco golpes. También pueden ser jugados situados en: Andrast, Anfalas, Belfalas, Cardolan, Enedhwaith, Harondor, Lindon, Lebennin, y Tierra del Viejo Pûkel; así como en los lugares de Ruinas y Guaridas [{R}] y Bastiones de la Sombra [{S}] de dichas regiones.<\/p><p>También pueden ser jugados en cualquier lugar de: Costas Élficas, Costa de Eriador, Costa de Andrast, Bahía de Belfalas, o Bocas del Anduin.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "U"
+    },
+    {
+        "image": "Corpsecandle.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 some like dimly shining smoke, some like misty flames flickering slowly above unseen candles; here and there they twisted like ghostly sheets unfurled by hidden hands.\u201d \u2014<\/i><b><i>LotRIV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 algunas como un humo de brillo apagado, otras como llamas brumosas que oscilaban lentamente sobre cirios invisibles, aquí y allá se retorcían como sábanas fantasmales desplegadas por manos ocultas.\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Kaja Foglio",
+        "name": {
+            "de": "Leichenlicht",
+            "fi": "Ruumiskynttilä",
+            "ja": "死人の臘燭",
+            "en": "Corpse-candle",
+            "it": "Candela di Cadavere",
+            "fr": "Chandelle de cadavre",
+            "es": "Vela Cadavérica",
+            "nl": "Corpse-candle"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Undead",
+            "subtype": "Creature",
+            "strikes": "1",
+            "body": "-",
+            "prowess": "7",
+            "playable": "{w}{s}{d}{S}{D}"
+        },
+        "id": "TW-23",
+        "text": {
+            "en": "<p><i>Undead.<\/i> One strike. If this attack is not canceled, every character in the company makes a corruption check before defending characters are selected.<\/p>",
+            "es": "<p><i>Muerto Viviente.<\/i> Un golpe. Si este ataque no es cancelado, cada personaje de la compañía debe hacer un chequeo de corrupción antes de elegir a los personajes defensores.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA"
+    },
+    {
+        "image": "Cavedrake.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cAbout this time Dragons reappear in the far North and begin to afflict the Dwarves.\u201d \u2014<\/i><b><i>LotR<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cEn esta época, los Dragones reaparecieron en el Norte y comenzaron a atacar a los Enanos.\u201d \u2014<\/i><b><i>SdlA Apéndices<\/i><\/b><\/p>"
+        },
+        "artist": "David Deitrick",
+        "name": {
+            "de": "Höhlendrache",
+            "fi": "Luolakäärme",
+            "ja": "洞穴のドレイク",
+            "en": "Cave-drake",
+            "it": "Drago delle Caverne",
+            "fr": "Drake des cavernes",
+            "es": "Dragón de las Cavernas",
+            "nl": "Cave-drake"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Dragon",
+            "subtype": "Creature",
+            "strikes": "2",
+            "body": "-",
+            "prowess": "10",
+            "playable": "{w}{w}{R}"
+        },
+        "id": "TW-20",
+        "text": {
+            "en": "<p><i>Dragon.<\/i> Two strikes. Attacker chooses defending characters.<\/p>",
+            "es": "<p><i>Dragón.<\/i> Dos golpes. El atacante elige a los personajes defensores.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA2"
+    },
+    {
+        "image": "Ghouls.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cHalfling tales speak of the dark, wet slime where the Gorcrows croak and the Mewlips dwell, patiently awaiting their prey, like ever-hungry caretakers ringing soft, beckoning bells.\u201d \u2014<\/i><b><i>Kuduk Lore<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cLos relatos de los Medianos hablan del oscuro y húmedo lodo en el que croan los Gorcuervos y habitan los Mewlips, esperando pacientemente a su presa, como vigilantes eternamente hambrientos que hacen sonar suaves campanas.\u201d \u2014<\/i><b><i>Sabiduría Kuduk<\/i><\/b><\/p>"
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Ghule",
+            "fi": "Naukuhuulet",
+            "ja": "グール",
+            "en": "Ghouls",
+            "it": "Ghoul",
+            "fr": "Goules",
+            "es": "Necrófagos",
+            "nl": "Ghouls"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Undead",
+            "subtype": "Creature",
+            "strikes": "5",
+            "body": "-",
+            "prowess": "7",
+            "playable": "{s}{d}{S}{D}"
+        },
+        "id": "TW-38",
+        "text": {
+            "en": "<p><i>Undead.<\/i> Five strikes.<\/p>",
+            "es": "<p><i>Muertos Vivientes.<\/i> Cinco golpes.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA"
+    },
+    {
+        "image": "Ghosts.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cMany faces proud and fair, and weeds in their silver hair. But all foul, all rotting, all dead.\u201d \u2014<\/i><b><i>LotRIV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cUna multitud de altivos y hermosos, con algas en los cabellos de plata. Pero todos inmundos, putrefactos, todos muertos.\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Ron Spencer",
+        "name": {
+            "de": "Geister",
+            "fi": "Aaveet",
+            "ja": "幽霊",
+            "en": "Ghosts",
+            "it": "Fantasmi",
+            "fr": "Fantômes",
+            "es": "Fantasmas",
+            "nl": "Ghosts"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Undead",
+            "subtype": "Creature",
+            "strikes": "3",
+            "body": "-",
+            "prowess": "9",
+            "playable": "{s}{d}{S}{D}"
+        },
+        "id": "TW-37",
+        "text": {
+            "en": "<p><i>Undead.<\/i> Three strikes. After attack, each character wounded by <i>Ghosts <\/i>makes a corruption check modified by -1.<\/p>",
+            "es": "<p><i>Muertos Vivientes.<\/i> Tres golpes. Después del ataque, cada personaje herido por los <i>Fantasmas <\/i>debe hacer un chequeo de corrupción modificado con un -1.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA"
+    },
+    {
+        "image": "FellTurtle.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cIt is written, in margins of the \u2018Red Book,\u2019 that the horny Turtle-fish, the Fastitocalon, is most dreaded of the monsters in the Sea, and that he is as large as an islet.\u201d \u2014<\/i><b><i>Kuduk Lore<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cEstá escrito, en los márgenes del ʻLibro Rojoʼ, que el Pez-Tortuga de grandes cuernos, el Fastitocalon, es el más temido de todos los monstruos del mar, y que es tan grande como un islote.\u201d \u2014<\/i><b><i>Sabiduría Kuduk<\/i><\/b><\/p>"
+        },
+        "artist": "Quinton Hoover",
+        "name": {
+            "de": "Geflügelter Unhold",
+            "fi": "Kilpikonnakala",
+            "ja": "おぞましき海亀",
+            "en": "Fell Turtle",
+            "it": "Fastitocalone",
+            "fr": "Tortue féroce",
+            "es": "Tortuga Maligna",
+            "nl": "Fell Turtle"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Animals",
+            "subtype": "Creature",
+            "strikes": "1",
+            "body": "-",
+            "prowess": "15",
+            "playable": "{c}"
+        },
+        "id": "TW-34",
+        "text": {
+            "en": "<p><i>Animals.<\/i> One strike. If any strike is successful, the defending company must return to its site of origin (defending characters are wounded normally).<\/p>",
+            "es": "<p><i>Animal.<\/i> Un golpe. Si algún golpe tiene éxito, la compañía defensora debe regresar a su lugar de origen (el personaje defensor queda herido de forma normal).<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "R"
+    },
+    {
+        "image": "Giant.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 stone-giants were out and were hurling rocks at one another for a game, and catching them, and tossing them down into the darkness where they smashed among the trees far below\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 los gigantes de piedra abajo en el valle; habían salido y ahora estaban jugando, tirándose piedras unos a otros; las recogían y las arrojaban en la oscuridad, y allá abajo se rompían o desmenuzaban entre los árboles\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Dameon Willich",
+        "name": {
+            "de": "Riese",
+            "fi": "Jättiläinen",
+            "ja": "巨人",
+            "en": "Giant",
+            "it": "Gigante",
+            "fr": "Géant",
+            "es": "Gigante",
+            "nl": "Giant"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Giants",
+            "subtype": "Creature",
+            "strikes": "1",
+            "body": "-",
+            "prowess": "13",
+            "playable": "{w}{w}"
+        },
+        "id": "TW-39",
+        "text": {
+            "en": "<p><i>Giant.<\/i> One strike.<\/p>",
+            "es": "<p><i>Gigante.<\/i> Un golpe.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA2"
+    },
+    {
+        "image": "BertBurat.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThe trolls had just decided to roast the dwarves now and eat them later\u2014that was Bert\u2019s idea\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cLos trolls acababan de decidir asar a los enanos ahora y comérselos más tarde \u2014 esa fue la idea de Berto.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Liz Danforth",
+        "name": {
+            "de": "Bert (Bûrat)",
+            "fi": "Bertti Bûrat)",
+            "ja": "\"バート\"（ブーラト）",
+            "en": "\u201cBert\u201d (Bûrat)",
+            "it": "Bert (Bûrat)",
+            "fr": "Bert (Bûrat)",
+            "es": "\u201cBerto\u201d (Bûrat)",
+            "nl": "Bert (Bûrat)"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Trolls",
+            "subtype": "Creature",
+            "unique": true,
+            "strikes": "1",
+            "body": "-",
+            "prowess": "12",
+            "playable": "{w}{s}{S}"
+        },
+        "id": "TW-16",
+        "text": {
+            "en": "<p><b><i>Unique. <\/i><\/b><i>Troll.<\/i> One strike. If played against a company that faced <i>\u201cWilliam\u201d<\/i> or <i>\u201cTom\u201d<\/i> this turn, each character wounded by <i>\u201cBert\u201d<\/i> discards all non-special items he bears.<\/p>",
+            "es": "<p><b><i>Único. <\/i><\/b><i>Troll.<\/i> Un golpe. Si es jugado contra una compañía que se haya enfrentado a <i>\u201cGuille\u201d<\/i> o <i>\u201cTom\u201d<\/i> este turno, cada personaje herido por <i>\u201cBerto\u201d<\/i> debe descartarse de todos los objetos no especiales que porte.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "U"
+    },
+    {
+        "image": "Barrowwight2.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 two eyes, very cold though lit with a pale light\u2026 Then a grip stronger and colder than iron\u2026\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 dos ojos fríos, aunque iluminados por una luz débil\u2026 el apretón de una garra más fuerte y fría que el acero\u2026\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Julio Das Pastoras",
+        "name": {
+            "de": "Grabunhold",
+            "fi": "Haudanhaamu",
+            "ja": "塚人",
+            "en": "Barrow-wight",
+            "it": "Spettro dei Tumuli",
+            "fr": "Etre des galgals",
+            "es": "Tumulario",
+            "nl": "Barrow-wight"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Undead",
+            "subtype": "Creature",
+            "strikes": "1",
+            "body": "-",
+            "prowess": "12",
+            "playable": "{s}{d}{S}{D}"
+        },
+        "id": "TW-15",
+        "text": {
+            "en": "<p><i>Undead.<\/i> One strike. After the attack, each character wounded by <i>Barrow-wight<\/i> makes a corruption check modified by -2.<\/p>",
+            "es": "<p><i>Muerto Viviente.<\/i> Un golpe. Después del ataque, cada personaje herido por el <i>Tumulario<\/i> debe hacer un chequeo de corrupción modificado con un -2.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "P"
+    },
+    {
+        "image": "Barrowwight.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 two eyes, very cold though lit with a pale light\u2026 Then a grip stronger and colder than iron\u2026\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 dos ojos fríos, aunque iluminados por una luz débil\u2026 el apretón de una garra más fuerte y fría que el acero\u2026\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Lori Deitrick",
+        "name": {
+            "de": "Grabunhold",
+            "fi": "Haudanhaamu",
+            "ja": "塚人",
+            "en": "Barrow-wight",
+            "it": "Spettro dei Tumuli",
+            "fr": "Etre des galgals",
+            "es": "Tumulario",
+            "nl": "Barrow-wight"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Undead",
+            "subtype": "Creature",
+            "strikes": "1",
+            "body": "-",
+            "prowess": "12",
+            "playable": "{s}{d}{S}{D}"
+        },
+        "id": "TW-14",
+        "text": {
+            "en": "<p><i>Undead.<\/i> One strike. After the attack, each character wounded by <i>Barrow-wight<\/i> makes a corruption check modified by -2.<\/p>",
+            "es": "<p><i>Muerto Viviente.<\/i> Un golpe. Después del ataque, cada personaje herido por el <i>Tumulario<\/i> debe hacer un chequeo de corrupción modificado con un -2.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "U"
+    },
+    {
+        "image": "Brigands.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 some would join forces with the Easterlings, either out of greed for spoil, or in furtherance of feuds among their princes.\u201d \u2014<\/i><b><i>LotR<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 algunos se unieron a los Orientales, bien por codicia, bien para hacer perdurar las disputas entre sus príncipes.\u201d \u2014<\/i><b><i>SdlA Apéndices<\/i><\/b><\/p>"
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Gesetzlose",
+            "fi": "Maantierosvot",
+            "ja": "山賊",
+            "en": "Brigands",
+            "it": "Briganti",
+            "fr": "Brigands",
+            "es": "Forajidos",
+            "nl": "Brigands"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Men",
+            "subtype": "Creature",
+            "strikes": "2",
+            "body": "-",
+            "prowess": "8",
+            "playable": "{b}{w}"
+        },
+        "id": "TW-17",
+        "text": {
+            "en": "<p><i>Men.<\/i> Two strikes. If any strike of <i>Brigands<\/i> wounds a character, the company must immediately discard one item (of defender\u2019s choice).<\/p>",
+            "es": "<p><i>Hombres.<\/i> Dos golpes. Si cualquier golpe de los <i>Forajidos<\/i> hiere a un personaje, la compañía debe descartarse inmediatamemte de un objeto (a elección del defensor).<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA2"
+    },
+    {
+        "image": "Rogrog.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 the great troll-chief that smote him bent down over him, reaching out a clutching claw; for these fell creatures would bite the throats of those that they threw down.\u201d \u2014<\/i><b><i>LotRV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 y el gran jefe de los trolls que lo había derribado se inclinó sobre él, extendiendo una garra ávida; pues esas criaturas horrendas tenían la costumbre de morder el cuello a los vencidos.\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Rogrog",
+            "fi": "Rogrog",
+            "ja": "ログログ",
+            "en": "Rogrog",
+            "it": "Rogrog",
+            "fr": "Rogrog",
+            "es": "Rogrog",
+            "nl": "Rogrog"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "2",
+            "race": "Trolls",
+            "subtype": "Creature",
+            "unique": true,
+            "strikes": "1",
+            "body": "8",
+            "prowess": "13",
+            "playable": "{d}{S}{D}"
+        },
+        "id": "TW-85",
+        "text": {
+            "en": "<p><b><i>Unique.<\/i><\/b><i>Troll.<\/i> One strike.<\/p>",
+            "es": "<p><b><i>Único.<\/i><\/b><i>Troll.<\/i> Un golpe.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "R"
+    },
+    {
+        "image": "Pukelmen.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 great standing stones\u2026 carved in the likeness of men\u2026 squatting cross-legged with their stumpy arms folded on their fat bellies.\u201d \u2014<\/i><b><i>LotRV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 grandes piedras talladas\u2026 enormes figuras humanas de miembros pesados, sentados en cuclillas con las piernas cruzadas, los brazos replegados sobre los vientres prominentes.\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "Kaja Foglio",
+        "name": {
+            "de": "Puckelmänner",
+            "fi": "Pûkelmiehet",
+            "ja": "プーケル人",
+            "en": "Pûkel-men",
+            "it": "Uomini Pûkel",
+            "fr": "Hommes Biscornus",
+            "es": "Hombres Pûkel",
+            "nl": "Pûkel-men"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Pûkel-creature",
+            "subtype": "Creature",
+            "strikes": "2",
+            "body": "-",
+            "prowess": "11",
+            "playable": "{S}{D}"
+        },
+        "id": "TW-82",
+        "text": {
+            "en": "<p><i>Pûkel-creature.<\/i> Two strikes. May also be played at Ruins & Lairs [{R}] sites in the following regions: Andrast, Anfalas, Anórien, Dunland, Enedhwaith, Gap of Isen, Lamedon, Old Pûkel Gap, Old Pûkel-land, and Rohan.<\/p>",
+            "es": "<p><i>Criatura Pûkel.<\/i> Dos golpes. También puede ser jugado en las Ruinas y Guaridas [{R}] de las siguientes regiones: Andrast, Anfalas, Anórien, Tierras Brunas, Enedhwaith, Desfiladero del Isen, Lamedon, Desfiladero del Viejo Pûkel, Tierra del Viejo Pûkel, y Rohan.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "R"
+    },
+    {
+        "image": "Pickpocket2.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cA really first class\u2026 burglar would at this point have picked the trolls\u2019 pockets\u2026 and walked off without their noticing him.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cUn saqueador legendario y realmente de primera clase\u2026 ya habría metido mano a los bolsillos de los trolls\u2026 y se hubiera ido sin que nadie se enterase.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Taschendieb",
+            "fi": "Taskuvaras",
+            "ja": "すり",
+            "en": "Pick-pocket",
+            "it": "Borseggiatore",
+            "fr": "Tire-laine",
+            "es": "Ratero",
+            "nl": "Pick-pocket"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Men",
+            "subtype": "Creature",
+            "strikes": "1",
+            "body": "-",
+            "prowess": "11",
+            "playable": "{F}{B}"
+        },
+        "id": "TW-80",
+        "text": {
+            "en": "<p><i>Men.<\/i> One strike. Attacker chooses defending characters. For each successful strike, an item the defending character bears must be discarded (defender\u2019s choice); he is not harmed.<\/p>",
+            "es": "<p><i>Hombres.<\/i> Un golpe. El atacante elige a los personajes defensores. Por cada golpe que tenga éxito, el personaje defensor debe descartarse de un objeto que porte (a su elección); el personaje no resulta herido.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "P"
+    },
+    {
+        "image": "Slayer.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "David Deitrick",
+        "name": {
+            "de": "Totschläger",
+            "fi": "Surmaaja",
+            "ja": "殺戮者",
+            "en": "Slayer",
+            "it": "Uccisore",
+            "fr": "Meurtrier",
+            "es": "Exterminador",
+            "nl": "Slayer"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "2",
+            "race": "Slayer",
+            "subtype": "Creature",
+            "strikes": "2",
+            "body": "-",
+            "prowess": "11",
+            "playable": "{b}{B}"
+        },
+        "id": "TW-89",
+        "text": {
+            "en": "<p><i>Slayer.<\/i> Two attacks (of one strike each) all against the same character. Attacker chooses defending character. The defender may tap any one character in the company to cancel one of these attacks. This may be done even after a strike is assigned and after facing another attack.<\/p><p>If an attack from <i>Slayer<\/i> is given more than one strike, each additional strike becomes an excess strike (-1 prowess modification) against the attacked character.<\/p>",
+            "es": "<p><i>Exterminador.<\/i> Dos ataques (de un golpe cada uno), todos contra el mismo personaje. El atacante elige al personaje defensor. El defensor puede girar cualquier personaje en la compañía para cancelar uno de estos ataques. Esto puede hacerse incluso después de que se haya asignado un golpe y después de haberse enfrentado a otro ataque.<\/p><p>Si un ataque del <i>Exterminador<\/i> tiene más de un golpe, cada golpe adicional se convierte en un golpe adicional (modificación de -1 al poder) para el personaje atacado.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA"
+    },
+    {
+        "image": "SilentWatcher.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThey seemed to be carved out of huge blocks of stone, immovable, and yet they were aware: some dreadful spirit of evil vigilance abode in them.\u201d \u2014<\/i><b><i>LotRVI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cParecían esculpidos en enormes bloques de piedra; impasibles, pero a la vez vigilantes; algún espíritu maléfico y alerta habitaba en ellos.\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "Mark Poole",
+        "name": {
+            "de": "Stiller Wächter",
+            "fi": "Äänetön Vartija",
+            "ja": "物言わぬ番人",
+            "en": "Silent Watcher",
+            "it": "Sentinella Silente",
+            "fr": "Veilleur Silencieux",
+            "es": "Centinela Silencioso",
+            "nl": "Silent Watcher"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Pûkel-creature",
+            "subtype": "Creature",
+            "strikes": "1/each",
+            "body": "-",
+            "prowess": "8",
+            "playable": "{S}{D}"
+        },
+        "id": "TW-88",
+        "text": {
+            "en": "<p><i>Pûkel-creature.<\/i> Each character in the company faces one strike.<\/p>",
+            "es": "<p><i>Criatura Pûkel.<\/i> Cada personaje de la compañía se enfrenta a un golpe.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "R"
+    },
+    {
+        "image": "TheGreatGoblin.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThere in the shadows on a large flat stone sat a tremendous goblin with a huge head, and armed goblins were standing around him\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cAllá entre las sombras, sobre una gran piedra lisa, estaba sentado un trasgo terrible de cabeza enorme, y unos trasgos armados permanecieron de pie alrededor\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Gail McIntosh",
+        "name": {
+            "de": "Der Große Ork",
+            "fi": "Suuri Hiisi",
+            "ja": "大ゴブリン",
+            "en": "The Great Goblin",
+            "it": "Il Grande Goblin",
+            "fr": "Le Grand Gobelin",
+            "es": "El Gran Trasgo",
+            "nl": "The Great Goblin"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "2",
+            "race": "Orcs",
+            "subtype": "Creature",
+            "unique": true,
+            "strikes": "1",
+            "body": "7",
+            "prowess": "12",
+            "playable": "{D}"
+        },
+        "id": "TW-95",
+        "text": {
+            "en": "<p><b><i>Unique.<\/i><\/b><i>Orc.<\/i> One strike. May also be played on a company moving from Rivendell to Lórien or from Lórien to Rivendell. May also be played keyed to High Pass and at sites in High Pass.<\/p>",
+            "es": "<p><b><i>Único.<\/i><\/b><i>Orco.<\/i> Un golpe. También puede ser jugado sobre una compañía que se esté moviendo de Rivendel a Lórien o de Lórien a Rivendel. También puede ser jugado situado en Paso Alto y en los lugares en Paso Alto.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "R"
+    },
+    {
+        "image": "Smaug.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "David Deitrick",
+        "name": {
+            "de": "Smaug",
+            "fi": "Smaug",
+            "ja": "スマウグ",
+            "en": "Smaug",
+            "it": "Smaug",
+            "fr": "Smaug",
+            "es": "Smaug",
+            "nl": "Smaug"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "5",
+            "race": "Dragon",
+            "subtype": "Creature",
+            "unique": true,
+            "strikes": "2",
+            "body": "8",
+            "prowess": "17"
+        },
+        "id": "TW-90",
+        "text": {
+            "en": "<p><b><i>Unique. May be played at The Lonely Mountain. <\/i><\/b><i>Dragon.<\/i> Two strikes. Attacker chooses defending characters.<\/p><p>If <i>Doors of Night<\/i> is in play, may also be played keyed to Grey Mountain Narrows, Iron Hills, Northern Rhovanion, and Withered Heath; and may also be played at sites in these regions.<\/p>",
+            "es": "<p><b><i>Único. Puede ser jugado en la Montaña Solitaria. <\/i><\/b><i>Dragón.<\/i> Dos golpes. El atacante elige a los personajes defensores.<\/p><p>Si están en juego las <i>Puertas de la Noche<\/i>, también puede ser jugado en: Pasos de las Montañas Grises, Colinas de Hierro, Norte de Rhovanion, y Brezal Marchito; y también puede ser jugado en los lugares de dichas regiones.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "R"
+    },
+    {
+        "image": "MumakOliphant.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Angelo Montanini",
+        "name": {
+            "de": "Mûmak (Olifanten)",
+            "fi": "Mûmak (Olifantti)",
+            "ja": "ムーマク（じゅう）",
+            "en": "Mûmak (Oliphant)",
+            "it": "Mûmak (Olifante)",
+            "fr": "Mûmak (Oliphant)",
+            "es": "Mûmak (Olifante)",
+            "nl": "Mûmak (Oliphant)"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Animals",
+            "subtype": "Creature",
+            "strikes": "2",
+            "body": "-",
+            "prowess": "12"
+        },
+        "id": "TW-66",
+        "text": {
+            "en": "<p><i>Animals.<\/i> Two strikes. May be played keyed to Dagorlad, Gorgoroth, Horse Plains, Ithilien, Khand, Nûrn, Ûdun; and may also be played at sites in these regions.<\/p><p>May also be played (on the same turn and on the same company as <i>Corsairs of Umbar<\/i>) keyed to Andrast, Anfalas, Belfalas, Lebennin; and at Ruins & Lairs [{R}] and Shadow-holds [{S}] in these regions.<\/p><p>This card has no effect on a minion player.<\/p>",
+            "es": "<p><i>Animales.<\/i> Dos golpes. Pueden ser jugados situados en: Dagorlad, Gorgoroth, Llanuras de los Caballos, Ithilien, Khand, Nûrn, Ûdun; y también pueden ser jugados en los lugares de dichas regiones.<\/p><p>También pueden ser jugados (en el mismo turno y sobre la misma compañía que los <i>Corsarios de Umbar<\/i>) situados en: Andrast, Anfalas, Belfalas, Lebennin; y las Ruinas y Guaridas [{R}] y Bastiones de la Sombra [{S}] de dichas regiones.<\/p><p>Esta carta no tiene efecto en un jugador servidor.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "R"
+    },
+    {
+        "image": "Orcpatrol.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 hundreds of hideous orc-faces grinned at him out of the shadows, hundreds of hideous arms grasped at him from every side.\u201d \u2014<\/i><b><i>LotRIII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 centenares de orcos lo miraban desde las sombras haciendo muecas, y centenares de brazos horribles se extendían hacia él.\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Brian Snoddy",
+        "name": {
+            "de": "Ork-Patrouille",
+            "fi": "Örkkipartio",
+            "ja": "オーク巡邏兵",
+            "en": "Orc-patrol",
+            "it": "Pattuglia di Orchetti",
+            "fr": "Patrouille orque",
+            "es": "Patrulla de Orcos",
+            "nl": "Orc-patrol"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Orcs",
+            "subtype": "Creature",
+            "strikes": "3",
+            "body": "-",
+            "prowess": "6",
+            "playable": "{w}{s}{d}{R}{S}{D}"
+        },
+        "id": "TW-74",
+        "text": {
+            "en": "<p><i>Orcs.<\/i> Three strikes.<\/p>",
+            "es": "<p><i>Orcos.<\/i> Tres golpes.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA2"
+    },
+    {
+        "image": "Orclieutenant.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThen suddenly, without warning, Uglûk sprang forwards, and with two swift strokes swept the heads off two of his opponents.\u201d \u2014<\/i><b><i>LotRIII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cEn seguida, sin ningún aviso, Uglûk saltó hacia adelante, lanzó dos golpes rápidos y las cabezas de dos orcos rodaron por el suelo.\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Ork-Unterhäuptling",
+            "fi": "Örkkipäällikkö",
+            "ja": "オークの副隊長",
+            "en": "Orc-lieutenant",
+            "it": "Ufficiale Degli Orchetti",
+            "fr": "Lieutenant orque",
+            "es": "Lugarteniente Orco",
+            "nl": "Orc-lieutenant"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Orcs",
+            "subtype": "Creature",
+            "strikes": "1",
+            "body": "-",
+            "prowess": "7",
+            "playable": "{w}{s}{d}{R}{S}{D}"
+        },
+        "id": "TW-73",
+        "text": {
+            "en": "<p><i>Orcs.<\/i> One strike. If played on a company that has already faced an Orc attack this turn, <i>Orc-lieutenant <\/i>receives +4 prowess.<\/p>",
+            "es": "<p><i>Orco.<\/i> Un golpe. Si es jugado sobre una compañía que se ha enfrentado a un ataque de Orcos este turno, el <i>Lugarteniente Orco <\/i>recibe +4 al poder.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "U"
+    },
+    {
+        "image": "Orcguard.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 a grim dark band, four score at least of large, swart, slant-eyed Orcs\u2026\u201d \u2014<\/i><b><i>LotRIII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 una banda gris y oscura, de al menos cuarenta orcos cetrinos y de ojos rasgados\u2026\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Dameon Willich",
+        "name": {
+            "de": "Ork-Wachtposten",
+            "fi": "Örkkivartio",
+            "ja": "オーク警備隊",
+            "en": "Orc-guard",
+            "it": "Guardia di Orchetti",
+            "fr": "Garde orque",
+            "es": "Guardia de Orcos",
+            "nl": "Orc-guard"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Orcs",
+            "subtype": "Creature",
+            "strikes": "5",
+            "body": "-",
+            "prowess": "8",
+            "playable": "{s}{d}{S}{D}"
+        },
+        "id": "TW-72",
+        "text": {
+            "en": "<p><i>Orcs.<\/i> Five strikes.<\/p>",
+            "es": "<p><i>Orcos.<\/i> Cinco golpes.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA"
+    },
+    {
+        "image": "OloghaiTrolls.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 they bore round bucklers huge and black and wielded heavy hammers in their knotted hands. Reckless they sprang into pools and waded across, bellowing as they came.\u201d \u2014<\/i><b><i>LotRV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 blandían escudos enormes, redondos y negros, y las manos nudosas empuñaban martillos pesados. Saltaron a los pantanos sin arredrarse y los vadearon, aullando y mugiendo mientras se acercaban.\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "Angelo Montanini",
+        "name": {
+            "de": "Olog-hai (Trolle)",
+            "fi": "Olog-hai (Peikot)",
+            "ja": "オログ＝ハイ（トロル）",
+            "en": "Olog-hai (Trolls)",
+            "it": "Olog-hai (Troll)",
+            "fr": "Olog-Haï (trolls)",
+            "es": "Olog-hai (Trolls)",
+            "nl": "Olog-hai (Trolls)"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "2",
+            "race": "Trolls",
+            "subtype": "Creature",
+            "strikes": "3",
+            "body": "5",
+            "prowess": "10",
+            "playable": "{s}{d}{D}"
+        },
+        "id": "TW-71",
+        "text": {
+            "en": "<p><i>Trolls.<\/i> Three strikes.<\/p>",
+            "es": "<p><i>Trolls.<\/i> Tres golpes.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "U"
+    },
+    {
+        "image": "OldManWillow.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Der alte Weidenmann",
+            "fi": "Vanha Halavaukko",
+            "ja": "柳じじい",
+            "en": "Old Man Willow",
+            "it": "Vecchio Uomo Salice",
+            "fr": "Vieil Homme Saule",
+            "es": "Viejo Hombre Sauce",
+            "nl": "Old Man Willow"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Awakened Plant",
+            "subtype": "Creature",
+            "strikes": "1",
+            "body": "-",
+            "prowess": "13",
+            "playable": "{w}{w}"
+        },
+        "id": "TW-70",
+        "text": {
+            "en": "<p><i>Awakened Plant.<\/i> One strike. 15 prowess against Hobbits. May also be played keyed to Fangorn, Heart of Mirkwood, Southern Mirkwood, and Western Mirkwood; and may also be played at Ruins & Lairs [{R}], Shadow-holds [{S}], and Dark-holds [{D}] in these regions. Also playable at Old Forest and Drúadan Forest.<\/p>",
+            "es": "<p><i>Árbol Animado.<\/i> Un golpe. 15 de poder contra Hobbits. También puede ser jugado situado en: Fangorn, Corazón del Bosque Negro, Sur del Bosque Negro, y Oeste del Bosque Negro; también puede ser jugado en las Ruinas y Guaridas [{R}], Bastiones de la Sombra [{S}], y Bastiones de la Oscuridad [{D}] en dichas regiones. También puede ser jugado en el Bosque Viejo y el Bosque Drúadan.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "U"
+    },
+    {
+        "image": "Pickpocket.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cA really first class\u2026 burglar would at this point have picked the trolls\u2019 pockets\u2026 and walked off without their noticing him.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cUn saqueador legendario y realmente de primera clase\u2026 ya habría metido mano a los bolsillos de los trolls\u2026 y se hubiera ido sin que nadie se enterase.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Ronald Shuey",
+        "name": {
+            "de": "Taschendieb",
+            "fi": "Taskuvaras",
+            "ja": "すり",
+            "en": "Pick-pocket",
+            "it": "Borseggiatore",
+            "fr": "Tire-laine",
+            "es": "Ratero",
+            "nl": "Pick-pocket"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Men",
+            "subtype": "Creature",
+            "strikes": "1",
+            "body": "-",
+            "prowess": "11",
+            "playable": "{F}{B}"
+        },
+        "id": "TW-79",
+        "text": {
+            "en": "<p><i>Men.<\/i> One strike. Attacker chooses defending characters. For each successful strike, an item the defending character bears must be discarded (defender\u2019s choice); he is not harmed.<\/p>",
+            "es": "<p><i>Hombres.<\/i> Un golpe. El atacante elige a los personajes defensores. Por cada golpe que tenga éxito, el personaje defensor debe descartarse de un objeto que porte (a su elección); el personaje no resulta herido.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "U"
+    },
+    {
+        "image": "Orcwatch.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 he saw the goblins: goblins in full armour with drawn swords\u2026 They were aroused, alert, ready for anything.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 de pronto vio a los trasgos; trasgos armados de pies a cabeza con las espadas desenvainadas\u2026 Estaban preparados, atentos, dispuestos a cualquier cosa.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Dameon Willich",
+        "name": {
+            "de": "Ork-Wache",
+            "fi": "Örkkivahti",
+            "ja": "オーク見張り部隊",
+            "en": "Orc-watch",
+            "it": "Orchetti Vedetta",
+            "fr": "Sentinelles orques",
+            "es": "Centinelas Orcos",
+            "nl": "Orc-watch"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Orcs",
+            "subtype": "Creature",
+            "strikes": "3",
+            "body": "-",
+            "prowess": "9",
+            "playable": "{s}{d}{S}{D}"
+        },
+        "id": "TW-78",
+        "text": {
+            "en": "<p><i>Orcs.<\/i> Three strikes.<\/p>",
+            "es": "<p><i>Orcos.<\/i> Tres golpes.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA"
+    },
+    {
+        "image": "Orcwarriors.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThe yells and yammering, croaking, jibbering and jabbering; howls, growls and curses; shrieking and shriking, that followed were beyond description. Several hundred wild cats and wolves being roasted slowly alive together would not have compared with it.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cLos gritos y lamentos, gruñidos, farfulleos y chapurreos, aullidos, alaridos y maldiciones, chillidos y graznidos que siguieron entonces, eran indescriptibles. Varios cientos de gatos salvajes y lobos asados vivos, todos juntos y despacio, no hubieran hecho tanto alboroto.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Brian Snoddy",
+        "name": {
+            "de": "Ork-Krieger",
+            "fi": "Örkkisoturit",
+            "ja": "オーク戦士隊",
+            "en": "Orc-warriors",
+            "it": "Orchetti Guerrieri",
+            "fr": "Guerriers orques",
+            "es": "Guerreros Orcos",
+            "nl": "Orc-warriors"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Orcs",
+            "subtype": "Creature",
+            "strikes": "3",
+            "body": "-",
+            "prowess": "7",
+            "playable": "{b}{w}{R}"
+        },
+        "id": "TW-77",
+        "text": {
+            "en": "<p><i>Orcs.<\/i> Three strikes.<\/p>",
+            "es": "<p><i>Orcos.<\/i> Tres golpes.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA2"
+    },
+    {
+        "image": "Orcwarband.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThen the whole company began to run with the long loping strides of Orcs. They kept no order, thrusting, jostling, and cursing; yet their speed was very great.\u201d \u2014<\/i><b><i>LotRIII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cToda la compañía echó a correr entonces a saltos, con las largas zancadas de los orcos, y en desorden. Se empujaban, se daban codazos y maldecían; sin embargo, avanzaban muy rápidamente.\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Heather Hudson",
+        "name": {
+            "de": "Ork-Kriegsmeute",
+            "fi": "Örkkien Sotajoukko",
+            "ja": "オーク戦闘団",
+            "en": "Orc-warband",
+            "it": "Banda di Orchetti",
+            "fr": "Escouade orque",
+            "es": "Hueste Orca",
+            "nl": "Orc-warband"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Orcs",
+            "subtype": "Creature",
+            "strikes": "5",
+            "body": "-",
+            "prowess": "4",
+            "playable": "{w}{s}{d}{R}{S}{D}"
+        },
+        "id": "TW-76",
+        "text": {
+            "en": "<p><i>Orcs.<\/i> Five strikes. If played on a company that has already faced an Orc attack this turn, <i>Orc-warband <\/i>receives +3 prowess.<\/p>",
+            "es": "<p><i>Orcos.<\/i> Cinco golpes. Si se juega sobre una compañía que ya se ha enfrentado a un ataque de Orcos en este turno, la <i>Hueste Orca<\/i> recibe +3 al poder.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA"
+    },
+    {
+        "image": "Orcraiders.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 Uglûk\u2019s followers leaped over him and cut down another with their broad-bladed swords. It was the yellow-fanged guard. His bloody body fell\u2026 still clutching his long saw-edged knife.\u201d \u2014<\/i><b><i>LotRIII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 los seguidores de Uglûk saltaron por encima de él y derribaron a otro con las espadas de hoja ancha. La víctima era el guardián de las garras amarillas. El cuerpo le cayó encima\u2026 la mano de orco empuñando todavía aquel largo cuchillo mellado.\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Heather Hudson",
+        "name": {
+            "de": "Ork-Räuberbande",
+            "fi": "Örkkirosvot",
+            "ja": "オーク襲撃隊",
+            "en": "Orc-raiders",
+            "it": "Orchetti Razziatori",
+            "fr": "Maraudeurs orques",
+            "es": "Incursores Orcos",
+            "nl": "Orc-raiders"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Orcs",
+            "subtype": "Creature",
+            "strikes": "4",
+            "body": "-",
+            "prowess": "6",
+            "playable": "{b}{w}{R}"
+        },
+        "id": "TW-75",
+        "text": {
+            "en": "<p><i>Orcs.<\/i> Four strikes.<\/p>",
+            "es": "<p><i>Orcos.<\/i> Cuatro golpes.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA2"
+    },
+    {
+        "image": "GiantSpiders.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "April Lee",
+        "name": {
+            "de": "Riesenspinnen",
+            "fi": "Suuret Hämähäkit",
+            "ja": "大グモ",
+            "en": "Giant Spiders",
+            "it": "Ragni Giganti",
+            "fr": "Araignées géantes",
+            "es": "Arañas Gigantes",
+            "nl": "Giant Spiders"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Spiders",
+            "subtype": "Creature",
+            "strikes": "2",
+            "body": "-",
+            "prowess": "10",
+            "playable": "{w}{w}"
+        },
+        "id": "TW-40",
+        "text": {
+            "en": "<p><i>Spiders.<\/i> Two strikes. If the body check for a non-Wizard, non-Ringwraith character wounded by <i>Giant Spiders<\/i> equals his body, the character is discarded. May also be played keyed to Heart of Mirkwood, Southern Mirkwood, Western Mirkwood, and Woodland Realm; and may also be played at Ruins & Lairs [{R}], Shadow-holds [{S}], and Dark-holds [{D}] in these regions.<\/p>",
+            "es": "<p><i>Arañas.<\/i> Dos golpes. Si el chequeo de resistencia de un personaje (que no sea Mago ni Espectro del Anillo) herido por las <i>Arañas Gigantes<\/i> es igual a su resistencia, el personaje es descartado. También pueden ser jugadas situadas en: Corazón del Bosque Negro, Sur del Bosque Negro, Oeste del Bosque Negro, y Reino del Bosque; y también pueden ser jugadas en las Ruinas y Guaridas [{R}], Bastiones de la Sombra [{S}], y Bastiones de la Oscuridad [{D}] en estas regiones.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA2"
+    },
+    {
+        "image": "Leucaruth.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cDragons steal gold and jewels\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cLos dragones roban oro y joyas\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Pat Morrissey",
+        "name": {
+            "de": "Leucaruth",
+            "fi": "Leucaruth",
+            "ja": "レウカルス",
+            "en": "Leucaruth",
+            "it": "Leucaruth",
+            "fr": "Leucaruth",
+            "es": "Leucaruth",
+            "nl": "Leucaruth"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "4",
+            "race": "Dragon",
+            "subtype": "Creature",
+            "unique": true,
+            "strikes": "2",
+            "body": "8",
+            "prowess": "16"
+        },
+        "id": "TW-48",
+        "text": {
+            "en": "<p><b><i>Unique. May be played at Irerock. <\/i><\/b><i>Dragon.<\/i> Two strikes.<\/p><p>If <i>Doors of Night <\/i>is in play, may also be played keyed to Grey Mountain Narrows, Iron Hills, Northern Rhovanion, and Withered Heath; and may also be played at sites in these regions.<\/p>",
+            "es": "<p><b><i>Única. Puede ser jugada en la Roca de la Ira. <\/i><\/b><i>Dragón.<\/i> Dos golpes.<\/p><p>Si están en juego las <i>Puertas de la Noche<\/i>, también puede ser jugada en: Pasos de las Montañas Grises, Colinas de Hierro, Norte de Rhovanion, y Brezal Marchito; y también puede ser jugada en los lugares de dichas regiones.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "R"
+    },
+    {
+        "image": "Huorn.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "April Lee",
+        "name": {
+            "de": "Huorn",
+            "fi": "Huorni",
+            "ja": "フオルン",
+            "en": "Huorn",
+            "it": "Ucorno",
+            "fr": "Huorn",
+            "es": "Ucorno",
+            "nl": "Huorn"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Awakened Plant",
+            "subtype": "Creature",
+            "strikes": "1",
+            "body": "-",
+            "prowess": "10",
+            "playable": "{w}"
+        },
+        "id": "TW-45",
+        "text": {
+            "en": "<p><i>Awakened Plant.<\/i> One strike. May also be played at Drúadan Forest, Old Forest, and Wellinghall. May also be played keyed to Heart of Mirkwood, Southern Mirkwood, Western Mirkwood, and Woodland Realm; and may also be played at Ruins & Lairs [{R}] and Shadow-holds [{S}] in these regions.<\/p>",
+            "es": "<p><i>Árbol Animado<\/i>. Un golpe. También puede ser jugado en el Bosque Drúadan, el Bosque Viejo, y la Sala del Manantial. También puede ser jugado situado en: Corazón del Bosque Negro, Sur del Bosque Negro, Oeste del Bosque Negro, y Reino del Bosque; así como en las Ruinas y Guaridas [{R}] y Bastiones de la Sombra [{S}] que se encuentren en dichas regiones.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA"
+    },
+    {
+        "image": "HalftrollsofFarHarad.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 and out of Far Harad black men like half-trolls with white eyes and red tongues.\u201d \u2014<\/i><b><i>LotRV<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 y Hombres Negros que de algún modo parecían trolls llegados de la Lejana Harad, de ojos blancos y lenguas rojas.\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "Heather Hudson",
+        "name": {
+            "de": "Halbtrolle aus Weit-Harad",
+            "fi": "Taka-Haradin Puolipeikot",
+            "ja": "遠いハラドの半トロル",
+            "en": "Half-trolls of Far Harad",
+            "it": "Mezzitroll del Lontano Harad",
+            "fr": "Semi-Trolls d'Extrême Harad",
+            "es": "Medio-trolls del Lejano Harad",
+            "nl": "Half-trolls of Far Harad"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Trolls",
+            "subtype": "Creature",
+            "strikes": "2",
+            "body": "-",
+            "prowess": "10",
+            "playable": "{s}{d}{S}{D}"
+        },
+        "id": "TW-43",
+        "text": {
+            "en": "<p><i>Trolls.<\/i> Two strikes.<\/p>",
+            "es": "<p><i>Trolls.<\/i> Dos golpes.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA"
+    },
+    {
+        "image": "Abductor.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cSuddenly he seized them. The strength in his long arms and shoulders was terrifying. He tucked them one under each armpit, and crushed them fiercely to his sides; a great stifling hand was clapped over each of their mouths.\u201d \u2014<\/i><b><i>LotRIII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cDe pronto los alzó a los dos. La fuerza de los largos brazos y los hombros era aterradora. Se puso a los hobbits bajo los brazos y los apretó ferozmente contra las costillas; unas manos grandes y sofocantes les cerraron las bocas.\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Dameon Willich",
+        "name": {
+            "de": "Entführer",
+            "fi": "Sieppaaja",
+            "ja": "誘拐者",
+            "en": "Abductor",
+            "it": "Rapitore",
+            "fr": "Ravisseur",
+            "es": "Secuestrador",
+            "nl": "Abductor"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Men",
+            "subtype": "Creature",
+            "strikes": "1",
+            "body": "-",
+            "prowess": "10",
+            "playable": "{b}{B}"
+        },
+        "id": "TW-1",
+        "text": {
+            "en": "<p><i>Man.<\/i> One Strike.<\/p><p>Each non-Wizard/non-Ringwraith defending character wounded by the <i>Abductor<\/i> is discarded.<\/p>",
+            "es": "<p><i>Hombre.<\/i> Un golpe. Cada personaje defensor que no sea Mago ni Espectro del Anillo herido por el <i>Secuestrador<\/i> es descartado.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA"
+    },
+    {
+        "image": "Assassin.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Attentäter",
+            "fi": "Salamurhaaja",
+            "ja": "暗殺者",
+            "en": "Assassin",
+            "it": "Assassino",
+            "fr": "Assassin",
+            "es": "Asesino",
+            "nl": "Assassin"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "2",
+            "race": "Men",
+            "subtype": "Creature",
+            "strikes": "1",
+            "body": "-",
+            "prowess": "11",
+            "playable": "{B}{F}"
+        },
+        "id": "TW-8",
+        "text": {
+            "en": "<p><i>Man.<\/i> Three attacks (of one strike each) all against the same character. Attacker chooses defending character.<\/p><p>One or two of these attacks may be canceled by tapping one character (not the defending character) in the defender\u2019s company for each attack canceled. This may be done even after a strike is assigned and after facing another attack.<\/p><p>If an attack from <i>Assassin<\/i> is given more than one strike, each additional strike becomes an excess strike (-1 prowess modification) against the attacked character.<\/p>",
+            "es": "<p><i>Hombre.<\/i> Tres ataques (de un golpe cada uno) contra el mismo personaje. El atacante elige al personaje defensor.<\/p><p>Uno o dos de estos ataques pueden ser cancelados girando a un personaje (que no sea el personaje defensor) que se encuentre en la compañía del defensor por cada ataque que se desee cancelar. Esto puede hacerse incluso después de que se haya asignado un golpe y después de haberse enfrentado a otro ataque.<\/p><p>Si un ataque del <i>Asesino<\/i> tiene más de un golpe, cada golpe adicional se convierte en un golpe adicional (modificación de -1 al poder) para el personaje atacado.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "R"
+    },
+    {
+        "image": "Ambusher.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 suddenly Wormtongue rose up, drawing a hidden knife, and then with a snarl like a dog he sprang on Saruman's back, jerked his head back, cut his throat, and with a yell ran off down the lane.\u201d \u2014<\/i><b><i>LotRVI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 Lengua de Serpiente se irguió de pronto, y sacó un puñal que llevaba escondido; gruñendo como un perro saltó sobre la espalda de Saruman, y tirándole la cabeza hacia atrás, le hundió la hoja en la garganta; luego, con un aullido echó a correr sendero abajo.\u201d \u2014<\/i><b><i>SdlA III<\/i><\/b><\/p>"
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Hinterhalt",
+            "fi": "Väijyjä",
+            "ja": "襲撃者",
+            "en": "Ambusher",
+            "it": "Assalitore",
+            "fr": "Coupe-jarret",
+            "es": "Emboscada",
+            "nl": "Ambusher"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Men",
+            "subtype": "Creature",
+            "strikes": "2",
+            "body": "-",
+            "prowess": "10",
+            "playable": "{f}{b}"
+        },
+        "id": "TW-5",
+        "text": {
+            "en": "<p><i>Men.<\/i> Two strikes. Attacker chooses defending characters.<\/p>",
+            "es": "<p><i>Hombres.<\/i> Dos golpes. El atacante elige a los personajes defensores.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA"
+    },
+    {
+        "image": "Agburanar.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Quinton Hoover",
+        "name": {
+            "de": "Agburanar",
+            "fi": "Agburanar",
+            "ja": "アグブラナール",
+            "en": "Agburanar",
+            "it": "Agburanar",
+            "fr": "Agburanar",
+            "es": "Agburanar",
+            "nl": "Agburanar"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "4",
+            "race": "Dragon",
+            "subtype": "Creature",
+            "unique": true,
+            "strikes": "2",
+            "body": "9",
+            "prowess": "15"
+        },
+        "id": "TW-3",
+        "text": {
+            "en": "<p><b><i>Unique. May be played at Caves of Ûlund. <\/i><\/b><i>Dragon.<\/i> Two strikes.<\/p><p>If <i>Doors of Night<\/i> is in play, may also be played keyed to Grey Mountain Narrows, Iron Hills, Northern Rhovanion, and Withered Heath; and may also be played at sites in these regions.<\/p>",
+            "es": "<p><b><i>Único. Puede ser jugado en las Cavernas de Ûlund. <\/i><\/b><i>Dragón.<\/i> Dos golpes.<\/p><p>Si están en juego las <i>Puertas de la Noche<\/i>, también puede ser jugado en: Pasos de las Montañas Grises, Colinas de Hierro, Norte de Rhovanion, y Brezal Marchito; y también puede ser jugado en los lugares de dichas regiones.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "R"
+    },
+    {
+        "image": "Wargs.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThey heard the wind hissing among the rocks and trees, and there was a howling and wailing round them in the empty spaces of the night.\u201d \u2014<\/i><b><i>LotRII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cEl viento silbaba entre las rocas y los árboles, y había aullidos y lamentos en los vacíos ámbitos de la noche.\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Susan Van Camp",
+        "name": {
+            "de": "Warge",
+            "fi": "Hukat",
+            "ja": "ワーグ",
+            "en": "Wargs",
+            "it": "Warg",
+            "fr": "Ouargues",
+            "es": "Huargos",
+            "nl": "Wargs"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Wolves",
+            "subtype": "Creature",
+            "strikes": "2",
+            "body": "-",
+            "prowess": "9",
+            "playable": "{b}{w}{s}"
+        },
+        "id": "TW-109",
+        "text": {
+            "en": "<p><i>Wolves.<\/i> Two strikes.<\/p>",
+            "es": "<p><i>Lobos.<\/i> Dos golpes.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA2"
+    },
+    {
+        "image": "TomTuma.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cʻNever a blinking bit of manflesh have we had for long enough\u2026 What the \u2019ell William was a-thinkin\u2019 of to bring us into these parts at all, beats me\u2014and the drink runnin\u2019 short, what\u2019s more.ʼ\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cʻNi una mala pizca de carne humana probamos desde hace mucho, mucho tiempo\u2026 ¿Por qué demonios Guille nos habrá traído aquí?; y además la bebida está escaseandoʼ añadió, tocando el codo de Guille, que en ese momento bebía un sorbo.\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Liz Danforth",
+        "name": {
+            "de": "Tom (Tûma)",
+            "fi": "Tom (Tûma)",
+            "ja": "\"トム\"（トゥマ）",
+            "en": "\u201cTom\u201d (Tûma)",
+            "it": "Tom (Tûma)",
+            "fr": "Tom (Tûma)",
+            "es": "\u201cTom\u201d (Tûma)",
+            "nl": "Tom (Tûma)"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Trolls",
+            "subtype": "Creature",
+            "unique": true,
+            "strikes": "1",
+            "body": "-",
+            "prowess": "13",
+            "playable": "{w}{w}"
+        },
+        "id": "TW-103",
+        "text": {
+            "en": "<p><b><i>Unique.<\/i><\/b><i>Troll.<\/i> One strike. If played against a company that faced <i>\u201cBert\u201d<\/i> or <i>\u201cWilliam\u201d<\/i> this turn, each character wounded by <i>\u201cTom\u201d<\/i> discards all non-special items he bears.<\/p>",
+            "es": "<p><b><i>Único.<\/i><\/b><i>Troll.<\/i> Un golpe. Si es jugado contra una compañía que se haya enfrentado a <i>\u201cBerto\u201d<\/i> o <i>\u201cGuille\u201d<\/i> este turno, cada personaje herido por <i>\u201cTom\u201d<\/i> debe descartarse de todos los objetos no especiales que porte.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "U"
+    },
+    {
+        "image": "Thief.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cThe ponies had vanished! The stable-doors had all opened in the night, and they were gone\u2026\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c¡Los ponis no estaban! Habían abierto las puertas de los establos durante la noche y los animales habían desaparecido\u2026\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Christina Wald",
+        "name": {
+            "de": "Dieb",
+            "fi": "Varas",
+            "ja": "盗人",
+            "en": "Thief",
+            "it": "Ladro",
+            "fr": "Voleur",
+            "es": "Ladrón",
+            "nl": "Thief"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Men",
+            "subtype": "Creature",
+            "strikes": "1",
+            "body": "-",
+            "prowess": "15",
+            "playable": "{b}{B}"
+        },
+        "id": "TW-102",
+        "text": {
+            "en": "<p><i>Men.<\/i> One strike. For each successful strike, an item held by the defending company must be discarded (defender\u2019s choice); the defending character is not harmed.<\/p>",
+            "es": "<p><i>Hombre.<\/i> Un golpe. Por cada golpe que tenga éxito, un objeto en posesión de la compañía defensora debe ser descartado (a elección del defensor); el personaje defensor no resulta herido.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "R"
+    },
+    {
+        "image": "WatcherintheWater.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cOut of the water a long sinuous tentacle had crawled; it was pale-green and luminous and wet.\u201d \u2014<\/i><b><i>LotRII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cUn largo y sinuoso tentáculo se había arrastrado fuera del agua; era de color verde pálido, fosforescene y húmedo.\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Kevin Ward",
+        "name": {
+            "de": "Der Wächter im Wasser",
+            "fi": "Veden Valvoja",
+            "ja": "水中の監視者",
+            "en": "Watcher in the Water",
+            "it": "Osservatore nell'Acqua",
+            "fr": "Guetteur de l'eau",
+            "es": "Centinela del Agua",
+            "nl": "Watcher in the Water"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Animals",
+            "subtype": "Creature",
+            "strikes": "1/each",
+            "body": "-",
+            "prowess": "8",
+            "playable": "{w}{w}{c}"
+        },
+        "id": "TW-110",
+        "text": {
+            "en": "<p><i>Animal.<\/i> Each character in the company faces one strike. May also be played at Moria.<\/p>",
+            "es": "<p><i>Animal.<\/i> Cada personaje en la compañía se enfrenta a un golpe. También puede ser jugado en Moria.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "U"
+    },
+    {
+        "image": "Wolves.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 they heard a howl away down hill, a long shuddering howl. It was answered by another away to the right and a good deal nearer to them\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 de súbito oyeron un aullido, lejos, colina abajo, un aullido largo y estremecedor. Le contestó otro, lejos, a la derecha, y muchos más cerca de ellos\u2026\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Susan Van Camp",
+        "name": {
+            "de": "Wölfe",
+            "fi": "Sudet",
+            "ja": "狼",
+            "en": "Wolves",
+            "it": "Lupi",
+            "fr": "Loups",
+            "es": "Lobos",
+            "nl": "Wolves"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Wolves",
+            "subtype": "Creature",
+            "strikes": "3",
+            "body": "-",
+            "prowess": "8",
+            "playable": "{b}{w}"
+        },
+        "id": "TW-114",
+        "text": {
+            "en": "<p><i>Wolves.<\/i> Three strikes.<\/p>",
+            "es": "<p><i>Lobos.<\/i> Tres golpes.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "CA2"
+    },
+    {
+        "image": "WilliamWuluag.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cWilliam choked. \u2018Shut yer mouth!\u2019 he said as soon as he could. \u2018Yer can\u2019t expect folks to stop here for ever just to be et by you and Bert\u2026\u2019\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cGuille se atragantó. \u2018¡Cierra la boca!\u2019 dijo tan pronto como pudo \u2018No puedes esperar que la gente se quede por aquí solo para que tú y Berto se la zampen\u2026\u2019\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Liz Danforth",
+        "name": {
+            "de": "William (Wûluag)",
+            "fi": "Viljami (Wûluag)",
+            "ja": "\"ウイリアム\"（ウールアグ）",
+            "en": "\u201cWilliam\u201d (Wûluag)",
+            "it": "William (Wûluag)",
+            "fr": "William (Wûluag)",
+            "es": "\u201cGuille\u201d (Wûluag)",
+            "nl": "William (Wûluag)"
+        },
+        "attributes": {
+            "marshallingPointsType": "kill",
+            "marshallingPoints": "1",
+            "race": "Trolls",
+            "subtype": "Creature",
+            "unique": true,
+            "strikes": "1",
+            "body": "-",
+            "prowess": "11",
+            "playable": "{w}{s}{d}{S}{D}"
+        },
+        "id": "TW-112",
+        "text": {
+            "en": "<p><b><i>Unique.<\/i><\/b><i>Troll.<\/i> One strike. If played against a company that faced <i>\u201cBert\u201d<\/i> or <i>\u201cTom\u201d<\/i> this turn, each character wounded by <i>\u201cWilliam\u201d <\/i>discards all non-special items he bears.<\/p>",
+            "es": "<p><b><i>Único. <\/i><\/b><i>Troll.<\/i> Un golpe. Si es jugado contra una compañía que se haya enfrentado a <i>\u201cTom\u201d<\/i> o <i>\u201cBerto\u201d<\/i> este turno, cada personaje herido por <i>\u201cGuille\u201d<\/i> debe descartarse de todos los objetos no especiales que porte.<\/p>"
+        },
+        "type": "Hazard",
+        "alignment": "Neutral",
+        "rarity": "U"
+    }
+]
