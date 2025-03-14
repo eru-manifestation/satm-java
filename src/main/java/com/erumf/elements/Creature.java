@@ -12,11 +12,12 @@ public abstract class Creature extends Hazard {
     private final GameProperty<Set<PlaceType>> places;
     private final GameProperty<Map<RegionType, Integer>> regions;
     private final GameProperty<Set<String>> regionNames;
-    private final GameProperty<Set<String>> locationNames;
+    private final GameProperty<Set<Class<? extends Location>>> locationNames;
     private final GameProperty<Integer> prowess;
     private final GameProperty<Integer> body;
+    private final GameProperty<Integer> strikes;
 
-    public Creature(Player player, Set<PlaceType> places, Map<RegionType, Integer> regions, Set<String> regionNames, Set<String> locationNames, int prowess, int body, boolean unique) {
+    public Creature(Player player, Set<PlaceType> places, Map<RegionType, Integer> regions, Set<String> regionNames, Set<Class<? extends Location>> locationNames, int prowess, int body, boolean unique, int strikes) {
         super(player, Type.CREATURE, unique);
         this.places = new GameProperty<>("places", places, this);
         this.regions = new GameProperty<>("regions", regions, this);
@@ -24,6 +25,7 @@ public abstract class Creature extends Hazard {
         this.locationNames = new GameProperty<>("locationNames", locationNames, this);
         this.prowess = new GameProperty<>("prowess", prowess, this);
         this.body = new GameProperty<>("body", body, this);
+        this.strikes = new GameProperty<>("strikes", strikes, this);
     }
 
     public Set<PlaceType> getPlaces() {
@@ -38,7 +40,7 @@ public abstract class Creature extends Hazard {
         return regionNames.getValue();
     }
 
-    public Set<String> getLocationNames() {
+    public Set<Class<? extends Location>> getLocationNames() {
         return locationNames.getValue();
     }
 
@@ -74,11 +76,11 @@ public abstract class Creature extends Hazard {
         regionNames.getValue().remove(regionName);
     }
 
-    public void addLocationName(String locationName) {
+    public void addLocationName(Class<? extends Location> locationName) {
         locationNames.getValue().add(locationName);
     }
 
-    public void removeLocationName(String locationName) {
+    public void removeLocationName(Class<? extends Location> locationName) {
         locationNames.getValue().remove(locationName);
     }
 
@@ -94,7 +96,7 @@ public abstract class Creature extends Hazard {
         return regionNames.getInitialValue();
     }
 
-    public Set<String> getInitLocationNames() {
+    public Set<Class<? extends Location>> getInitLocationNames() {
         return locationNames.getInitialValue();
     }
 
@@ -107,8 +109,7 @@ public abstract class Creature extends Hazard {
     }
 
     public int getStrikes() {
-        // TODO: Implement this method
-        throw new UnsupportedOperationException("Not supported yet.");
+        return strikes.getValue();
     }
 
     /**
