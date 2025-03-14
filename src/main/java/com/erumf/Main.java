@@ -31,13 +31,12 @@ public class Main {
     public static final Player player2 = new Player("Player 2");
 
     public static void main(String[] args) {
-
         Logger.info("Starting game...");
         defaultGameSetup();
         startGame(player1);
     }
 
-    public static void instantiateCardInRivendell(Character card) {
+    private static void instantiateCardInRivendell(Character card) {
         String playerName = card.getPlayer().getName();
         Deck drawDeck = card.getPlayer().getDrawDeck();
         if (!drawDeck.isEmpty()) {
@@ -50,7 +49,7 @@ public class Main {
         }
     }
 
-    public static void defaultGameSetup() {
+    private static void defaultGameSetup() {
         // Set up the players' draw decks
         player1.setDrawDeck(StarterDeck.defaultGandalfDeck(player1));
         player2.setDrawDeck(StarterDeck.defaultSarumanDeck(player2));

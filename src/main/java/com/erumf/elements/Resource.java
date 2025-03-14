@@ -10,23 +10,19 @@ import com.erumf.utils.position.Card;
  * such as mp, corruption, influence, mind, body, and prowess.
  */
 public abstract class Resource extends Card {
-    private final GameProperty<Integer> mp;
-    private final int _mp;
-    private final GameProperty<Integer> corruption;
-    private final int _corruption;
-    private final GameProperty<Integer> influence;
-    private final int _influence;
-    private final GameProperty<Integer> mind;
-    private final int _mind;
-    private final GameProperty<Integer> body;
-    private final int _body;
-    private final GameProperty<Integer> prowess;
-    private final int _prowess;
-
     public enum Type {
         ALLY, FACTION, ITEM, SHORT_EVENT, LONG_EVENT, PERMANENT_EVENT
     }
 
+    // GameProperties
+    private final GameProperty<Integer> mp;
+    private final GameProperty<Integer> corruption;
+    private final GameProperty<Integer> influence;
+    private final GameProperty<Integer> mind;
+    private final GameProperty<Integer> body;
+    private final GameProperty<Integer> prowess;
+
+    // Intrinsic properties
     private final Type type;
 
     /**
@@ -44,17 +40,11 @@ public abstract class Resource extends Card {
     public Resource(Player player, int mp, int corruption, int influence, int mind, int body, int prowess, Type type, boolean unique) {
         super(player, unique);
         this.mp = new GameProperty<>("mp", mp, this);
-        this._mp = mp;
         this.corruption = new GameProperty<>("corruption", corruption, this);
-        this._corruption = corruption;
         this.influence = new GameProperty<>("influence", influence, this);
-        this._influence = influence;
         this.mind = new GameProperty<>("mind", mind, this);
-        this._mind = mind;
         this.body = new GameProperty<>("body", body, this);
-        this._body = body;
         this.prowess = new GameProperty<>("prowess", prowess, this);
-        this._prowess = prowess;
         this.type = type;
     }
 
@@ -152,7 +142,7 @@ public abstract class Resource extends Card {
      * @return the initial mp value
      */
     public int getInitialMp() {
-        return _mp;
+        return mp.getInitialValue();
     }
 
     /**
@@ -161,7 +151,7 @@ public abstract class Resource extends Card {
      * @return the initial corruption value
      */
     public int getInitialCorruption() {
-        return _corruption;
+        return corruption.getInitialValue();
     }
 
     /**
@@ -170,7 +160,7 @@ public abstract class Resource extends Card {
      * @return the initial influence value
      */
     public int getInitialInfluence() {
-        return _influence;
+        return influence.getInitialValue();
     }
 
     /**
@@ -179,7 +169,7 @@ public abstract class Resource extends Card {
      * @return the initial mind value
      */
     public int getInitialMind() {
-        return _mind;
+        return mind.getInitialValue();
     }
 
     /**
@@ -188,7 +178,7 @@ public abstract class Resource extends Card {
      * @return the initial body value
      */
     public int getInitialBody() {
-        return _body;
+        return body.getInitialValue();
     }
 
     /**
@@ -197,6 +187,6 @@ public abstract class Resource extends Card {
      * @return the initial prowess value
      */
     public int getInitialProwess() {
-        return _prowess;
+        return prowess.getInitialValue();
     }
 }

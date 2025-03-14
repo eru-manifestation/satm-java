@@ -11,6 +11,7 @@ public abstract class Faction extends Resource {
         DUNEDAIN, ELF, DWARF, HOBBIT, MAN, SPECIAL, ENT, EAGLE, WOSE
     }
 
+    // Intrinsic properties
     private final FactionType factionType;
     private final Set<Class<? extends Location>> playablePlaces;
     private final int influenceCheck;
@@ -19,9 +20,9 @@ public abstract class Faction extends Resource {
     public Faction(Player player, int mp, int corruption, int influence, int mind, int body, int prowess, FactionType factionType, Set<Class<? extends Location>> playablePlaces, int influenceCheck, Map<Race, Integer> influenceModifier) {
         super(player, mp, corruption, influence, mind, body, prowess, Item.Type.FACTION, true);
         this.factionType = factionType;
-        this.playablePlaces = playablePlaces;
+        this.playablePlaces = Set.copyOf(playablePlaces);
         this.influenceCheck = influenceCheck;
-        this.influenceModifier = influenceModifier;
+        this.influenceModifier = Map.copyOf(influenceModifier);
     }
 
     public FactionType getFactionType() {

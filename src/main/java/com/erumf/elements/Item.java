@@ -12,7 +12,10 @@ public abstract class Item extends Resource {
         GREATER_ITEM, MAJOR_ITEM, MINOR_ITEM, GOLD_RING_ITEM, SPECIAL_ITEM, INFORMATION
     }
 
+    // Intrinsic properties
     private final ItemType itemType;
+
+    // State properties
     private State state = State.UNTAPPED;
 
     /**

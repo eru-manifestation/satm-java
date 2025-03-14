@@ -8,6 +8,7 @@ public abstract class Hazard extends Card {
         CREATURE, LONG_EVENT, SHORT_EVENT, PERMANENT_EVENT
     }
 
+    // Intrinsic properties
     private final Type type;
 
     public Hazard(Player player, Type type, boolean unique) {

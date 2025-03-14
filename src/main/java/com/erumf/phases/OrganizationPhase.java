@@ -3,6 +3,7 @@ package com.erumf.phases;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.jgrapht.alg.util.Pair;
@@ -71,7 +72,7 @@ public class OrganizationPhase {
                 .filter(Character::isPlayable)
                 .filter(character -> player.getGeneralInfluence() >= character.getMind())
                 .flatMap(character -> playablePositions(character, player))
-                .toList();
+                .collect(Collectors.toList());
 
         // Play characters with direct influence
         playableCharacters.addAll(handCharacters.stream()

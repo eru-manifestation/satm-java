@@ -10,6 +10,8 @@ import com.erumf.utils.position.Card;
 import com.erumf.utils.position.Fellowship;
 
 public abstract class Location extends Card {
+
+    // Intrinsic properties
     private final Location closestHaven;
     private final int playerDraw;
     private final int enemyDraw;
@@ -33,10 +35,10 @@ public abstract class Location extends Card {
         this.closestHaven = null;
         this.playerDraw = playerDraw;
         this.enemyDraw = enemyDraw;
-        this.route = route;
+        this.route = Map.copyOf(route);
         this.place = place;
-        this.automaticAttacks = automaticAttacks;
-        this.playableItems = playableItems;
+        this.automaticAttacks = List.copyOf(automaticAttacks);
+        this.playableItems = Set.copyOf(playableItems);
     }
 
     public Location getClosestHaven() {

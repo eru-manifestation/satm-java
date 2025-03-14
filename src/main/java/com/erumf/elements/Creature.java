@@ -9,59 +9,45 @@ import com.erumf.elements.Location.PlaceType;
 import com.erumf.utils.GameProperty;
 
 public abstract class Creature extends Hazard {
-    private final Set<PlaceType> places;
-    private final Map<RegionType, Integer> regions;
-    private final Set<String> regionNames;
-    private final Set<String> locationNames;
+    private final GameProperty<Set<PlaceType>> places;
+    private final GameProperty<Map<RegionType, Integer>> regions;
+    private final GameProperty<Set<String>> regionNames;
+    private final GameProperty<Set<String>> locationNames;
     private final GameProperty<Integer> prowess;
     private final GameProperty<Integer> body;
 
-    private final Set<PlaceType> _places;
-    private final Map<RegionType, Integer> _regions;
-    private final Set<String> _regionNames;
-    private final Set<String> _locationNames;
-    private final int _prowess;
-    private final int _body;
-
     public Creature(Player player, Set<PlaceType> places, Map<RegionType, Integer> regions, Set<String> regionNames, Set<String> locationNames, int prowess, int body, boolean unique) {
         super(player, Type.CREATURE, unique);
-        this.places = places;
-        this.regions = regions;
-        this.regionNames = regionNames;
-        this.locationNames = locationNames;
+        this.places = new GameProperty<>("places", places, this);
+        this.regions = new GameProperty<>("regions", regions, this);
+        this.regionNames = new GameProperty<>("regionNames", regionNames, this);
+        this.locationNames = new GameProperty<>("locationNames", locationNames, this);
         this.prowess = new GameProperty<>("prowess", prowess, this);
         this.body = new GameProperty<>("body", body, this);
-
-        this._places = places;
-        this._regions = regions;
-        this._regionNames = regionNames;
-        this._locationNames = locationNames;
-        this._prowess = prowess;
-        this._body = body;
     }
 
     public Set<PlaceType> getPlaces() {
-        return places;
+        return places.getValue();
     }
 
     public Map<RegionType, Integer> getRegions() {
-        return regions;
+        return regions.getValue();
     }
 
     public Set<String> getRegionNames() {
-        return regionNames;
+        return regionNames.getValue();
     }
 
     public Set<String> getLocationNames() {
-        return locationNames;
+        return locationNames.getValue();
     }
 
     public int getProwess() {
-        return prowess.getValue() < 0 ? 0 : prowess.getValue();
+        return Math.max(prowess.getValue(), 0);
     }
 
     public int getBody() {
-        return body.getValue() < 0 ? 0 : body.getValue();
+        return Math.max(prowess.getValue(), 0);
     }
 
     public void setProwess(int prowess) {
@@ -73,75 +59,51 @@ public abstract class Creature extends Hazard {
     }
 
     public void addPlace(PlaceType place) {
-        places.add(place);
+        places.getValue().add(place);
     }
 
     public void removePlace(PlaceType place) {
-        places.remove(place);
+        places.getValue().remove(place);
     }
 
     public void addRegionName(String regionName) {
-        regionNames.add(regionName);
+        regionNames.getValue().add(regionName);
     }
 
     public void removeRegionName(String regionName) {
-        regionNames.remove(regionName);
+        regionNames.getValue().remove(regionName);
     }
 
     public void addLocationName(String locationName) {
-        locationNames.add(locationName);
+        locationNames.getValue().add(locationName);
     }
 
     public void removeLocationName(String locationName) {
-        locationNames.remove(locationName);
+        locationNames.getValue().remove(locationName);
     }
 
     public Set<PlaceType> getInitPlaces() {
-        return _places;
+        return places.getInitialValue();
     }
 
     public Map<RegionType, Integer> getInitRegions() {
-        return _regions;
+        return regions.getInitialValue();
     }
 
     public Set<String> getInitRegionNames() {
-        return _regionNames;
+        return regionNames.getInitialValue();
     }
 
     public Set<String> getInitLocationNames() {
-        return _locationNames;
+        return locationNames.getInitialValue();
     }
 
     public int getInitProwess() {
-        return _prowess < 0 ? 0 : _prowess;
+        return prowess.getInitialValue();
     }
 
     public int getInitBody() {
-        return _body < 0 ? 0 : _body;
-    }
-
-    public void addInitPlace(PlaceType place) {
-        _places.add(place);
-    }
-
-    public void removeInitPlace(PlaceType place) {
-        _places.remove(place);
-    }
-
-    public void addInitRegionName(String regionName) {
-        _regionNames.add(regionName);
-    }
-
-    public void removeInitRegionName(String regionName) {
-        _regionNames.remove(regionName);
-    }
-
-    public void addInitLocationName(String locationName) {
-        _locationNames.add(locationName);
-    }
-
-    public void removeInitLocationName(String locationName) {
-        _locationNames.remove(locationName);
+        return body.getInitialValue();
     }
 
     public int getStrikes() {

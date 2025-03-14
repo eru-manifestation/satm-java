@@ -18,22 +18,21 @@ import com.erumf.utils.position.Fellowship;
  * such as influence, mind, skills, race, corruption, body, prowess, and mp.
  */
 public abstract class Character extends Card {
+
+    // Intrisic properties
     private final Class<? extends Location> birthplace;
-    private final GameProperty<Integer> influence;
-    private final int _influence;
-    private final GameProperty<Integer> mind;
-    private final int _mind;
-    private final GameProperty<Set<Skills>> skills;
-    private final Set<Skills> _skills;
     private final Race race;
+
+    // Game properties
+    private final GameProperty<Integer> influence;
+    private final GameProperty<Integer> mind;
+    private final GameProperty<Set<Skills>> skills;
     private final GameProperty<Integer> corruption;
-    private final int _corruption;
     private final GameProperty<Integer> body;
-    private final int _body;
     private final GameProperty<Integer> prowess;
-    private final int _prowess;
     private final GameProperty<Integer> mp;
-    private final int _mp;
+
+    // State variables
     private boolean tapped = false;
     private boolean wounded = false;
     private boolean isFollower = false;
@@ -57,19 +56,12 @@ public abstract class Character extends Card {
         this.race = race;
         this.birthplace = birthplace;
         this.influence = new GameProperty<>("influence", influence, this);
-        this._influence = influence;
         this.mind = new GameProperty<>("mind", mind, this);
-        this._mind = mind;
         this.skills = new GameProperty<>("skills", skills, this);
-        this._skills = skills;
         this.corruption = new GameProperty<>("corruption", corruption, this);
-        this._corruption = corruption;
         this.body = new GameProperty<>("body", body, this);
-        this._body = body;
         this.prowess = new GameProperty<>("prowess", prowess, this);
-        this._prowess = prowess;
         this.mp = new GameProperty<>("mp", mp, this);
-        this._mp = mp;
     }
 
     public Class<? extends Location> getBirthplace() {
@@ -184,7 +176,7 @@ public abstract class Character extends Card {
      * @return the initial influence value
      */
     public int getInitialInfluence() {
-        return _influence;
+        return influence.getInitialValue();
     }
 
     /**
@@ -193,7 +185,7 @@ public abstract class Character extends Card {
      * @return the initial mind value
      */
     public int getInitialMind() {
-        return _mind;
+        return mind.getInitialValue();
     }
 
     /**
@@ -202,7 +194,7 @@ public abstract class Character extends Card {
      * @return the initial skills
      */
     public Set<Skills> getInitialSkills() {
-        return _skills;
+        return skills.getInitialValue();
     }
 
     /**
@@ -211,7 +203,7 @@ public abstract class Character extends Card {
      * @return the initial corruption value
      */
     public int getInitialCorruption() {
-        return _corruption;
+        return corruption.getInitialValue();
     }
 
     /**
@@ -220,7 +212,7 @@ public abstract class Character extends Card {
      * @return the initial body value
      */
     public int getInitialBody() {
-        return _body;
+        return body.getInitialValue();
     }
 
     /**
@@ -229,7 +221,7 @@ public abstract class Character extends Card {
      * @return the initial prowess value
      */
     public int getInitialProwess() {
-        return _prowess;
+        return prowess.getInitialValue();
     }
 
     /**
@@ -238,7 +230,7 @@ public abstract class Character extends Card {
      * @return the initial mp value
      */
     public int getInitialMp() {
-        return _mp;
+        return mp.getInitialValue();
     }
 
     public boolean isFollower() {
