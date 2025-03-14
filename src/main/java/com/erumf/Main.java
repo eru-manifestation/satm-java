@@ -13,9 +13,11 @@ import com.erumf.cards.starter.deck.StarterItems.ElvenCloak;
 import com.erumf.cards.starter.deck.StarterItems.ShieldOfIronBoundAsh;
 import com.erumf.elements.Character;
 import com.erumf.elements.Location;
+import com.erumf.phases.FinalPhase;
 import com.erumf.phases.LongEventPhase;
 import com.erumf.phases.MovementPhase;
 import com.erumf.phases.OrganizationPhase;
+import com.erumf.phases.SitePhase;
 import com.erumf.phases.UntapPhase;
 import com.erumf.utils.graph.DefaultPathEdge;
 import com.erumf.utils.graph.PositionGraph;
@@ -86,6 +88,8 @@ public class Main {
         OrganizationPhase.organizationPhase(player1);
         LongEventPhase.longEventPhase(player1);
         MovementPhase.movementPhase(player1);
+        SitePhase.sitePhase(player1);
+        FinalPhase.finalPhase(player1);
     }
 
     public static Player enemy(Player player) {
