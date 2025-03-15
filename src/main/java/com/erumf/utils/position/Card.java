@@ -3,6 +3,7 @@ package com.erumf.utils.position;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 import com.erumf.Player;
 import com.erumf.exception.GameLogicException;
@@ -18,14 +19,66 @@ import com.erumf.exception.GameLogicException;
  * All the other data is automatically configured.
  */
 public abstract class Card {
-    private final Player player;
+    
+    // State properties
     private Card father;
     final List<Card> children = new ArrayList<>();
+
+    // Intrinsic properties
+    private final Player player;
     private final boolean unique;
+    private final String image;
+    private final SetType set;
+    private final Map<String, String> quote;
+    private final String artist;
+    private final Map<String, String> name;
+    private final Map<String, String> text;
+    private final String alignment;
+    private final Rarity rarity;
+
+    public String getImage() {
+        return image;
+    }
+
+    public SetType getSet() {
+        return set;
+    }
+
+    public Map<String, String> getQuote() {
+        return quote;
+    }
+
+    public String getArtist() {
+        return artist;
+    }
+
+    public Map<String, String> getName() {
+        return name;
+    }
+
+    public Map<String, String> getText() {
+        return text;
+    }
+
+    public String getAlignment() {
+        return alignment;
+    }
+
+    public Rarity getRarity() {
+        return rarity;
+    }
 
     public Card(Player player, boolean unique) {
         this.player = player;
         this.unique = unique;
+        this.image = null;
+        this.set = SetType.TW;
+        this.quote = null;
+        this.artist = null;
+        this.name = null;
+        this.text = null;
+        this.alignment = null;
+        this.rarity = Rarity.NO_RARITY;
     }
 
     public Player getPlayer() {
@@ -133,5 +186,14 @@ public abstract class Card {
      * 
      * TODO: dividir las fases de forma programática, en eventos que se siguen unos
      * detrás de otros??
-     */
+    */
+
+
+    public enum SetType {
+        TW
+    }
+    
+    public enum Rarity {
+        NO_RARITY
+    }
 }

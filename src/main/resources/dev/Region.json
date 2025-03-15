@@ -1,0 +1,1666 @@
+[
+    {
+        "image": "WoodlandRealm.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Waldreich",
+            "fi": "Metsämaan valtakunta",
+            "ja": "森の王国",
+            "en": "Woodland Realm",
+            "it": "Reame Boscoso",
+            "fr": "Royaume Sylvestre",
+            "es": "Reino del Bosque",
+            "nl": "Woodland Realm"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{b}",
+            "moveTo": "Anduin Vales, Heart of Mirkwood, Northern Rhovanion, Western Mirkwood, Grey Mountain Narrows"
+        },
+        "id": "TW-491",
+        "text": {
+            "en": "<p>Anduin Vales, Heart of Mirkwood, Northern Rhovanion, Western Mirkwood, Grey Mountain Narrows<\/p>",
+            "es": "<p>Valles del Anduin, Corazón del Bosque Negro, Norte de Rhovanion, Oeste del Bosque Negro, Pasos de las Montañas Grises<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "WoldFoothills.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Ausläufer des Nebelgebirges",
+            "fi": "Wold & Reunakukkulat",
+            "ja": "高地・丘陵地帯",
+            "en": "Wold & Foothills",
+            "it": "Landa e Pendici dei Monti",
+            "fr": "Plateau",
+            "es": "Páramo y Colinas",
+            "nl": "Wold & Foothills"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{w}",
+            "moveTo": "Anduin Vales, Brown Lands, Fangorn, Redhorn Gate, Rohan"
+        },
+        "id": "TW-490",
+        "text": {
+            "en": "<p>Anduin Vales, Brown Lands, Fangorn, Redhorn Gate, Rohan<\/p>",
+            "es": "<p>Valles del Anduin, Tierras Pardas, Fangorn, Entrada al Cuerno Rojo, Rohan<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "Andrast.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Andrast",
+            "fi": "Andrast",
+            "ja": "アンドラスト",
+            "en": "Andrast",
+            "it": "Andrast",
+            "fr": "Andrast",
+            "es": "Andrast",
+            "nl": "Andrast"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{w}",
+            "moveTo": "Andrast Coast, Anfalas, Bay of Belfalas, Eriadoran Coast, Old Pûkel-land"
+        },
+        "id": "TW-440",
+        "text": {
+            "en": "<p>Andrast Coast, Anfalas, Bay of Belfalas, Eriadoran Coast, Old Pûkel-land<\/p>",
+            "es": "<p>Costa de Andrast, Anfalas, Bahía de Belfalas, Costa de Eriador, Tierra del Viejo Pûkel<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "AndrastCoast.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Küste von Andrast",
+            "fi": "Andrastin Rannikko",
+            "ja": "アンドラスト海岸",
+            "en": "Andrast Coast",
+            "it": "Coste dell'Andrast",
+            "fr": "Côte d'Andrast",
+            "es": "Costa de Andrast",
+            "nl": "Andrast Coast"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{c}",
+            "moveTo": "Andrast, Bay of Belfalas, Eriadoran Coast"
+        },
+        "id": "TW-441",
+        "text": {
+            "en": "<p>Andrast, Bay of Belfalas, Eriadoran Coast<\/p>",
+            "es": "<p>Andrast, Bahía de Belfalas, Costa de Eriador<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Belfalas.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Belfalas",
+            "fi": "Belfalas",
+            "ja": "ベルファラス",
+            "en": "Belfalas",
+            "it": "Belfalas",
+            "fr": "Belfalas",
+            "es": "Belfalas",
+            "nl": "Belfalas"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{f}",
+            "moveTo": "Mouths of the Anduin, Anfalas, Bay of Belfalas, Lamedon, Lebennin"
+        },
+        "id": "TW-448",
+        "text": {
+            "en": "<p>Mouths of the Anduin, Anfalas,<\/p><p>Bay of Belfalas, Lamedon, Lebennin<\/p>",
+            "es": "<p>Bocas del Anduin, Anfalas,<\/p><p>Bahía de Belfalas, Lamedon, Lebennin<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "BrownLands.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Braune Lande",
+            "fi": "Ruskeat Maat",
+            "ja": "茶色の国",
+            "en": "Brown Lands",
+            "it": "Terre Brune",
+            "fr": "Terres Brunes",
+            "es": "Tierras Pardas",
+            "nl": "Brown Lands"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{s}",
+            "moveTo": "Anduin Vales, Dagorlad, Southern Mirkwood, Wold & Foothills"
+        },
+        "id": "TW-449",
+        "text": {
+            "en": "<p>Anduin Vales, Dagorlad, Southern Mirkwood, Wold & Foothills<\/p>",
+            "es": "<p>Valles del Anduin, Dagorlad, Sur del Bosque Negro, Páramo y Colinas<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Arthedain.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Arthedain",
+            "fi": "Arthedain",
+            "ja": "アルセダイン",
+            "en": "Arthedain",
+            "it": "Arthedain",
+            "fr": "Arthedain",
+            "es": "Arthedain",
+            "nl": "Arthedain"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{w}",
+            "moveTo": "Angmar, Cardolan, Forochel, Lindon, Númeriador, Rhudaur, The Shire"
+        },
+        "id": "TW-446",
+        "text": {
+            "en": "<p>Angmar, Cardolan, Forochel, Lindon, Númeriador, Rhudaur, The Shire<\/p>",
+            "es": "<p>Angmar, Cardolan, Forochel, Lindon, Numeriador, Rhudaur, La Comarca<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "BayofBelfalas.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Bucht von Belfalas",
+            "fi": "Belfalasin Laht",
+            "ja": "ベルファラス湾",
+            "en": "Bay of Belfalas",
+            "it": "Baia di Belfalas",
+            "fr": "Baie de Belfalas",
+            "es": "Bahía de Belfalas",
+            "nl": "Bay of Belfalas"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{c}",
+            "moveTo": "Andrast Coast, Andrast, Mouths of the Anduin, Anfalas, Belfalas"
+        },
+        "id": "TW-447",
+        "text": {
+            "en": "<p>Andrast Coast, Andrast, Mouths of the Anduin, Anfalas, Belfalas<\/p>",
+            "es": "<p>Costa de Andrast, Andrast, Bocas del Anduin, Anfalas, Belfalas<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Angmar.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Angmar",
+            "fi": "Angmar",
+            "ja": "アングマール",
+            "en": "Angmar",
+            "it": "Angmar",
+            "fr": "Angmar",
+            "es": "Angmar",
+            "nl": "Angmar"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{s}",
+            "moveTo": "Arthedain, Forochel, Gundabad, Rhudaur"
+        },
+        "id": "TW-444",
+        "text": {
+            "en": "",
+            "es": ""
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Anorien.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Anórien",
+            "fi": "Anórien",
+            "ja": "アノリアン",
+            "en": "Anórien",
+            "it": "Anórien",
+            "fr": "Anórien",
+            "es": "Anórien",
+            "nl": "Anórien"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{f}",
+            "moveTo": "Ithilien, Lebennin, Rohan"
+        },
+        "id": "TW-445",
+        "text": {
+            "en": "<p>Ithilien, Lebennin, Rohan<\/p>",
+            "es": "<p>Ithilien, Lebennin, Rohan<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "AnduinVales.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Täler des Anduin",
+            "fi": "Anduinin Laakso",
+            "ja": "アンドゥインの谷間",
+            "en": "Anduin Vales",
+            "it": "Valli dell'Anduin",
+            "fr": "Vallée de l'Anduin",
+            "es": "Valles del Anduin",
+            "nl": "Anduin Vales"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{b}",
+            "moveTo": "Brown Lands, Grey Mountain Narrows, Gundabad, High Pass, Southern Mirkwood, Western Mirkwood, Wold & Foothills, Woodland Realm"
+        },
+        "id": "TW-442",
+        "text": {
+            "en": "<p>Brown Lands, Grey Mountain Narrows, Gundabad, High Pass, Southern Mirkwood, Western Mirkwood, Wold & Foothills, Woodland Realm<\/p>",
+            "es": "<p>Tierras Pardas, Pasos de las Montañas Grises, Gundabad, Paso Alto, Sur del Bosque Negro, Oeste del Bosque Negro, Páramo y Colinas, Reino del Bosque<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "Anfalas.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Anfalas",
+            "fi": "Anfalas",
+            "ja": "アンファラス",
+            "en": "Anfalas",
+            "it": "Anfalas",
+            "fr": "Anfalas",
+            "es": "Anfalas",
+            "nl": "Anfalas"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{w}",
+            "moveTo": "Andrast, Bay of Belfalas, Belfalas, Lamedon, Old Pûkel Gap"
+        },
+        "id": "TW-443",
+        "text": {
+            "en": "",
+            "es": ""
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "Gundabad.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Gundabad",
+            "fi": "Gundabad",
+            "ja": "グンダバド",
+            "en": "Gundabad",
+            "it": "Guerrinferno",
+            "fr": "Gundabad",
+            "es": "Gundabad",
+            "nl": "Gundabad"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{d}",
+            "moveTo": "Anduin Vales, Angmar"
+        },
+        "id": "TW-462",
+        "text": {
+            "en": "<p>Anduin Vales, Angmar<\/p>",
+            "es": "<p>Valles del Anduin, Angmar<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Harondor.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Harondor",
+            "fi": "Harondor",
+            "ja": "ハロンドール",
+            "en": "Harondor",
+            "it": "Harondor",
+            "fr": "Harondor",
+            "es": "Harondor",
+            "nl": "Harondor"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{w}",
+            "moveTo": "Mouths of the Anduin, Ithilien, Khand"
+        },
+        "id": "TW-463",
+        "text": {
+            "en": "<p>Mouths of the Anduin, Ithilien, Khand<\/p>",
+            "es": "<p>Bocas del Anduin, Ithilien, Khand<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Gorgoroth.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Gorgoroth",
+            "fi": "Gorgoroth",
+            "ja": "ゴルゴロス",
+            "en": "Gorgoroth",
+            "it": "Gorgoroth",
+            "fr": "Gorgoroth",
+            "es": "Gorgoroth",
+            "nl": "Gorgoroth"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{d}",
+            "moveTo": "Imlad Morgul, Nurn, Udûn"
+        },
+        "id": "TW-460",
+        "text": {
+            "en": "<p>Imlad Morgul, Nurn, Udûn<\/p>",
+            "es": "<p>Imlad Morgul, Nurn, Udûn<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "GreyMountainNarrows.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Klüfte des Grauen Gebirges",
+            "fi": "Varjovuorten Kapeikko",
+            "ja": "灰色山脈の隘路",
+            "en": "Grey Mountain Narrows",
+            "it": "Passaggi delle Montagne Grigie",
+            "fr": "Goulet des Montagnes Grises",
+            "es": "Pasos de las Montañas Grises",
+            "nl": "Grey Mountain Narrows"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{s}",
+            "moveTo": "Anduin Vales, Northern Rhovanion, Withered Heath, Woodland Realm"
+        },
+        "id": "TW-461",
+        "text": {
+            "en": "<p>Anduin Vales, Northern Rhovanion, Withered Heath, Woodland Realm<\/p>",
+            "es": "<p>Valles del Anduin, Norte de Rhovanion, Brezal Marchito, Reino del Bosque<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "ImladMorgul.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Imlad Morgul",
+            "fi": "Imlad Morgul",
+            "ja": "イムラド・モルグル",
+            "en": "Imlad Morgul",
+            "it": "Imlad Morgul",
+            "fr": "Imlad Morgul",
+            "es": "Imlad Morgul",
+            "nl": "Imlad Morgul"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{s}",
+            "moveTo": "Gorgoroth, Ithilien"
+        },
+        "id": "TW-468",
+        "text": {
+            "en": "<p>Gorgoroth, Ithilien<\/p>",
+            "es": "<p>Gorgoroth, Ithilien<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "IronHills.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Eisengebirge",
+            "fi": "Rautavuoret",
+            "ja": "くろがね連山",
+            "en": "Iron Hills",
+            "it": "Colli Ferrosi",
+            "fr": "Monts du Fer",
+            "es": "Colinas de Hierro",
+            "nl": "Iron Hills"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{w}",
+            "moveTo": "Northern Rhovanion, Withered Heath"
+        },
+        "id": "TW-469",
+        "text": {
+            "en": "<p>Northern Rhovanion, Withered Heath<\/p>",
+            "es": "<p>Norte de Rhovanion, Brezal Marchito<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Hollin.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Hulsten",
+            "fi": "Paatsamala",
+            "ja": "柊郷",
+            "en": "Hollin",
+            "it": "Agrifogliere",
+            "fr": "Houssaye",
+            "es": "Acebeda",
+            "nl": "Hollin"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{w}",
+            "moveTo": "Cardolan, Dunland, Redhorn Gate, Rhudaur"
+        },
+        "id": "TW-466",
+        "text": {
+            "en": "<p>Cardolan, Dunland, Redhorn Gate, Rhudaur<\/p>",
+            "es": "<p>Cardolan, Tierras Brunas, Entrada al Cuerno Rojo, Rhudaur<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "HorsePlains.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Pferdesteppe",
+            "fi": "Hevostasanko",
+            "ja": "馬の平原",
+            "en": "Horse Plains",
+            "it": "Pianure dei Cavalli",
+            "fr": "Plaines des Chevaux",
+            "es": "Llanuras de los Caballos",
+            "nl": "Horse Plains"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{s}",
+            "moveTo": "Dagorlad, Nurn, Southern Rhovanion"
+        },
+        "id": "TW-467",
+        "text": {
+            "en": "<p>Dagorlad, Nurn, Southern Rhovanion<\/p>",
+            "es": "<p>Dagorlad, Nurn, Sur de Rhovanion<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "HeartofMirkwood.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Herz des Düsterwaldes",
+            "fi": "Synkmetsän Sydän",
+            "ja": "闇の森中央",
+            "en": "Heart of Mirkwood",
+            "it": "Cuore di Bosco Atro",
+            "fr": "Forêt Noire Centrale",
+            "es": "Corazón del Bosque Negro",
+            "nl": "Heart of Mirkwood"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{w}",
+            "moveTo": "Northern Rhovanion, Southern Mirkwood, Southern Rhovanion, Western Mirkwood, Woodland Realm"
+        },
+        "id": "TW-464",
+        "text": {
+            "en": "<p>Northern Rhovanion, Southern Mirkwood, Southern Rhovanion, Western Mirkwood, Woodland Realm<\/p>",
+            "es": "<p>Norte de Rhovanion, Sur del Bosque Negro, Sur de Rhovanion, Oeste del Bosque Negro, Reino del Bosque<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "HighPass.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Der Hohe Paß",
+            "fi": "Ylä-Sola",
+            "ja": "大峠",
+            "en": "High Pass",
+            "it": "Altopasso",
+            "fr": "Haut Col",
+            "es": "Paso Alto",
+            "nl": "High Pass"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{w}",
+            "moveTo": "Anduin Vales, Rhudaur"
+        },
+        "id": "TW-465",
+        "text": {
+            "en": "<p>Anduin Vales, Rhudaur<\/p>",
+            "es": "<p>Valles del Anduin, Rhudaur<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "Dagorlad.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Dagorlad",
+            "fi": "Dagorlad",
+            "ja": "ダゴルラド",
+            "en": "Dagorlad",
+            "it": "Dagorlad",
+            "fr": "Dagorlad",
+            "es": "Dagorlad",
+            "nl": "Dagorlad"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{s}",
+            "moveTo": "Brown Lands, Horse Plains, Ithilien, Southern Mirkwood, Southern Rhovanion"
+        },
+        "id": "TW-451",
+        "text": {
+            "en": "<p>Brown Lands, Horse Plains, Ithilien, Southern Mirkwood, Southern Rhovanion<\/p>",
+            "es": "<p>Tierras Pardas, Llanuras de los Caballos, Ithilien, Sur del Bosque Negro, Sur de Rhovanion<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Dorwinion.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Dorwinion",
+            "fi": "Dorwinion",
+            "ja": "ドルイニオン",
+            "en": "Dorwinion",
+            "it": "Dorwinion",
+            "fr": "Dorwinion",
+            "es": "Dorwinion",
+            "nl": "Dorwinion"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{b}",
+            "moveTo": "Northern Rhovanion, Southern Rhovanion"
+        },
+        "id": "TW-452",
+        "text": {
+            "en": "<p>Northern Rhovanion, Southern Rhovanion<\/p>",
+            "es": "<p>Norte de Rhovanion, Sur de Rhovanion<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Cardolan.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Cardolan",
+            "fi": "Cardolan",
+            "ja": "カルドラン",
+            "en": "Cardolan",
+            "it": "Cardolan",
+            "fr": "Cardolan",
+            "es": "Cardolan",
+            "nl": "Cardolan"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{w}",
+            "moveTo": "Arthedain, Dunland, Enedhwaith, Eriadoran Coast, Hollin, Rhudaur, The Shire"
+        },
+        "id": "TW-450",
+        "text": {
+            "en": "<p>Arthedain, Dunland, Enedhwaith, Eriadoran Coast, Hollin, Rhudaur, The Shire<\/p>",
+            "es": "<p>Arthedain, Tierras Brunas, Enedhwaith, Costa de Eriador, Acebeda, Rhudaur, La Comarca<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "GapofIsen.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Pforte von Rohan",
+            "fi": "Rautkymin Aukko",
+            "ja": "アイゼンの谷",
+            "en": "Gap of Isen",
+            "it": "Gola dell'Isen",
+            "fr": "Trouée de l'Isen",
+            "es": "Desfiladero del Isen",
+            "nl": "Gap of Isen"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{b}",
+            "moveTo": "Enedhwaith, Fangorn, Old Pûkel-land, Rohan"
+        },
+        "id": "TW-459",
+        "text": {
+            "en": "<p>Enedhwaith, Fangorn, Old Pûkel-land, Rohan<\/p>",
+            "es": "<p>Enedhwaith, Fangorn, Tierra del Viejo Pûkel, Rohan<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "Fangorn.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Fangorn",
+            "fi": "Fangorn",
+            "ja": "ファンゴルン",
+            "en": "Fangorn",
+            "it": "Fangorn",
+            "fr": "Fangorn",
+            "es": "Fangorn",
+            "nl": "Fangorn"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{w}",
+            "moveTo": "Gap of Isen, Rohan, Wold & Foothills"
+        },
+        "id": "TW-457",
+        "text": {
+            "en": "<p>Gap of Isen, Rohan, Wold & Foothills<\/p>",
+            "es": "<p>Desfiladero del Isen, Rohan, Páramo y Colinas<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Forochel.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Forochel",
+            "fi": "Forochel",
+            "ja": "フォロヘル",
+            "en": "Forochel",
+            "it": "Forochel",
+            "fr": "Forochel",
+            "es": "Forochel",
+            "nl": "Forochel"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{w}",
+            "moveTo": "Angmar, Arthedain, Númeriador"
+        },
+        "id": "TW-458",
+        "text": {
+            "en": "<p>Angmar, Arthedain, Númeriador<\/p>",
+            "es": "<p>Angmar, Arthedain, Numeriador<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Enedhwaith.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Enedhwaith",
+            "fi": "Enedhwaith",
+            "ja": "エネドワイス",
+            "en": "Enedhwaith",
+            "it": "Enedhwaith",
+            "fr": "Enedhwaith",
+            "es": "Enedhwaith",
+            "nl": "Enedhwaith"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{w}",
+            "moveTo": "Cardolan, Dunland, Eriadoran Coast, Gap of Isen, Old Pûkel-land"
+        },
+        "id": "TW-455",
+        "text": {
+            "en": "<p>Cardolan, Dunland, Eriadoran Coast, Gap of Isen, Old Pûkel-land<\/p>",
+            "es": "<p>Cardolan, Tierras Brunas, Costa de Eriador, Desfiladero del Isen, Tierra del Viejo Pûkel<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "EriadoranCoast.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Küste von Eriador",
+            "fi": "Eriadorin Rannikko ",
+            "ja": "エリアドール海岸",
+            "en": "Eriadoran Coast",
+            "it": "Coste dell'Eriador",
+            "fr": "Côte Eriadorienne",
+            "es": "Costa de Eriador",
+            "nl": "Eriadoran Coast"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{c}",
+            "moveTo": "Andrast, Andrast Coast, Cardolan, Elven Shores, Enedhwaith, Old Pûkel-land"
+        },
+        "id": "TW-456",
+        "text": {
+            "en": "<p>Andrast, Andrast Coast, Cardolan, Elven Shores, Enedhwaith, Old Pûkel-land<\/p>",
+            "es": "<p>Andrast, Costa de Andrast, Cardolan, Costas Élficas, Enedhwaith, Tierra del Viejo Pûkel<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Dunland.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Dunland",
+            "fi": "Mustainmaa",
+            "ja": "褐色人の国",
+            "en": "Dunland",
+            "it": "Dunland",
+            "fr": "Pays de Dun",
+            "es": "Tierras Brunas",
+            "nl": "Dunland"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{w}",
+            "moveTo": "Cardolan, Enedhwaith, Hollin"
+        },
+        "id": "TW-453",
+        "text": {
+            "en": "<p>Cardolan, Enedhwaith, Hollin<\/p>",
+            "es": "<p>Cardolan, Enedhwaith, Acebeda<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "ElvenShores.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Elbenküste",
+            "fi": "Haltiaranta",
+            "ja": "エルフの岸",
+            "en": "Elven Shores",
+            "it": "Lidi Elfici",
+            "fr": "Rivages Elfiques",
+            "es": "Costas Élficas",
+            "nl": "Elven Shores"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{c}",
+            "moveTo": "Eriadoran Coast, Lindon"
+        },
+        "id": "TW-454",
+        "text": {
+            "en": "<p>Eriadoran Coast, Lindon<\/p>",
+            "es": "<p>Costa de Eriador, Lindon<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "SouthernMirkwood.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Südlicher Düsterwald",
+            "fi": "Eteläinen Synkmetsä",
+            "ja": "南闇の森",
+            "en": "Southern Mirkwood",
+            "it": "Bosco Atro Meridionale",
+            "fr": "Forêt Noire Méridionale",
+            "es": "Sur del Bosque Negro",
+            "nl": "Southern Mirkwood"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{d}",
+            "moveTo": "Anduin Vales, Brown Lands, Dagorlad, Heart of Mirkwood, Southern Rhovanion, Western Mirkwood"
+        },
+        "id": "TW-484",
+        "text": {
+            "en": "<p>Anduin Vales, Brown Lands, Dagorlad, Heart of Mirkwood, Southern Rhovanion, Western Mirkwood<\/p>",
+            "es": "<p>Valles del Anduin, Tierras Pardas, Dagorlad, Corazón del Bosque Negro, Sur de Rhovanion, Oeste del Bosque Negro<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "SouthernRhovanion.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Südliches Rhovanion",
+            "fi": "Etelä-Rhovanion",
+            "ja": "南ロヴァニオン",
+            "en": "Southern Rhovanion",
+            "it": "Rhovanion Meridionale",
+            "fr": "Rhovanion Méridional",
+            "es": "Sur de Rhovanion",
+            "nl": "Southern Rhovanion"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{w}",
+            "moveTo": "Dagorlad, Dorwinion, Heart of Mirkwood, Horse Plains, Northern Rhovanion, Southern Mirkwood"
+        },
+        "id": "TW-485",
+        "text": {
+            "en": "<p>Dagorlad, Dorwinion, Heart of Mirkwood, Horse Plains, Northern Rhovanion, Southern Mirkwood<\/p>",
+            "es": "<p>Dagorlad, Dorwinion, Corazón del Bosque Negro, Llanuras de los Caballos, Norte de Rhovanion, Sur del Bosque Negro<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Rhudaur.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Rhudaur",
+            "fi": "Rhudaur",
+            "ja": "ルダウア",
+            "en": "Rhudaur",
+            "it": "Rhudaur",
+            "fr": "Rhudaur",
+            "es": "Rhudaur",
+            "nl": "Rhudaur"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{w}",
+            "moveTo": "Angmar, Arthedain, Cardolan, High Pass, Hollin"
+        },
+        "id": "TW-482",
+        "text": {
+            "en": "<p>Angmar, Arthedain, Cardolan, High Pass, Hollin<\/p>",
+            "es": "<p>Angmar, Arthedain, Cardolan, Paso Alto, Acebeda<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "Rohan.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Rohan",
+            "fi": "Rohan",
+            "ja": "ローハン",
+            "en": "Rohan",
+            "it": "Rohan",
+            "fr": "Rohan",
+            "es": "Rohan",
+            "nl": "Rohan"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{b}",
+            "moveTo": "Anórien, Fangorn, Gap of Isen, Wold & Foothills"
+        },
+        "id": "TW-483",
+        "text": {
+            "en": "<p>Anórien, Fangorn, Gap of Isen, Wold & Foothills<\/p>",
+            "es": "<p>Anórien, Fangorn, Desfiladero del Isen, Páramo y Colinas<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "OldPukelland.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Altes-Puckelland",
+            "fi": "Vanha Pûkelmaa",
+            "ja": "昔のプーケル人の国",
+            "en": "Old Pûkel-land",
+            "it": "Antica Terra Pûkel",
+            "fr": "Pays des Vieux Biscornus",
+            "es": "Tierra del Viejo Pûkel",
+            "nl": "Old Pûkel-land"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{w}",
+            "moveTo": "Andrast, Enedhwaith, Eriadoran Coast, Gap of Isen, Old Pûkel Gap"
+        },
+        "id": "TW-480",
+        "text": {
+            "en": "<p>Andrast, Enedhwaith, Eriadoran Coast, Gap of Isen, Old Pûkel Gap<\/p>",
+            "es": "<p>Andrast, Enedhwaith, Costa de Eriador, Desfiladero del Isen, Desfiladero del Viejo Pûkel<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "RedhornGate.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Rothornpaß",
+            "fi": "Punasarven Portti",
+            "ja": "赤角口",
+            "en": "Redhorn Gate",
+            "it": "Cancello Cornorosso",
+            "fr": "Porte de Rubicorne",
+            "es": "Entrada al Cuerno Rojo",
+            "nl": "Redhorn Gate"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{w}",
+            "moveTo": "Hollin, Wold & Foothills"
+        },
+        "id": "TW-481",
+        "text": {
+            "en": "<p>Hollin, Wold & Foothills<\/p>",
+            "es": "<p>Acebeda, Páramo y Colinas<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "WesternMirkwood.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Westlicher Düsterwald",
+            "fi": "Läntinen Synkmetsä",
+            "ja": "西闇の森",
+            "en": "Western Mirkwood",
+            "it": "Bosco Atro Occidentale",
+            "fr": "Forêt Noire Occidentale",
+            "es": "Oeste del Bosque Negro",
+            "nl": "Western Mirkwood"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{w}",
+            "moveTo": "Anduin Vales, Heart of Mirkwood, Southern Mirkwood, Woodland Realm"
+        },
+        "id": "TW-488",
+        "text": {
+            "en": "<p>Anduin Vales, Heart of Mirkwood, Southern Mirkwood, Woodland Realm<\/p>",
+            "es": "<p>Valles del Anduin, Corazón del Bosque Negro, Sur del Bosque Negro, Reino del Bosque<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "WitheredHeath.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Dürre Heide",
+            "fi": "Kulottunut Nummi",
+            "ja": "ヒースのかれ野",
+            "en": "Withered Heath",
+            "it": "Brughiera Arida",
+            "fr": "Brande Desséchée",
+            "es": "Brezal Marchito",
+            "nl": "Withered Heath"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{w}",
+            "moveTo": "Iron Hills, Northern Rhovanion, Grey Mountain Narrows"
+        },
+        "id": "TW-489",
+        "text": {
+            "en": "<p>Iron Hills, Northern Rhovanion, Grey Mountain Narrows<\/p>",
+            "es": "<p>Colinas de Hierro, Norte de Rhovanion, Pasos de las Montañas Grises<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "TheShire.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Das Auenland",
+            "fi": "Kontu",
+            "ja": "ホビット庄",
+            "en": "The Shire",
+            "it": "La Contea",
+            "fr": "La Comté",
+            "es": "La Comarca",
+            "nl": "The Shire"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{f}",
+            "moveTo": "Arthedain, Cardolan"
+        },
+        "id": "TW-486",
+        "text": {
+            "en": "<p>Arthedain, Cardolan<\/p>",
+            "es": "<p>Arthedain, Cardolan<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Udun.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Udûn",
+            "fi": "Udûn",
+            "ja": "ウドゥン",
+            "en": "Udûn",
+            "it": "Udûn",
+            "fr": "Udûn",
+            "es": "Udûn",
+            "nl": "Udûn"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{d}",
+            "moveTo": "Gorgoroth"
+        },
+        "id": "TW-487",
+        "text": {
+            "en": "<p>Gorgoroth<\/p>",
+            "es": "<p>Gorgoroth<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Lebennin.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Lebennin",
+            "fi": "Lebennin",
+            "ja": "レベンニン",
+            "en": "Lebennin",
+            "it": "Lebennin",
+            "fr": "Lebennin",
+            "es": "Lebennin",
+            "nl": "Lebennin"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{f}",
+            "moveTo": "Mouths of the Anduin, Anórien, Belfalas, Lamedon"
+        },
+        "id": "TW-473",
+        "text": {
+            "en": "<p>Mouths of the Anduin, Anórien, Belfalas, Lamedon<\/p>",
+            "es": "<p>Bocas del Anduin, Anórien, Belfalas, Lamedon<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "Lindon.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Lindon",
+            "fi": "Lindon",
+            "ja": "リンドン",
+            "en": "Lindon",
+            "it": "Lindon",
+            "fr": "Lindon",
+            "es": "Lindon",
+            "nl": "Lindon"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{f}",
+            "moveTo": "Arthedain, Elven Shores, Númeriador"
+        },
+        "id": "TW-474",
+        "text": {
+            "en": "<p>Arthedain, Elven Shores, Númeriador<\/p>",
+            "es": "<p>Arthedain, Costas Élficas, Numeriador<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    },
+    {
+        "image": "Khand.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Khand",
+            "fi": "Khand",
+            "ja": "ハンド",
+            "en": "Khand",
+            "it": "Khand",
+            "fr": "Khand",
+            "es": "Khand",
+            "nl": "Khand"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{s}",
+            "moveTo": "Harondor, Nurn"
+        },
+        "id": "TW-471",
+        "text": {
+            "en": "<p>Harondor, Nurn<\/p>",
+            "es": "<p>Harondor, Nurn<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Lamedon.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Lamedon",
+            "fi": "Lamedon",
+            "ja": "ラメドン",
+            "en": "Lamedon",
+            "it": "Lamedon",
+            "fr": "Lamedon",
+            "es": "Lamedon",
+            "nl": "Lamedon"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{b}",
+            "moveTo": "Anfalas, Belfalas, Lebennin"
+        },
+        "id": "TW-472",
+        "text": {
+            "en": "<p>Anfalas, Belfalas, Lebennin<\/p>",
+            "es": "<p>Anfalas, Belfalas, Lebennin<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Ithilien.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Ithilien",
+            "fi": "Ithilien",
+            "ja": "イシリアン",
+            "en": "Ithilien",
+            "it": "Ithilien",
+            "fr": "Ithilien",
+            "es": "Ithilien",
+            "nl": "Ithilien"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{w}",
+            "moveTo": "Anórien, Dagorlad, Harondor, Imlad Morgul"
+        },
+        "id": "TW-470",
+        "text": {
+            "en": "<p>Anórien, Dagorlad, Harondor, Imlad Morgul<\/p>",
+            "es": "<p>Anórien, Dagorlad, Harondor, Imlad Morgul<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "OldPukelGap.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Alte Pukel-Wildnis",
+            "fi": "Vanha Pukelmaan Aukko",
+            "ja": "昔のプーケル人の谷",
+            "en": "Old Pûkel Gap",
+            "it": "Antica Breccia dei Pûkel",
+            "fr": "Passe des Vieux Biscornus",
+            "es": "Desfiladero del Viejo Pûkel",
+            "nl": "Old Pûkel Gap"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{w}",
+            "moveTo": "Anfalas, Old Pûkel-land"
+        },
+        "id": "TW-479",
+        "text": {
+            "en": "<p>Anfalas, Old Pûkel-land<\/p>",
+            "es": "<p>Anfalas, Tierra del Viejo Pûkel<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Numeriador.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Númeriador",
+            "fi": "Númeriador",
+            "ja": "ヌーメリアドール",
+            "en": "Númeriador",
+            "it": "Númeriador",
+            "fr": "Númeriador",
+            "es": "Numeriador",
+            "nl": "Númeriador"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{w}",
+            "moveTo": "Arthedain, Forochel, Lindon"
+        },
+        "id": "TW-477",
+        "text": {
+            "en": "<p>Arthedain, Forochel, Lindon<\/p>",
+            "es": "<p>Arthedain, Forochel, Lindon<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "Nurn.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Nurn",
+            "fi": "Nurn",
+            "ja": "ヌアン",
+            "en": "Nurn",
+            "it": "Nurn",
+            "fr": "Nurn",
+            "es": "Nurn",
+            "nl": "Nurn"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{d}",
+            "moveTo": "Gorgoroth, Horse Plains, Khand"
+        },
+        "id": "TW-478",
+        "text": {
+            "en": "<p>Gorgoroth, Horse Plains, Khand<\/p>",
+            "es": "<p>Gorgoroth, Llanuras de los Caballos, Khand<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "MouthsoftheAnduin.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Mündungen des Anduin",
+            "fi": "Anduinin Suisto",
+            "ja": "アンドゥインの河口",
+            "en": "Mouths of the Anduin",
+            "it": "Foci dell'Anduin",
+            "fr": "Embouchure de l'Anduin",
+            "es": "Bocas del Anduin",
+            "nl": "Mouths of the Anduin"
+        },
+        "attributes": {
+            "artOrientation": "portrait",
+            "regionType": "{c}",
+            "moveTo": "Bay of Belfalas, Belfalas, Harondor, Lebennin"
+        },
+        "id": "TW-475",
+        "text": {
+            "en": "<p>Bay of Belfalas, Belfalas, Harondor, Lebennin<\/p>",
+            "es": "<p>Bahía de Belfalas, Belfalas, Harondor, Lebennin<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB"
+    },
+    {
+        "image": "NorthernRhovanion.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Jo Hartwig",
+        "name": {
+            "de": "Nördliches Rhovanion",
+            "fi": "Pohjois-Rhovanion",
+            "ja": "北ロヴァニオン",
+            "en": "Northern Rhovanion",
+            "it": "Rhovanion Settentrionale",
+            "fr": "Rhovanion Septentriona",
+            "es": "Norte de Rhovanion",
+            "nl": "Northern Rhovanion"
+        },
+        "attributes": {
+            "artOrientation": "landscape",
+            "regionType": "{w}",
+            "moveTo": "Dorwinion, Heart of Mirkwood, Iron Hills, Southern Rhovanion, Withered Heath, Woodland Realm, Grey Mountain Narrows"
+        },
+        "id": "TW-476",
+        "text": {
+            "en": "<p>Dorwinion, Heart of Mirkwood, Iron Hills, Southern Rhovanion, Withered Heath, Woodland Realm, Grey Mountain Narrows<\/p>",
+            "es": "<p>Dorwinion, Corazón del Bosque Negro, Colinas de Hierro, Sur de Rhovanion, Brezal Marchito, Reino del Bosque, Pasos de las Montañas Grises<\/p>"
+        },
+        "type": "Region",
+        "alignment": "Neutral",
+        "rarity": "CB2"
+    }
+]
