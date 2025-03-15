@@ -7,6 +7,7 @@ import com.erumf.Main;
 import com.erumf.Player;
 import com.erumf.elements.Location.PlaceType;
 import com.erumf.elements.Region.RegionType;
+import com.erumf.utils.Dice;
 import com.erumf.utils.GameProperty;
 
 public abstract class Creature extends Hazard {
@@ -121,11 +122,11 @@ public abstract class Creature extends Hazard {
      */
     public boolean resistanceCheck() {
         if (this.getInitBody() != 0) {
-            // TODO pass this resistance check
+            int dice = Dice.roll();
+            return dice >= this.getBody();
         }else{
-            // TODO return false
+            return false;
         }
-        throw new UnsupportedOperationException("Not supported yet.");
     }
 
     /**

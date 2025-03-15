@@ -35,11 +35,9 @@ public class Main {
     public static final Player player2 = new Player("Player 2");
 
     public static void main(String[] args) {
-        System.out.println("Defalut regions generated: "+regionsGraph.vertexSet().size());
-        // DataManagement.subObjects("Region", null);
-        // Logger.info("Starting game...");
-        // defaultGameSetup();
-        // startGame(player1);
+        Logger.info("Starting game...");
+        defaultGameSetup();
+        startGame(player1);
     }
 
     private static void instantiateCardInRivendell(Character card) {
