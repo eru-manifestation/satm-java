@@ -8,10 +8,10 @@ public class Region extends Card{
 
     private final RegionName regionName;
     private final RegionType regionType;
-    private final Set<Region> moveTo;
+    private final Set<RegionName> moveTo;
 
     // Constructor
-    public Region(RegionName regionName, RegionType regionType, Set<Region> moveTo) {
+    public Region(RegionName regionName, RegionType regionType, Set<RegionName> moveTo) {
         super(null, true);
         this.regionName = regionName;
         this.regionType = regionType;
@@ -22,7 +22,7 @@ public class Region extends Card{
         return regionType;
     }
 
-    public Set<Region> getMoveTo() {
+    public Set<RegionName> getMoveTo() {
         return moveTo;
     }
 
@@ -83,5 +83,9 @@ public class Region extends Card{
         NURN,
         MOUTHS_OF_THE_ANDUIN,
         NORTHERN_RHOVANION
+    }
+    
+    public enum RegionType {
+        COAST, FREE_LAND, BORDER_LAND, WILDERNESS, SHADOW_LAND, DARK_LAND
     }
 }

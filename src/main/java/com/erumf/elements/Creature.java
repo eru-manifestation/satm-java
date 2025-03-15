@@ -6,6 +6,7 @@ import java.util.Set;
 import com.erumf.Main;
 import com.erumf.Player;
 import com.erumf.elements.Location.PlaceType;
+import com.erumf.elements.Region.RegionType;
 import com.erumf.utils.GameProperty;
 
 public abstract class Creature extends Hazard {

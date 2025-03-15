@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.Map;
 
 import com.erumf.Player;
+import com.erumf.elements.Region.RegionType;
 
 public abstract class Haven extends Location {
 

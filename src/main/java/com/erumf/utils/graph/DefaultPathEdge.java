@@ -2,7 +2,7 @@ package com.erumf.utils.graph;
 
 import java.util.Map;
 
-import com.erumf.elements.RegionType;
+import com.erumf.elements.Region.RegionType;
 
 public class DefaultPathEdge {
     private Map<RegionType,Integer> regionTypes;

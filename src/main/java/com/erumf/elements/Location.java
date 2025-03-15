@@ -6,6 +6,7 @@ import java.util.Set;
 
 import com.erumf.Main;
 import com.erumf.elements.Item.ItemType;
+import com.erumf.elements.Region.RegionType;
 import com.erumf.utils.position.Card;
 import com.erumf.utils.position.Fellowship;
 

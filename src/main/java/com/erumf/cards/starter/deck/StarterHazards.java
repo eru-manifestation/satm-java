@@ -7,7 +7,7 @@ import com.erumf.Player;
 import com.erumf.elements.Creature;
 import com.erumf.elements.Hazard;
 import com.erumf.elements.Location.PlaceType;
-import com.erumf.elements.RegionType;
+import com.erumf.elements.Region.RegionType;
 
 public class StarterHazards {
     /*

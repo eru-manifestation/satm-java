@@ -7,7 +7,7 @@ import java.util.Set;
 import com.erumf.elements.Haven;
 import com.erumf.elements.Item.ItemType;
 import com.erumf.elements.Location;
-import com.erumf.elements.RegionType;
+import com.erumf.elements.Region.RegionType;
 
 public class Locations {
 

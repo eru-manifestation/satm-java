@@ -3,9 +3,11 @@ package com.erumf;
 import java.util.List;
 
 import org.jgrapht.Graph;
+import org.jgrapht.graph.DefaultEdge;
 
 import com.erumf.cards.locations.Locations;
 import com.erumf.cards.locations.Locations2;
+import com.erumf.cards.regions.Regions;
 import com.erumf.cards.starter.deck.StarterCharacters;
 import com.erumf.cards.starter.deck.StarterDeck;
 import com.erumf.cards.starter.deck.StarterItems;
@@ -13,6 +15,7 @@ import com.erumf.cards.starter.deck.StarterItems.ElvenCloak;
 import com.erumf.cards.starter.deck.StarterItems.ShieldOfIronBoundAsh;
 import com.erumf.elements.Character;
 import com.erumf.elements.Location;
+import com.erumf.elements.Region;
 import com.erumf.phases.FinalPhase;
 import com.erumf.phases.LongEventPhase;
 import com.erumf.phases.MovementPhase;
@@ -27,13 +30,16 @@ import com.erumf.utils.position.Deck;
 public class Main {
     public static final Graph<Location, DefaultPathEdge> pathsGraph = Locations2.generateDefaultLocations();
     public static final PositionGraph positionGraph = PositionGraph.generatePositionGraph(pathsGraph);
+    public static final Graph<Region, DefaultEdge> regionsGraph = Regions.generateDefaultRegions();
     public static final Player player1 = new Player("Player 1");
     public static final Player player2 = new Player("Player 2");
 
     public static void main(String[] args) {
-        Logger.info("Starting game...");
-        defaultGameSetup();
-        startGame(player1);
+        System.out.println("Defalut regions generated: "+regionsGraph.vertexSet().size());
+        // DataManagement.subObjects("Region", null);
+        // Logger.info("Starting game...");
+        // defaultGameSetup();
+        // startGame(player1);
     }
 
     private static void instantiateCardInRivendell(Character card) {
