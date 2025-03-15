@@ -1,0 +1,444 @@
+[
+    {
+        "image": "Leaflock.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Gail McIntosh",
+        "name": {
+            "de": "Lockenblatt",
+            "fi": "Lehvähapsi",
+            "ja": "木の葉髪",
+            "en": "Leaflock",
+            "it": "Ciuffofoglio",
+            "fr": "Bouclefeuilles",
+            "es": "Zarcillo",
+            "nl": "Leaflock"
+        },
+        "attributes": {
+            "marshallingPointsType": "ally",
+            "skills": "Ally",
+            "marshallingPoints": "2",
+            "mind": "3",
+            "subtype": "Ally",
+            "unique": true,
+            "body": "8",
+            "prowess": "5"
+        },
+        "id": "TW-265",
+        "text": {
+            "en": "<p><b><i>Unique. Playable at Wellinghall.<\/i><\/b><\/p><p>Tap to cancel a hazard that targets (as an active condition of playing the card itself) <i>Leaflock<\/i>\u2019s company or an entity associated with his company.<\/p><p>May not be attacked by automatic-attacks or hazards keyed to his site.<br>Discard <i>Leaflock<\/i> if his company moves to a site that is not in: Fangorn, Rohan, Gap of Isen, Wold & Foothills, Enedhwaith, Old Pûkel-land, Brown Lands, Anduin Vales, or Redhorn Gate.<\/p>",
+            "es": "<p><b><i>Único. Jugable en la Sala del Manantial.<\/i><\/b><\/p><p>Gira para cancelar una adversidad que tenga como objetivo (como condición activa para jugar la carta en sí misma) la compañía de <i>Zarzillo<\/i> o una entidad asociada a su compañía.<\/p><p>No puede ser atacado por ningún ataque automático o adversidad situada en el lugar en el que se encuentra.<\/p><p>Descarta a <i>Zarcillo<\/i> si su compañía se mueve a un lugar que no esté en: Fangorn, Rohan, Desfiladero del Isen, Páramo y Colinas, Enedhwaith, Tierra del Viejo Pûkel, Tierras Pardas, Valles del Anduin, o Entrada al Cuerno Rojo.<\/p>"
+        },
+        "type": "Resource",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "Gwaihir.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Gail McIntosh",
+        "name": {
+            "de": "Gwaihir",
+            "fi": "Gwaihir",
+            "ja": "グワイヒア",
+            "en": "Gwaihir",
+            "it": "Gwahir",
+            "fr": "Gwaihir",
+            "es": "Gwaihir",
+            "nl": "Gwaihir"
+        },
+        "attributes": {
+            "marshallingPointsType": "ally",
+            "skills": "Ally",
+            "marshallingPoints": "2",
+            "mind": "4",
+            "subtype": "Ally",
+            "unique": true,
+            "body": "8",
+            "prowess": "4"
+        },
+        "id": "TW-251",
+        "text": {
+            "en": "<p><b><i>Unique. Playable at Eagles\u2019 Eyrie.<\/i><\/b><\/p><p>If his company\u2019s size is two or less and not at Under-deeps site, you may discard <i>Gwaihir<\/i> during the organization phase to allow his company to move to any site that is not in a Shadow-land [{s}], Dark-domain [{d}], or Under-deeps; only hazard creatures keyed to the site may be played on a company that moves in this fashion.<\/p>",
+            "es": "<p><b><i>Único. Jugable en el Nido de las Águilas.<\/i><\/b><\/p><p>Si el tamaño de su compañía es de dos o menos y no se encuentra en un Lugar de las Profundidades, puedes descartar a <i>Gwaihir<\/i> durante la fase de organización para permitir a su compañía moverse a cualquier lugar que no esté en una Tierra de la Sombra [{s}], una Región de la Oscuridad [{d}], o un Lugar de las Profundidades; solo se le pueden jugar adversidades-criatura situadas en el lugar a una compañía que se mueva de esta manera.<\/p>"
+        },
+        "type": "Resource",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "BillthePony.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Gail McIntosh",
+        "name": {
+            "de": "Bill, das Pony",
+            "fi": "Bil Poni",
+            "ja": "小馬のビル",
+            "en": "Bill the Pony",
+            "it": "Bill il pony",
+            "fr": "Bill le Poney",
+            "es": "Bill el Pony",
+            "nl": "Bill the Pony"
+        },
+        "attributes": {
+            "marshallingPointsType": "ally",
+            "skills": "Ally",
+            "marshallingPoints": "1",
+            "mind": "1",
+            "subtype": "Ally",
+            "unique": true,
+            "body": "10",
+            "prowess": "-2"
+        },
+        "id": "TW-198",
+        "text": {
+            "en": "<p><b><i>Unique. Playable at Bree or Bag End; playable even if the site is tapped.<\/i><\/b><\/p><p>If at a non-Haven/non-Under-deeps site and if his company\u2019s size is three or less, you may discard <i>Bill the Pony<\/i> at the end of his company\u2019s turn and replace its site with the nearest Haven [{H}].<\/p>",
+            "es": "<p><b><i>Único. Jugable en Bree o en Bolsón Cerrado; jugable aunque el lugar esté girado.<\/i><\/b><\/p><p>Si no se encuentra en un Refugio ni en un Lugar de las Profundidades y el tamaño de su compaía es de tres o menos, puedes descartar a <i>Bill el Pony<\/i> al final del turno y reemplazar el lugar en el que se encuentra por el Refugio [{H}] más cercano.<\/p>"
+        },
+        "type": "Resource",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "Quickbeam.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cHe was tall, and seemed to be one of the younger Ents; he had smooth shining skin on his arms and legs; his lips were ruddy, and his hair was grey-green. He could bend and sway like a slender tree in the wind.\u201d \u2014<\/i><b><i>LotRIII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cEra alto, y parecía ser uno de los Ents más jóvenes; una piel lisa y brillante le cubría los brazos y piernas, tenía labios rojos, y el cabello era verde-gris. Podía inclinarse y balancearse como un árbol joven al viento\u2026\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Gail McIntosh",
+        "name": {
+            "de": "Flinkbaum",
+            "fi": "Äkkipää",
+            "ja": "せっかち",
+            "en": "Quickbeam",
+            "it": "Sveltolampo",
+            "fr": "Vifsorbier",
+            "es": "Ramaviva",
+            "nl": "Quickbeam"
+        },
+        "attributes": {
+            "marshallingPointsType": "ally",
+            "skills": "Ally",
+            "marshallingPoints": "2",
+            "mind": "3",
+            "subtype": "Ally",
+            "unique": true,
+            "body": "9",
+            "prowess": "6"
+        },
+        "id": "TW-307",
+        "text": {
+            "en": "<p><b><i>Unique. Playable at Wellinghall.<\/i><\/b><\/p><p>May not be attacked by automatic-attacks or hazards keyed to his site.<\/p>",
+            "es": "<p><b><i>Único. Jugable en la Sala del Manantial.<\/i><\/b><\/p><p>No puede ser atacado por ningún ataque automático o adversidad situada en el lugar en el que se encuentra.<\/p>"
+        },
+        "type": "Resource",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "Quickbeam2.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201cHe was tall, and seemed to be one of the younger Ents; he had smooth shining skin on his arms and legs; his lips were ruddy, and his hair was grey-green. He could bend and sway like a slender tree in the wind.\u201d \u2014<\/i><b><i>LotRIII<\/i><\/b><\/p>",
+            "es": "<p><i>\u201cEra alto, y parecía ser uno de los Ents más jóvenes; una piel lisa y brillante le cubría los brazos y piernas, tenía labios rojos, y el cabello era verde-gris. Podía inclinarse y balancearse como un árbol joven al viento\u2026\u201d \u2014<\/i><b><i>SdlA II<\/i><\/b><\/p>"
+        },
+        "artist": "Julio Das Pastoras",
+        "name": {
+            "de": "Flinkbaum",
+            "fi": "Äkkipää",
+            "ja": "せっかち",
+            "en": "Quickbeam",
+            "it": "Sveltolampo",
+            "fr": "Vifsorbier",
+            "es": "Ramaviva",
+            "nl": "Quickbeam"
+        },
+        "attributes": {
+            "marshallingPointsType": "ally",
+            "skills": "Ally",
+            "marshallingPoints": "2",
+            "mind": "3",
+            "subtype": "Ally",
+            "unique": true,
+            "body": "9",
+            "prowess": "6"
+        },
+        "id": "TW-308",
+        "text": {
+            "en": "<p><b><i>Unique. Playable at Wellinghall.<\/i><\/b><\/p><p>May not be attacked by automatic-attacks or hazards keyed to his site.<\/p>",
+            "es": "<p><b><i>Único. Jugable en la Sala del Manantial.<\/i><\/b><\/p><p>No puede ser atacado por ningún ataque automático o adversidad situada en el lugar en el que se encuentra.<\/p>"
+        },
+        "type": "Resource",
+        "alignment": "Hero",
+        "rarity": "P"
+    },
+    {
+        "image": "RoactheRaven.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2018Now I am chief of the great ravens of the Mountain. We are few, but we remember still the king that was of old.\u2019\u201d<\/i> <i>\u2014<\/i><b><i>Hob<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2018Ahora soy el jefe de los grandes cuervos de la Montaña. Somos pocos, pero recordamos todavía al rey de antaño.\u2019\u201d \u2014<\/i><b><i>Hob<\/i><\/b><\/p>"
+        },
+        "artist": "Mark Poole",
+        "name": {
+            "de": "Roäc der Rabe",
+            "fi": "Roäc Korppi",
+            "ja": "大烏のロアーク",
+            "en": "Roäc the Raven",
+            "it": "Roäc il Corvo",
+            "fr": "Roäc le Corbeau",
+            "es": "Roäc el Cuervo",
+            "nl": "Roäc the Raven"
+        },
+        "attributes": {
+            "marshallingPointsType": "ally",
+            "skills": "Diplomat",
+            "marshallingPoints": "1",
+            "mind": "1",
+            "subtype": "Ally",
+            "unique": true,
+            "body": "8",
+            "prowess": "-3"
+        },
+        "id": "TW-320",
+        "text": {
+            "en": "<p><b><i>Unique. Playable at any site in Northern Rhovanion.<\/i><\/b> During the site phase you can tap and discard <i>Roäc the Raven<\/i> to attempt to bring any faction into play \u2014treat this influence check as if it was made by a diplomat at any site where the faction could be played. Using <i>Roäc the Raven<\/i> to make an influence attempt does not tap a site, and may be done if his company is at a tapped site.<\/p>",
+            "es": "<p><b><i>Único. Jugable en cualquier lugar del Norte de Rhovanion.<\/i><\/b> Durante la fase de lugares puedes girar y descartar a <i>Roäc el Cuervo<\/i> para intentar poner en juego cualquier facción\u2014trata este chequeo de influencia como si fuera hecho por un diplomático en cualquier sitio donde la facción sea jugable. Usar <i>Roäc el Cuervo<\/i> para hacer un intento de influencia no gira el lugar, y se puede hacer si su compañía se encuentra en un lugar girado.<\/p>"
+        },
+        "type": "Resource",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "Skinbark.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Gail McIntosh",
+        "name": {
+            "de": "Borkenhaut",
+            "fi": "Karppunahka",
+            "ja": "木の皮肌",
+            "en": "Skinbark",
+            "it": "Scorzapelle",
+            "fr": "Peaurude",
+            "es": "Corteza",
+            "nl": "Skinbark"
+        },
+        "attributes": {
+            "marshallingPointsType": "ally",
+            "skills": "Ally",
+            "marshallingPoints": "2",
+            "mind": "3",
+            "subtype": "Ally",
+            "unique": true,
+            "body": "9",
+            "prowess": "10"
+        },
+        "id": "TW-328",
+        "text": {
+            "en": "<p><b><i>Unique. Playable at Wellinghall.<\/i><\/b><\/p><p>May not be attacked by automatic-attacks or hazards keyed to his site. Discard <i>Skinbark<\/i> if his company moves to a site that is not in: Fangorn, Rohan, Gap of Isen, Wold & Foothills, Anduin Vales, or Redhorn Gate.<\/p>",
+            "es": "<p><b><i>Único. Jugable en la Sala del Manantial.<\/i><\/b><\/p><p>No puede ser atacado por ningún ataque automático o adversidad situada en el lugar en el que se encuentra. Descarta a <i>Corteza<\/i> si su compañía se mueve a un lugar que no se encuentre en: Fangorn, Rohan, Desfiladero del Isen, Páramo y Colinas, Valles del Anduin, o Entrada al Cuerno Rojo.<\/p>"
+        },
+        "type": "Resource",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "Shadowfax.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Schattenfell",
+            "fi": "Hallavaharja",
+            "ja": "飛蔭",
+            "en": "Shadowfax",
+            "it": "Ombromanto",
+            "fr": "Gripoil",
+            "es": "Sombragrís",
+            "nl": "Shadowfax"
+        },
+        "attributes": {
+            "marshallingPointsType": "ally",
+            "skills": "Ally",
+            "marshallingPoints": "1",
+            "mind": "2",
+            "subtype": "Ally",
+            "unique": true,
+            "body": "8",
+            "prowess": "2"
+        },
+        "id": "TW-326",
+        "text": {
+            "en": "<p><b><i>Unique. Playable at Edoras or Dunharrow.<\/i><\/b><\/p><p>If his company has only one character <b>or<\/b> one character and a Hobbit at the end of the movement/hazard phase (it cannot contain any allies), tap <i>Shadowfax<\/i> to allow his company to immediately move again; an additional site card may be played and an additional movement/hazard phase follows for that company.<\/p>",
+            "es": "<p><b><i>Único. Jugable en Edoras o en El Sagrario.<\/i><\/b><\/p><p>Si su compañía está formada por un personaje <b>o<\/b> un personaje y un Hobbit al final de la fase de movimiento/adversidades (no puede contener otros aliados), gira a <i>Sombragrís<\/i> para permitir a su compañía moverse otra vez inmediatamente; se puede jugar una carta de lugar adicional y realizar una fase de movimiento/adversidades adicional para esa compañía.<\/p>"
+        },
+        "type": "Resource",
+        "alignment": "Hero",
+        "rarity": "R"
+    },
+    {
+        "image": "Gollum.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Gollum",
+            "fi": "Klonkku",
+            "ja": "ゴクリ",
+            "en": "Gollum",
+            "it": "Gollum",
+            "fr": "Gollum",
+            "es": "Gollum",
+            "nl": "Gollum"
+        },
+        "attributes": {
+            "marshallingPointsType": "ally",
+            "skills": "Scout",
+            "marshallingPoints": "2",
+            "mind": "4",
+            "subtype": "Ally",
+            "unique": true,
+            "body": "9",
+            "prowess": "2"
+        },
+        "id": "TW-246",
+        "text": {
+            "en": "<p><b><i>Unique. Playable at Goblin-gate or Moria.<\/i><\/b><\/p><p>If his company\u2019s size is two or less, tap <i>Gollum<\/i> to cancel one attack against his company keyed to Wilderness [{w}] or Shadow-land [{s}]. You may tap <i>Gollum<\/i> if he is at the same non-Haven site as <i>The One Ring<\/i>; then both <i>Gollum<\/i> and <i>The One Ring<\/i> are discarded.<\/p>",
+            "es": "<p><b><i>Único. Jugable en la Puerta de los Trasgos o en Moria.<\/i><\/b> Si el tamaño de su compañía es dos o menos, gira a <i>Gollum<\/i> para cancelar un ataque contra su compañía situado en una Tierra Salvaje [{w}] o una Tierra de la Sombra [{s}]. Puedes girar a <i>Gollum<\/i> si se encuentra en el mismo lugar (que no sea un Refugio) que <i>El Anillo Único<\/i>. <i>El Anillo Único<\/i> y <i>Gollum<\/i> son descartados.<\/p>"
+        },
+        "type": "Resource",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "Goldberry.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "<p><i>\u201c\u2026 as young and as ancient as Spring\u2026\u201d \u2014<\/i><b><i>LotRI<\/i><\/b><\/p>",
+            "es": "<p><i>\u201c\u2026 joven y antigua como la primavera\u2026\u201d \u2014<\/i><b><i>SdlA I<\/i><\/b><\/p>"
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Goldbeere",
+            "fi": "Kultamarja",
+            "ja": "ゴールドベリ",
+            "en": "Goldberry",
+            "it": "Baccador",
+            "fr": "Baie d'Or",
+            "es": "Baya de Oro",
+            "nl": "Goldberry"
+        },
+        "attributes": {
+            "marshallingPointsType": "ally",
+            "skills": "Ally",
+            "marshallingPoints": "1",
+            "mind": "2",
+            "subtype": "Ally",
+            "unique": true
+        },
+        "id": "TW-245",
+        "text": {
+            "en": "<p><b><i>Unique. Playable at Old Forest.<\/i><\/b><\/p><p>May not be attacked.<\/p><p>Tap <i>Goldberry<\/i> to cancel an effect declared earlier in the same chain of effects that would return Goldberrys' company to its site of origin.<\/p><p>Alternatively, tap <i>Goldberry<\/i> to cancel one attack against her company keyed to Wilderness [{w}].<\/p>",
+            "es": "<p><b><i>Única. Jugable en el Bosque Viejo.<\/i><\/b><\/p><p>No puede ser atacada.<\/p><p>Gira a <i>Baya de Oro<\/i> para cancelar un efecto declarado antes en la misma cadena de efectos que hiciera regresar a la compañía de <i>Baya de Oro<\/i> a su lugar de origen.<\/p><p>Alternativamente, gira a <i>Baya de Oro<\/i> para cancelar un ataque contra su compañía situado en una Tierra Salvaje [{w}].<\/p>"
+        },
+        "type": "Resource",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "Treebeard.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Baumbart",
+            "fi": "Puuparta",
+            "ja": "木の鬚",
+            "en": "Treebeard",
+            "it": "Barbalbero",
+            "fr": "Sylvebarbe",
+            "es": "Bárbol",
+            "nl": "Treebeard"
+        },
+        "attributes": {
+            "marshallingPointsType": "ally",
+            "skills": "Sage",
+            "marshallingPoints": "2",
+            "mind": "3",
+            "subtype": "Ally",
+            "unique": true,
+            "body": "9",
+            "prowess": "8"
+        },
+        "id": "TW-353",
+        "text": {
+            "en": "<p><b><i>Unique. Playable at Wellinghall.<\/i><\/b><\/p><p>May not be attacked by automatic-attacks or hazards keyed to his site. Discard <i>Treebeard<\/i> if his company moves to a site that is not in: Fangorn, Rohan, Gap of Isen, Wold & Foothills, Enedhwaith, <br>Old Pûkel-land, Brown Lands, <br>Anduin Vales, or Redhorn Gate.<\/p>",
+            "es": "<p><b><i>Único. Jugable en la Sala del Manantial.<\/i><\/b><\/p><p>No puede ser atacado por ningún ataque automático o adversidad situada en el lugar en el que se encuentra. Descarta a <i>Bárbol<\/i> si su compañía se mueve a un lugar que no se encuentre en: Fangorn, Rohan, Desfiladero del Isen, o Páramo y Colinas, Enedhwaith, Tierra del Viejo Pûkel, Tierras Pardas, Valles del Anduin, o Entrada al Cuerno Rojo.<\/p>"
+        },
+        "type": "Resource",
+        "alignment": "Hero",
+        "rarity": "U"
+    },
+    {
+        "image": "TomBombadil.jpg",
+        "set": "TW",
+        "quote": {
+            "en": "",
+            "es": ""
+        },
+        "artist": "Angus McBride",
+        "name": {
+            "de": "Tom Bombadil",
+            "fi": "Tom Bombadil",
+            "ja": "トム・ボンバディル",
+            "en": "Tom Bombadil",
+            "it": "Tom Bombadil",
+            "fr": "Tom Bombadil",
+            "es": "Tom Bombadil",
+            "nl": "Tom Bombadil"
+        },
+        "attributes": {
+            "marshallingPointsType": "ally",
+            "skills": "Sage",
+            "marshallingPoints": "3",
+            "mind": "4",
+            "subtype": "Ally",
+            "unique": true,
+            "body": "11",
+            "prowess": "12"
+        },
+        "id": "TW-350",
+        "text": {
+            "en": "<p><b><i>Unique. Playable at Old Forest. <\/i><\/b><\/p><p>Tap to cancel a hazard that targets (as an active condition of playing the card itself) a company, or an entity associated with a company, moving to a site in: Arthedain, Cardolan, Rhudaur, or The Shire.<\/p><p>Discard <i>Tom Bombadil<\/i> if his company moves to a site that is not in: Arthedain, Cardolan, Rhudaur, or The Shire.<\/p>",
+            "es": "<p><b><i>Único. Jugable en el Bosque Viejo.<\/i><\/b><\/p><p>Gira para cancelar una adversidad que tenga como objetivo (como condición activa para jugar la carta en sí misma) una compañía, o una entidad asociada a una compañía, que se esté moviendo a un lugar en: Arthedain, Cardolan, Rhudaur, o La Comarca.<\/p><p>Descarta a <i>Tom Bombadil<\/i> si su compañía se mueve a un lugar que no se encuentre en: Arthedain, Cardolan, Rhudaur, o La Comarca.<\/p>"
+        },
+        "type": "Resource",
+        "alignment": "Hero",
+        "rarity": "R"
+    }
+]
